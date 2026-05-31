@@ -17,15 +17,15 @@
   },
   "groups": [
     {
-      "id": "hộiquán2",
-      "name": "HỘI QUÁN 2",
+      "id": "hộiquán1",
+      "name": "HỘI QUÁN 1",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
           "id": "channel-1",
-          "name": "⚽ USA vs Senegal | 02:30",
+          "name": "21:30 | Brazil vs Panama",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -33,7 +33,7 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://pub-26bab83910ab4b5781549d12d2f0ef6f.r2.dev/hoiquan_thumbs/kaytee-90a861fc849e.webp?v=1780262674",
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/1280px-Flag_of_Brazil.svg.png",
             "width": 1600,
             "height": 1200
           },
@@ -52,7 +52,7 @@
               "contents": [
                 {
                   "id": "content-1",
-                  "name": "⚽ USA vs Senegal | 02:30",
+                  "name": "21:30 | Brazil vs Panama",
                   "streams": [
                     {
                       "id": "stream-1",
@@ -63,7 +63,7 @@
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://tfwc3gr3dgmtugrzdgpbqgrhdommeqfsg17uff3hsnhuqcp1ghmucpf5gk.100ycdn.com/hqlive.yarncdn.live/live/hqtv_blv_phanliem/playlist.m3u8?wsSession=b678eb801441d8359d3a8f66-178026266407514&wsIPSercert=fc4acc60e94b8aeff93609b084b272d2&wsBindIP=2&wsserid=1168239032787589538",
+                          "url": "https://alive.yarncdn.live/hqtv_blv_phanliem/playlist.m3u8",
                           "headers": {
                             "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
                           }
@@ -75,7 +75,16 @@
               ]
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "id": "hộiquán2",
+      "name": "HỘI QUÁN 2",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
         {
           "id": "channel-2",
           "name": "⚽ Brazil vs Panama | 04:30",
@@ -86,7 +95,7 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://pub-26bab83910ab4b5781549d12d2f0ef6f.r2.dev/hoiquan_thumbs/kaytee-49ae1e42cbcc.webp?v=1780262675",
+            "url": "https://pub-26bab83910ab4b5781549d12d2f0ef6f.r2.dev/hoiquan_thumbs/kaytee-49ae1e42cbcc.webp?v=1780267468",
             "width": 1600,
             "height": 1200
           },
@@ -116,573 +125,7 @@
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://tdlive.yarncdn.live/live/tdtv_blv_taotinhtao/playlist.m3u8",
-                          "headers": {
-                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "hộiquán1",
-      "name": "HỘI QUÁN 1",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
-        {
-          "id": "channel-3",
-          "name": "19:30 | USA vs Senegal",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://media.api-sports.io/football/teams/2384.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-3",
-              "name": "Tổng Hợp",
-              "contents": [
-                {
-                  "id": "content-3",
-                  "name": "19:30 | USA vs Senegal",
-                  "streams": [
-                    {
-                      "id": "stream-3",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-3-1",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://alive.yarncdn.live/hqtv_blv_phanliem/playlist.m3u8",
-                          "headers": {
-                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "channel-4",
-          "name": "18:30 | Casper Ruud vs Joao Fonseca",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHPUzabryz7df8DJGSlU-oaXS6zaWEi7A-sg&s",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-4",
-              "name": "Tổng Hợp",
-              "contents": [
-                {
-                  "id": "content-4",
-                  "name": "18:30 | Casper Ruud vs Joao Fonseca",
-                  "streams": [
-                    {
-                      "id": "stream-4",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-4-1",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://alive.yarncdn.live/hqtv_blv_phantu/playlist.m3u8",
-                          "headers": {
-                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "vòngcấmtv",
-      "name": "VÒNG CẤM TV",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
-        {
-          "id": "channel-5",
-          "name": "02:30 | USA vs Senegal",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://media.api-sports.io/football/teams/2384.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-5",
-              "name": "Tổng Hợp",
-              "contents": [
-                {
-                  "id": "content-5",
-                  "name": "02:30 | USA vs Senegal",
-                  "streams": [
-                    {
-                      "id": "stream-5",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-5-1",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_delua/playlist.m3u8",
-                          "headers": {
-                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "colatv",
-      "name": "CO LA TV",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
-        {
-          "id": "channel-6",
-          "name": "04:30 | Brazil vs Panama",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://img.colatv88xd.cc/football/team/99bf3d153d4bf67d640051a1af322505.png!w80",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-6",
-              "name": "Tổng Hợp",
-              "contents": [
-                {
-                  "id": "content-6",
-                  "name": "04:30 | Brazil vs Panama",
-                  "streams": [
-                    {
-                      "id": "stream-6",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-6-1",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live05.msdht.app/live/90725470.m3u8",
-                          "headers": {
-                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "channel-7",
-          "name": "02:30 | Mỹ vs Senegal",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://img.colatv88xd.cc/football/team/08e9fb9c257f63bc57837b42b31f8cef.png!w80",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-7",
-              "name": "Tổng Hợp",
-              "contents": [
-                {
-                  "id": "content-7",
-                  "name": "02:30 | Mỹ vs Senegal",
-                  "streams": [
-                    {
-                      "id": "stream-7",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-7-1",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live05.msdht.app/live/33982309.m3u8",
-                          "headers": {
-                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "channel-8",
-          "name": "02:30 | Golden State Valkyries vs Las Vegas Aces",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://img.colatv88xd.cc/basketball/team/380d81d4050b81debf9a5500239e96d0.png!w80",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8",
-              "name": "Tổng Hợp",
-              "contents": [
-                {
-                  "id": "content-8",
-                  "name": "02:30 | Golden State Valkyries vs Las Vegas Aces",
-                  "streams": [
-                    {
-                      "id": "stream-8",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-8-1",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live05.msdht.app/live/19919577.m3u8",
-                          "headers": {
-                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "socosport",
-      "name": "SOCO SPORT",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
-        {
-          "id": "channel-9",
-          "name": "[21:00] Brighton & Hove Albion Women vs Manchester City Women | BLV ROBBEN",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://sta.vnres.co/file/common/20260528/4240a4c6e449349d1ab01647d3e9ef5f.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9",
-              "name": "Tổng Hợp",
-              "contents": [
-                {
-                  "id": "content-9",
-                  "name": "[21:00] Brighton & Hove Albion Women vs Manchester City Women | BLV ROBBEN",
-                  "streams": [
-                    {
-                      "id": "stream-9",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9-1",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pull.niues.live/live/stream-527383_lhd.m3u8?auth_key=1780263776-0-0-f09daa2a696bd9440e4c157372491559",
-                          "headers": {
-                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "channel-10",
-          "name": "[21:00] Brighton & Hove Albion Women vs Manchester City Women | BLV VITAMIN",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://sta.vnres.co/file/common/20260528/4240a4c6e449349d1ab01647d3e9ef5f.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-10",
-              "name": "Tổng Hợp",
-              "contents": [
-                {
-                  "id": "content-10",
-                  "name": "[21:00] Brighton & Hove Albion Women vs Manchester City Women | BLV VITAMIN",
-                  "streams": [
-                    {
-                      "id": "stream-10",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-10-1",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pull.niues.live/live/stream-400722_lhd.m3u8?auth_key=1780263776-0-0-37dcdbbdb3ddd0920dc5beea1fa93d48",
-                          "headers": {
-                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "channel-11",
-          "name": "[22:00] Cape Verde vs Serbia | BLV COZY",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://sta.vnres.co/file/common/20260528/0a4c964edc74f84e878d64917114c3dc.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-11",
-              "name": "Tổng Hợp",
-              "contents": [
-                {
-                  "id": "content-11",
-                  "name": "[22:00] Cape Verde vs Serbia | BLV COZY",
-                  "streams": [
-                    {
-                      "id": "stream-11",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-11-1",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pull.niues.live/live/stream-531989_lhd.m3u8?auth_key=1780263776-0-0-c051254a5521b9a4e9248e9a3f935473",
-                          "headers": {
-                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "channel-12",
-          "name": "[22:30] Poland vs Ukraine | HÀ DUY KIÊN",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://sta.vnres.co/file/common/20260528/691436c541efc7fcda1ec8052045f808.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-12",
-              "name": "Tổng Hợp",
-              "contents": [
-                {
-                  "id": "content-12",
-                  "name": "[22:30] Poland vs Ukraine | HÀ DUY KIÊN",
-                  "streams": [
-                    {
-                      "id": "stream-12",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-12-1",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pull.niues.live/live/stream-607400_lhd.m3u8?auth_key=1780263776-0-0-3fc7d85e2f9b242aeb9c89ab69cc59ea",
+                          "url": "https://tfwc3gr4nhct1gwzdrcbqgrhdqmmeqfsg17uff3hsnhuqcp1ghmucpf5gk.100ycdn.com/hqlive.yarncdn.live/live/hqtv_blv_phanliem/playlist.m3u8?wsSession=b2827b4401476821baaab8dc-178026745471177&wsIPSercert=fc4acc60e94b8aeff93609b084b272d2&wsBindIP=2&wsserid=1168239097219265334",
                           "headers": {
                             "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
                           }
@@ -705,8 +148,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "channel-13",
-          "name": "02h35 ngày 01/06 USA vs Senegal (Lương Sơn) BLV LEO m3u",
+          "id": "channel-3",
+          "name": "04h30 ngày 01/06 Brazil vs Panama (Lương Sơn) BLV VƯƠNG LUÂN m3u",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -714,7 +157,537 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/690_165102965258.png",
+            "url": "https://cdn-img.cdnokvip.com/logos/672_165018879430.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3",
+              "name": "Tổng Hợp",
+              "contents": [
+                {
+                  "id": "content-3",
+                  "name": "04h30 ngày 01/06 Brazil vs Panama (Lương Sơn) BLV VƯƠNG LUÂN m3u",
+                  "streams": [
+                    {
+                      "id": "stream-3",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-3-1",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/VUONGLUAN/index.m3u8?expire=1893165900&sign=60fcb5252d4dafeac0cb5da922c56645",
+                          "headers": {
+                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "channel-4",
+          "name": "04h30 ngày 01/06 Brazil vs Panama (Lương Sơn) BLV VƯƠNG LUÂN flv",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/672_165018879430.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4",
+              "name": "Tổng Hợp",
+              "contents": [
+                {
+                  "id": "content-4",
+                  "name": "04h30 ngày 01/06 Brazil vs Panama (Lương Sơn) BLV VƯƠNG LUÂN flv",
+                  "streams": [
+                    {
+                      "id": "stream-4",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-4-1",
+                          "name": "Link 1",
+                          "type": "flv",
+                          "default": true,
+                          "url": "https://flv.cdnfaster-a.live/live/VUONGLUAN.flv?expire=1893165900&sign=60fcb5252d4dafeac0cb5da922c56645",
+                          "headers": {
+                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "channel-5",
+          "name": "04h30 ngày 01/06 Brazil vs Panama (Lương Sơn) BLV FERNANDO m3u",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/672_165018879430.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5",
+              "name": "Tổng Hợp",
+              "contents": [
+                {
+                  "id": "content-5",
+                  "name": "04h30 ngày 01/06 Brazil vs Panama (Lương Sơn) BLV FERNANDO m3u",
+                  "streams": [
+                    {
+                      "id": "stream-5",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-5-1",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/FERNANDO/index.m3u8?expire=1924930980&sign=bab24fb93b0be5c98af9138659989bcb",
+                          "headers": {
+                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "channel-6",
+          "name": "04h30 ngày 01/06 Brazil vs Panama (Lương Sơn) BLV FERNANDO flv",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/672_165018879430.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6",
+              "name": "Tổng Hợp",
+              "contents": [
+                {
+                  "id": "content-6",
+                  "name": "04h30 ngày 01/06 Brazil vs Panama (Lương Sơn) BLV FERNANDO flv",
+                  "streams": [
+                    {
+                      "id": "stream-6",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-6-1",
+                          "name": "Link 1",
+                          "type": "flv",
+                          "default": true,
+                          "url": "https://flv.cdnfaster-a.live/live/FERNANDO.flv?expire=1924930980&sign=bab24fb93b0be5c98af9138659989bcb",
+                          "headers": {
+                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "channel-7",
+          "name": "04h30 ngày 01/06 Brazil vs Panama [BLV THÓC] (Socolive) flv",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://sta.vnres.co/file/common/20260529/eb01fcd456e4ca076083877aa4b88682.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7",
+              "name": "Tổng Hợp",
+              "contents": [
+                {
+                  "id": "content-7",
+                  "name": "04h30 ngày 01/06 Brazil vs Panama [BLV THÓC] (Socolive) flv",
+                  "streams": [
+                    {
+                      "id": "stream-7",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-7-1",
+                          "name": "Link 1",
+                          "type": "flv",
+                          "default": true,
+                          "url": "https://pull06.scstream.net/live/stream-606448_lsd.flv?auth_key=1780270916-0-0-758cf7e1bb801d22420bda294b001ebc",
+                          "headers": {
+                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "channel-8",
+          "name": "04h30 ngày 01/06 Brazil vs Panama [BLV THÓC] (Socolive) hdFlv",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://sta.vnres.co/file/common/20260529/eb01fcd456e4ca076083877aa4b88682.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8",
+              "name": "Tổng Hợp",
+              "contents": [
+                {
+                  "id": "content-8",
+                  "name": "04h30 ngày 01/06 Brazil vs Panama [BLV THÓC] (Socolive) hdFlv",
+                  "streams": [
+                    {
+                      "id": "stream-8",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-8-1",
+                          "name": "Link 1",
+                          "type": "flv",
+                          "default": true,
+                          "url": "https://pull06.scstream.net/live/stream-606448_lhd.flv?auth_key=1780270916-0-0-fb0446d1d15d8ab2170570f34c55c18b",
+                          "headers": {
+                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "channel-9",
+          "name": "04h30 ngày 01/06 Brazil vs Panama [BLV THÓC] (Socolive) m3u8",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://sta.vnres.co/file/common/20260529/eb01fcd456e4ca076083877aa4b88682.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9",
+              "name": "Tổng Hợp",
+              "contents": [
+                {
+                  "id": "content-9",
+                  "name": "04h30 ngày 01/06 Brazil vs Panama [BLV THÓC] (Socolive) m3u8",
+                  "streams": [
+                    {
+                      "id": "stream-9",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9-1",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pull.niues.live/live/stream-606448_lsd.m3u8?auth_key=1780270916-0-0-090be9bc991337b8a9c7635851f71e86",
+                          "headers": {
+                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "channel-10",
+          "name": "04h30 ngày 01/06 Brazil vs Panama [BLV THÓC] (Socolive) hdM3u8",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://sta.vnres.co/file/common/20260529/eb01fcd456e4ca076083877aa4b88682.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-10",
+              "name": "Tổng Hợp",
+              "contents": [
+                {
+                  "id": "content-10",
+                  "name": "04h30 ngày 01/06 Brazil vs Panama [BLV THÓC] (Socolive) hdM3u8",
+                  "streams": [
+                    {
+                      "id": "stream-10",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-10-1",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pull.niues.live/live/stream-606448_lhd.m3u8?auth_key=1780270916-0-0-20732164999c58f89d7ca2014509d09e",
+                          "headers": {
+                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "channel-11",
+          "name": "04h30 ngày 01/06 Brazil vs Panama [BLV CÒ] (Socolive) flv",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://sta.vnres.co/file/common/20260529/eb01fcd456e4ca076083877aa4b88682.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-11",
+              "name": "Tổng Hợp",
+              "contents": [
+                {
+                  "id": "content-11",
+                  "name": "04h30 ngày 01/06 Brazil vs Panama [BLV CÒ] (Socolive) flv",
+                  "streams": [
+                    {
+                      "id": "stream-11",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-11-1",
+                          "name": "Link 1",
+                          "type": "flv",
+                          "default": true,
+                          "url": "https://pull06.scstream.net/live/stream-582342_lsd.flv?auth_key=1780270916-0-0-96831d26b16964dcd12f571551615be2",
+                          "headers": {
+                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "channel-12",
+          "name": "04h30 ngày 01/06 Brazil vs Panama [BLV CÒ] (Socolive) hdFlv",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://sta.vnres.co/file/common/20260529/eb01fcd456e4ca076083877aa4b88682.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-12",
+              "name": "Tổng Hợp",
+              "contents": [
+                {
+                  "id": "content-12",
+                  "name": "04h30 ngày 01/06 Brazil vs Panama [BLV CÒ] (Socolive) hdFlv",
+                  "streams": [
+                    {
+                      "id": "stream-12",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-12-1",
+                          "name": "Link 1",
+                          "type": "flv",
+                          "default": true,
+                          "url": "https://pull06.scstream.net/live/stream-582342_lhd.flv?auth_key=1780270916-0-0-4b99453669dac244c2ca3358d2d6bc18",
+                          "headers": {
+                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "channel-13",
+          "name": "04h30 ngày 01/06 Brazil vs Panama [BLV CÒ] (Socolive) m3u8",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://sta.vnres.co/file/common/20260529/eb01fcd456e4ca076083877aa4b88682.png",
             "width": 1600,
             "height": 1200
           },
@@ -733,7 +706,7 @@
               "contents": [
                 {
                   "id": "content-13",
-                  "name": "02h35 ngày 01/06 USA vs Senegal (Lương Sơn) BLV LEO m3u",
+                  "name": "04h30 ngày 01/06 Brazil vs Panama [BLV CÒ] (Socolive) m3u8",
                   "streams": [
                     {
                       "id": "stream-13",
@@ -744,7 +717,7 @@
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LEO/index.m3u8?expire=1923642660&sign=58990a132e2f8d3f764c947b95b28af6",
+                          "url": "https://pull.niues.live/live/stream-582342_lsd.m3u8?auth_key=1780270916-0-0-3b94b26a6f02163d30423d6c1bf2ef84",
                           "headers": {
                             "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
                           }
@@ -759,7 +732,7 @@
         },
         {
           "id": "channel-14",
-          "name": "02h35 ngày 01/06 USA vs Senegal (Lương Sơn) BLV LEO flv",
+          "name": "04h30 ngày 01/06 Brazil vs Panama [BLV CÒ] (Socolive) hdM3u8",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -767,7 +740,7 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/690_165102965258.png",
+            "url": "https://sta.vnres.co/file/common/20260529/eb01fcd456e4ca076083877aa4b88682.png",
             "width": 1600,
             "height": 1200
           },
@@ -786,7 +759,7 @@
               "contents": [
                 {
                   "id": "content-14",
-                  "name": "02h35 ngày 01/06 USA vs Senegal (Lương Sơn) BLV LEO flv",
+                  "name": "04h30 ngày 01/06 Brazil vs Panama [BLV CÒ] (Socolive) hdM3u8",
                   "streams": [
                     {
                       "id": "stream-14",
@@ -795,9 +768,9 @@
                         {
                           "id": "lnk-14-1",
                           "name": "Link 1",
-                          "type": "flv",
+                          "type": "hls",
                           "default": true,
-                          "url": "https://flv.cdnfaster-a.live/live/LEO.flv?expire=1923642660&sign=58990a132e2f8d3f764c947b95b28af6",
+                          "url": "https://pull.niues.live/live/stream-582342_lhd.m3u8?auth_key=1780270916-0-0-ffcebedc6ea007f822c89f666a819f4f",
                           "headers": {
                             "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
                           }
@@ -812,7 +785,7 @@
         },
         {
           "id": "channel-15",
-          "name": "02h30 ngày 01/06 USA vs Senegal [BLV VOI] (Socolive) flv",
+          "name": "04h30 ngày 01/06 O.Higgins vs Everton CD [BLV NẤM] (Socolive) flv",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -820,7 +793,7 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://sta.vnres.co/file/common/20260529/42072bb1227837f3d9aac18c894e996c.png",
+            "url": "https://sta.vnres.co/file/common/20260529/9b14860e5b59adf4c608ef0916863921.png",
             "width": 1600,
             "height": 1200
           },
@@ -839,7 +812,7 @@
               "contents": [
                 {
                   "id": "content-15",
-                  "name": "02h30 ngày 01/06 USA vs Senegal [BLV VOI] (Socolive) flv",
+                  "name": "04h30 ngày 01/06 O.Higgins vs Everton CD [BLV NẤM] (Socolive) flv",
                   "streams": [
                     {
                       "id": "stream-15",
@@ -850,7 +823,7 @@
                           "name": "Link 1",
                           "type": "flv",
                           "default": true,
-                          "url": "https://pull06.scstream.net/live/stream-9912114_lsd.flv?auth_key=1780265516-0-0-0631609e72f71ef8ff354b98f8b2048a",
+                          "url": "https://pull06.scstream.net/live/stream-608899_lsd.flv?auth_key=1780271276-0-0-ecba60cd925964f020234b6843b9be77",
                           "headers": {
                             "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
                           }
@@ -865,7 +838,7 @@
         },
         {
           "id": "channel-16",
-          "name": "02h30 ngày 01/06 USA vs Senegal [BLV VOI] (Socolive) hdFlv",
+          "name": "04h30 ngày 01/06 O.Higgins vs Everton CD [BLV NẤM] (Socolive) hdFlv",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -873,7 +846,7 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://sta.vnres.co/file/common/20260529/42072bb1227837f3d9aac18c894e996c.png",
+            "url": "https://sta.vnres.co/file/common/20260529/9b14860e5b59adf4c608ef0916863921.png",
             "width": 1600,
             "height": 1200
           },
@@ -892,7 +865,7 @@
               "contents": [
                 {
                   "id": "content-16",
-                  "name": "02h30 ngày 01/06 USA vs Senegal [BLV VOI] (Socolive) hdFlv",
+                  "name": "04h30 ngày 01/06 O.Higgins vs Everton CD [BLV NẤM] (Socolive) hdFlv",
                   "streams": [
                     {
                       "id": "stream-16",
@@ -903,7 +876,7 @@
                           "name": "Link 1",
                           "type": "flv",
                           "default": true,
-                          "url": "https://pull06.scstream.net/live/stream-9912114_lhd.flv?auth_key=1780265516-0-0-7fc2c7a65b530e0a8efdc78d4203b3ab",
+                          "url": "https://pull06.scstream.net/live/stream-608899_lhd.flv?auth_key=1780271276-0-0-6e617f8bd570cb77cc177146509fd462",
                           "headers": {
                             "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
                           }
@@ -918,7 +891,7 @@
         },
         {
           "id": "channel-17",
-          "name": "02h30 ngày 01/06 USA vs Senegal [BLV VOI] (Socolive) m3u8",
+          "name": "04h30 ngày 01/06 O.Higgins vs Everton CD [BLV NẤM] (Socolive) m3u8",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -926,7 +899,7 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://sta.vnres.co/file/common/20260529/42072bb1227837f3d9aac18c894e996c.png",
+            "url": "https://sta.vnres.co/file/common/20260529/9b14860e5b59adf4c608ef0916863921.png",
             "width": 1600,
             "height": 1200
           },
@@ -945,7 +918,7 @@
               "contents": [
                 {
                   "id": "content-17",
-                  "name": "02h30 ngày 01/06 USA vs Senegal [BLV VOI] (Socolive) m3u8",
+                  "name": "04h30 ngày 01/06 O.Higgins vs Everton CD [BLV NẤM] (Socolive) m3u8",
                   "streams": [
                     {
                       "id": "stream-17",
@@ -956,7 +929,7 @@
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://pull.niues.live/live/stream-9912114_lsd.m3u8?auth_key=1780265516-0-0-a906365e6959011897e758a455abbea5",
+                          "url": "https://pull.niues.live/live/stream-608899_lsd.m3u8?auth_key=1780271276-0-0-27451681fea4179eb4dcc892cfb58f69",
                           "headers": {
                             "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
                           }
@@ -971,7 +944,7 @@
         },
         {
           "id": "channel-18",
-          "name": "02h30 ngày 01/06 USA vs Senegal [BLV VOI] (Socolive) hdM3u8",
+          "name": "04h30 ngày 01/06 O.Higgins vs Everton CD [BLV NẤM] (Socolive) hdM3u8",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -979,7 +952,7 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://sta.vnres.co/file/common/20260529/42072bb1227837f3d9aac18c894e996c.png",
+            "url": "https://sta.vnres.co/file/common/20260529/9b14860e5b59adf4c608ef0916863921.png",
             "width": 1600,
             "height": 1200
           },
@@ -998,7 +971,7 @@
               "contents": [
                 {
                   "id": "content-18",
-                  "name": "02h30 ngày 01/06 USA vs Senegal [BLV VOI] (Socolive) hdM3u8",
+                  "name": "04h30 ngày 01/06 O.Higgins vs Everton CD [BLV NẤM] (Socolive) hdM3u8",
                   "streams": [
                     {
                       "id": "stream-18",
@@ -1009,7 +982,7 @@
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://pull.niues.live/live/stream-9912114_lhd.m3u8?auth_key=1780265516-0-0-5f1b056bf4eebd4369d5f22dbc85c7f0",
+                          "url": "https://pull.niues.live/live/stream-608899_lhd.m3u8?auth_key=1780271276-0-0-62fd4862a3436e9329601418fcdb5f6b",
                           "headers": {
                             "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
                           }
@@ -1024,7 +997,7 @@
         },
         {
           "id": "channel-19",
-          "name": "02h30 ngày 01/06 USA vs Senegal [BLV COZY] (Socolive) flv",
+          "name": "04h30 ngày 01/06 Brazil vs Panama [BLV KEM] (Socolive) flv",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1032,7 +1005,7 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://sta.vnres.co/file/common/20260529/42072bb1227837f3d9aac18c894e996c.png",
+            "url": "https://sta.vnres.co/file/common/20260529/eb01fcd456e4ca076083877aa4b88682.png",
             "width": 1600,
             "height": 1200
           },
@@ -1051,7 +1024,7 @@
               "contents": [
                 {
                   "id": "content-19",
-                  "name": "02h30 ngày 01/06 USA vs Senegal [BLV COZY] (Socolive) flv",
+                  "name": "04h30 ngày 01/06 Brazil vs Panama [BLV KEM] (Socolive) flv",
                   "streams": [
                     {
                       "id": "stream-19",
@@ -1062,7 +1035,7 @@
                           "name": "Link 1",
                           "type": "flv",
                           "default": true,
-                          "url": "https://pull06.scstream.net/live/stream-531989_lsd.flv?auth_key=1780265516-0-0-d35e0a5d604c2d7392020aafc0c28e73",
+                          "url": "https://pull06.scstream.net/live/stream-513394_lsd.flv?auth_key=1780271276-0-0-7d23c2d473d7da464db6f56c33dcb1d8",
                           "headers": {
                             "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
                           }
@@ -1077,7 +1050,7 @@
         },
         {
           "id": "channel-20",
-          "name": "02h30 ngày 01/06 USA vs Senegal [BLV COZY] (Socolive) hdFlv",
+          "name": "04h30 ngày 01/06 Brazil vs Panama [BLV KEM] (Socolive) hdFlv",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1085,7 +1058,7 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://sta.vnres.co/file/common/20260529/42072bb1227837f3d9aac18c894e996c.png",
+            "url": "https://sta.vnres.co/file/common/20260529/eb01fcd456e4ca076083877aa4b88682.png",
             "width": 1600,
             "height": 1200
           },
@@ -1104,7 +1077,7 @@
               "contents": [
                 {
                   "id": "content-20",
-                  "name": "02h30 ngày 01/06 USA vs Senegal [BLV COZY] (Socolive) hdFlv",
+                  "name": "04h30 ngày 01/06 Brazil vs Panama [BLV KEM] (Socolive) hdFlv",
                   "streams": [
                     {
                       "id": "stream-20",
@@ -1115,7 +1088,7 @@
                           "name": "Link 1",
                           "type": "flv",
                           "default": true,
-                          "url": "https://pull06.scstream.net/live/stream-531989_lhd.flv?auth_key=1780265516-0-0-83b31c470effe07974f01f96914f9bdd",
+                          "url": "https://pull06.scstream.net/live/stream-513394_lhd.flv?auth_key=1780271276-0-0-65313692c7ea300ec97ea5b8ad04a390",
                           "headers": {
                             "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
                           }
@@ -1130,7 +1103,7 @@
         },
         {
           "id": "channel-21",
-          "name": "02h30 ngày 01/06 USA vs Senegal [BLV COZY] (Socolive) m3u8",
+          "name": "04h30 ngày 01/06 Brazil vs Panama [BLV KEM] (Socolive) m3u8",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1138,7 +1111,7 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://sta.vnres.co/file/common/20260529/42072bb1227837f3d9aac18c894e996c.png",
+            "url": "https://sta.vnres.co/file/common/20260529/eb01fcd456e4ca076083877aa4b88682.png",
             "width": 1600,
             "height": 1200
           },
@@ -1157,7 +1130,7 @@
               "contents": [
                 {
                   "id": "content-21",
-                  "name": "02h30 ngày 01/06 USA vs Senegal [BLV COZY] (Socolive) m3u8",
+                  "name": "04h30 ngày 01/06 Brazil vs Panama [BLV KEM] (Socolive) m3u8",
                   "streams": [
                     {
                       "id": "stream-21",
@@ -1168,7 +1141,7 @@
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://pull.niues.live/live/stream-531989_lsd.m3u8?auth_key=1780265516-0-0-a34922bd5884eb3abfa46c154052f95b",
+                          "url": "https://pull.niues.live/live/stream-513394_lsd.m3u8?auth_key=1780271276-0-0-202c97d371a18efcb293a53d632774ac",
                           "headers": {
                             "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
                           }
@@ -1183,7 +1156,7 @@
         },
         {
           "id": "channel-22",
-          "name": "02h30 ngày 01/06 USA vs Senegal [BLV COZY] (Socolive) hdM3u8",
+          "name": "04h30 ngày 01/06 Brazil vs Panama [BLV KEM] (Socolive) hdM3u8",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1191,7 +1164,7 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://sta.vnres.co/file/common/20260529/42072bb1227837f3d9aac18c894e996c.png",
+            "url": "https://sta.vnres.co/file/common/20260529/eb01fcd456e4ca076083877aa4b88682.png",
             "width": 1600,
             "height": 1200
           },
@@ -1210,7 +1183,7 @@
               "contents": [
                 {
                   "id": "content-22",
-                  "name": "02h30 ngày 01/06 USA vs Senegal [BLV COZY] (Socolive) hdM3u8",
+                  "name": "04h30 ngày 01/06 Brazil vs Panama [BLV KEM] (Socolive) hdM3u8",
                   "streams": [
                     {
                       "id": "stream-22",
@@ -1221,7 +1194,7 @@
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://pull.niues.live/live/stream-531989_lhd.m3u8?auth_key=1780265516-0-0-23231ac582bbe8d56a0420a6193f36ac",
+                          "url": "https://pull.niues.live/live/stream-513394_lhd.m3u8?auth_key=1780271276-0-0-24b12bc73b93f319cc0bf10534cd8236",
                           "headers": {
                             "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
                           }
@@ -1236,7 +1209,7 @@
         },
         {
           "id": "channel-23",
-          "name": "02h30 ngày 01/06 USA vs Senegal [BLV VITAMIN] (Socolive) flv",
+          "name": "04h30 ngày 01/06 O.Higgins vs Everton CD [XUÂN SON] (Socolive) flv",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1244,7 +1217,7 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://sta.vnres.co/file/common/20260529/42072bb1227837f3d9aac18c894e996c.png",
+            "url": "https://sta.vnres.co/file/common/20260529/9b14860e5b59adf4c608ef0916863921.png",
             "width": 1600,
             "height": 1200
           },
@@ -1263,7 +1236,7 @@
               "contents": [
                 {
                   "id": "content-23",
-                  "name": "02h30 ngày 01/06 USA vs Senegal [BLV VITAMIN] (Socolive) flv",
+                  "name": "04h30 ngày 01/06 O.Higgins vs Everton CD [XUÂN SON] (Socolive) flv",
                   "streams": [
                     {
                       "id": "stream-23",
@@ -1274,7 +1247,7 @@
                           "name": "Link 1",
                           "type": "flv",
                           "default": true,
-                          "url": "https://pull06.scstream.net/live/stream-400722_lsd.flv?auth_key=1780265516-0-0-5d91059f0d40d86570519b3761e55aa0",
+                          "url": "https://pull.niur.live/live/stream-501412_lsd.flv?txSecret=bc15d013fd9857a6a57d80e78d1c3218&txTime=6a1d0efc",
                           "headers": {
                             "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
                           }
@@ -1289,7 +1262,7 @@
         },
         {
           "id": "channel-24",
-          "name": "02h30 ngày 01/06 USA vs Senegal [BLV VITAMIN] (Socolive) hdFlv",
+          "name": "04h30 ngày 01/06 O.Higgins vs Everton CD [XUÂN SON] (Socolive) hdFlv",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1297,7 +1270,7 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://sta.vnres.co/file/common/20260529/42072bb1227837f3d9aac18c894e996c.png",
+            "url": "https://sta.vnres.co/file/common/20260529/9b14860e5b59adf4c608ef0916863921.png",
             "width": 1600,
             "height": 1200
           },
@@ -1316,7 +1289,7 @@
               "contents": [
                 {
                   "id": "content-24",
-                  "name": "02h30 ngày 01/06 USA vs Senegal [BLV VITAMIN] (Socolive) hdFlv",
+                  "name": "04h30 ngày 01/06 O.Higgins vs Everton CD [XUÂN SON] (Socolive) hdFlv",
                   "streams": [
                     {
                       "id": "stream-24",
@@ -1327,7 +1300,7 @@
                           "name": "Link 1",
                           "type": "flv",
                           "default": true,
-                          "url": "https://pull06.scstream.net/live/stream-400722_lhd.flv?auth_key=1780265516-0-0-4bd6cba87a2459ab09ab9d939c9e704d",
+                          "url": "https://pull.niur.live/live/stream-501412_lhd.flv?txSecret=af28de77decf74639488fd7d3502f3ab&txTime=6a1d0efc",
                           "headers": {
                             "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
                           }
@@ -1342,7 +1315,7 @@
         },
         {
           "id": "channel-25",
-          "name": "02h30 ngày 01/06 USA vs Senegal [BLV VITAMIN] (Socolive) m3u8",
+          "name": "04h30 ngày 01/06 O.Higgins vs Everton CD [XUÂN SON] (Socolive) m3u8",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1350,7 +1323,7 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://sta.vnres.co/file/common/20260529/42072bb1227837f3d9aac18c894e996c.png",
+            "url": "https://sta.vnres.co/file/common/20260529/9b14860e5b59adf4c608ef0916863921.png",
             "width": 1600,
             "height": 1200
           },
@@ -1369,7 +1342,7 @@
               "contents": [
                 {
                   "id": "content-25",
-                  "name": "02h30 ngày 01/06 USA vs Senegal [BLV VITAMIN] (Socolive) m3u8",
+                  "name": "04h30 ngày 01/06 O.Higgins vs Everton CD [XUÂN SON] (Socolive) m3u8",
                   "streams": [
                     {
                       "id": "stream-25",
@@ -1380,7 +1353,7 @@
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://pull.niues.live/live/stream-400722_lsd.m3u8?auth_key=1780265516-0-0-ad3e03a4afa4e710ed20d960e1227c7c",
+                          "url": "https://pull.niur.live/live/stream-501412_lsd.m3u8?txSecret=bc15d013fd9857a6a57d80e78d1c3218&txTime=6a1d0efc",
                           "headers": {
                             "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
                           }
@@ -1395,7 +1368,7 @@
         },
         {
           "id": "channel-26",
-          "name": "02h30 ngày 01/06 USA vs Senegal [BLV VITAMIN] (Socolive) hdM3u8",
+          "name": "04h30 ngày 01/06 O.Higgins vs Everton CD [XUÂN SON] (Socolive) hdM3u8",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1403,7 +1376,7 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://sta.vnres.co/file/common/20260529/42072bb1227837f3d9aac18c894e996c.png",
+            "url": "https://sta.vnres.co/file/common/20260529/9b14860e5b59adf4c608ef0916863921.png",
             "width": 1600,
             "height": 1200
           },
@@ -1422,7 +1395,7 @@
               "contents": [
                 {
                   "id": "content-26",
-                  "name": "02h30 ngày 01/06 USA vs Senegal [BLV VITAMIN] (Socolive) hdM3u8",
+                  "name": "04h30 ngày 01/06 O.Higgins vs Everton CD [XUÂN SON] (Socolive) hdM3u8",
                   "streams": [
                     {
                       "id": "stream-26",
@@ -1433,7 +1406,7 @@
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://pull.niues.live/live/stream-400722_lhd.m3u8?auth_key=1780265516-0-0-e7a8d60b4b616e19e74165433b4430c5",
+                          "url": "https://pull.niur.live/live/stream-501412_lhd.m3u8?txSecret=af28de77decf74639488fd7d3502f3ab&txTime=6a1d0efc",
                           "headers": {
                             "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
                           }
@@ -1448,7 +1421,7 @@
         },
         {
           "id": "channel-27",
-          "name": "04h30 ngày 01/06 Brazil vs Panama [BLV CÒ] (Socolive) flv",
+          "name": "04h30 ngày 01/06 Brazil vs Panama [BLV LUCAS] (Socolive) flv",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1475,7 +1448,7 @@
               "contents": [
                 {
                   "id": "content-27",
-                  "name": "04h30 ngày 01/06 Brazil vs Panama [BLV CÒ] (Socolive) flv",
+                  "name": "04h30 ngày 01/06 Brazil vs Panama [BLV LUCAS] (Socolive) flv",
                   "streams": [
                     {
                       "id": "stream-27",
@@ -1486,7 +1459,7 @@
                           "name": "Link 1",
                           "type": "flv",
                           "default": true,
-                          "url": "https://pull06.scstream.net/live/stream-582342_lsd.flv?auth_key=1780265516-0-0-d5318ab38ca67b723cba7748b012d591",
+                          "url": "https://pull06.scstream.net/live/stream-304148_lsd.flv?auth_key=1780271276-0-0-11b139439b1c5c83dcf94174cf6dde79",
                           "headers": {
                             "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
                           }
@@ -1501,7 +1474,7 @@
         },
         {
           "id": "channel-28",
-          "name": "04h30 ngày 01/06 Brazil vs Panama [BLV CÒ] (Socolive) hdFlv",
+          "name": "04h30 ngày 01/06 Brazil vs Panama [BLV LUCAS] (Socolive) hdFlv",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1528,7 +1501,7 @@
               "contents": [
                 {
                   "id": "content-28",
-                  "name": "04h30 ngày 01/06 Brazil vs Panama [BLV CÒ] (Socolive) hdFlv",
+                  "name": "04h30 ngày 01/06 Brazil vs Panama [BLV LUCAS] (Socolive) hdFlv",
                   "streams": [
                     {
                       "id": "stream-28",
@@ -1539,7 +1512,7 @@
                           "name": "Link 1",
                           "type": "flv",
                           "default": true,
-                          "url": "https://pull06.scstream.net/live/stream-582342_lhd.flv?auth_key=1780265516-0-0-de37256ad6b7a9d51ca635fee69b80ca",
+                          "url": "https://pull06.scstream.net/live/stream-304148_lhd.flv?auth_key=1780271276-0-0-95943587dffbba5508a9dab467d38048",
                           "headers": {
                             "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
                           }
@@ -1554,7 +1527,7 @@
         },
         {
           "id": "channel-29",
-          "name": "04h30 ngày 01/06 Brazil vs Panama [BLV CÒ] (Socolive) m3u8",
+          "name": "04h30 ngày 01/06 Brazil vs Panama [BLV LUCAS] (Socolive) m3u8",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1581,7 +1554,7 @@
               "contents": [
                 {
                   "id": "content-29",
-                  "name": "04h30 ngày 01/06 Brazil vs Panama [BLV CÒ] (Socolive) m3u8",
+                  "name": "04h30 ngày 01/06 Brazil vs Panama [BLV LUCAS] (Socolive) m3u8",
                   "streams": [
                     {
                       "id": "stream-29",
@@ -1592,7 +1565,7 @@
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://pull.niues.live/live/stream-582342_lsd.m3u8?auth_key=1780265516-0-0-59ae5c9bb984d9fa8b1e8abdb85af5b3",
+                          "url": "https://pull.niues.live/live/stream-304148_lsd.m3u8?auth_key=1780271276-0-0-207e10f57609179f39f2b477e6eda9b0",
                           "headers": {
                             "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
                           }
@@ -1607,7 +1580,7 @@
         },
         {
           "id": "channel-30",
-          "name": "04h30 ngày 01/06 Brazil vs Panama [BLV CÒ] (Socolive) hdM3u8",
+          "name": "04h30 ngày 01/06 Brazil vs Panama [BLV LUCAS] (Socolive) hdM3u8",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1634,7 +1607,7 @@
               "contents": [
                 {
                   "id": "content-30",
-                  "name": "04h30 ngày 01/06 Brazil vs Panama [BLV CÒ] (Socolive) hdM3u8",
+                  "name": "04h30 ngày 01/06 Brazil vs Panama [BLV LUCAS] (Socolive) hdM3u8",
                   "streams": [
                     {
                       "id": "stream-30",
@@ -1645,7 +1618,7 @@
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://pull.niues.live/live/stream-582342_lhd.m3u8?auth_key=1780265516-0-0-fb0dba2285881716ddde394fa72184a0",
+                          "url": "https://pull.niues.live/live/stream-304148_lhd.m3u8?auth_key=1780271276-0-0-28709303f706c1868327d2492fedb378",
                           "headers": {
                             "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
                           }
@@ -1660,7 +1633,7 @@
         },
         {
           "id": "channel-31",
-          "name": "04h30 ngày 01/06 Brazil vs Panama [BLV THÓC] (Socolive) flv",
+          "name": "05h00 ngày 01/06 Cienciano vs Sporting Cristal [BLV YONE] (Socolive) flv",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1668,7 +1641,7 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://sta.vnres.co/file/common/20260529/eb01fcd456e4ca076083877aa4b88682.png",
+            "url": "https://sta.vnres.co/file/common/20260529/26e05de5716df234820437200d877b93.png",
             "width": 1600,
             "height": 1200
           },
@@ -1687,7 +1660,7 @@
               "contents": [
                 {
                   "id": "content-31",
-                  "name": "04h30 ngày 01/06 Brazil vs Panama [BLV THÓC] (Socolive) flv",
+                  "name": "05h00 ngày 01/06 Cienciano vs Sporting Cristal [BLV YONE] (Socolive) flv",
                   "streams": [
                     {
                       "id": "stream-31",
@@ -1698,7 +1671,7 @@
                           "name": "Link 1",
                           "type": "flv",
                           "default": true,
-                          "url": "https://pull06.scstream.net/live/stream-606448_lsd.flv?auth_key=1780265516-0-0-cf4a952c2ce7223f2b29bb0b74d12add",
+                          "url": "https://pull06.scstream.net/live/stream-372746_lsd.flv?auth_key=1780271276-0-0-b6042839054f329d4a921dd581232e4c",
                           "headers": {
                             "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
                           }
@@ -1713,7 +1686,7 @@
         },
         {
           "id": "channel-32",
-          "name": "04h30 ngày 01/06 Brazil vs Panama [BLV THÓC] (Socolive) hdFlv",
+          "name": "05h00 ngày 01/06 Cienciano vs Sporting Cristal [BLV YONE] (Socolive) hdFlv",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1721,7 +1694,7 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://sta.vnres.co/file/common/20260529/eb01fcd456e4ca076083877aa4b88682.png",
+            "url": "https://sta.vnres.co/file/common/20260529/26e05de5716df234820437200d877b93.png",
             "width": 1600,
             "height": 1200
           },
@@ -1740,7 +1713,7 @@
               "contents": [
                 {
                   "id": "content-32",
-                  "name": "04h30 ngày 01/06 Brazil vs Panama [BLV THÓC] (Socolive) hdFlv",
+                  "name": "05h00 ngày 01/06 Cienciano vs Sporting Cristal [BLV YONE] (Socolive) hdFlv",
                   "streams": [
                     {
                       "id": "stream-32",
@@ -1751,7 +1724,7 @@
                           "name": "Link 1",
                           "type": "flv",
                           "default": true,
-                          "url": "https://pull06.scstream.net/live/stream-606448_lhd.flv?auth_key=1780265516-0-0-776e585209177748d97bf2b852bda411",
+                          "url": "https://pull06.scstream.net/live/stream-372746_lhd.flv?auth_key=1780271276-0-0-b422729112d08b440324b6b121d8b3f3",
                           "headers": {
                             "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
                           }
@@ -1766,7 +1739,7 @@
         },
         {
           "id": "channel-33",
-          "name": "04h30 ngày 01/06 Brazil vs Panama [BLV THÓC] (Socolive) m3u8",
+          "name": "05h00 ngày 01/06 Cienciano vs Sporting Cristal [BLV YONE] (Socolive) m3u8",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1774,7 +1747,7 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://sta.vnres.co/file/common/20260529/eb01fcd456e4ca076083877aa4b88682.png",
+            "url": "https://sta.vnres.co/file/common/20260529/26e05de5716df234820437200d877b93.png",
             "width": 1600,
             "height": 1200
           },
@@ -1793,7 +1766,7 @@
               "contents": [
                 {
                   "id": "content-33",
-                  "name": "04h30 ngày 01/06 Brazil vs Panama [BLV THÓC] (Socolive) m3u8",
+                  "name": "05h00 ngày 01/06 Cienciano vs Sporting Cristal [BLV YONE] (Socolive) m3u8",
                   "streams": [
                     {
                       "id": "stream-33",
@@ -1804,7 +1777,7 @@
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://pull.niues.live/live/stream-606448_lsd.m3u8?auth_key=1780265516-0-0-6fc0891c55979494b7dca24ae8a02b95",
+                          "url": "https://pull.niues.live/live/stream-372746_lsd.m3u8?auth_key=1780271276-0-0-c157701a885c1a236df3d504f49f90b4",
                           "headers": {
                             "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
                           }
@@ -1819,7 +1792,7 @@
         },
         {
           "id": "channel-34",
-          "name": "04h30 ngày 01/06 Brazil vs Panama [BLV THÓC] (Socolive) hdM3u8",
+          "name": "05h00 ngày 01/06 Cienciano vs Sporting Cristal [BLV YONE] (Socolive) hdM3u8",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1827,7 +1800,7 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://sta.vnres.co/file/common/20260529/eb01fcd456e4ca076083877aa4b88682.png",
+            "url": "https://sta.vnres.co/file/common/20260529/26e05de5716df234820437200d877b93.png",
             "width": 1600,
             "height": 1200
           },
@@ -1846,7 +1819,7 @@
               "contents": [
                 {
                   "id": "content-34",
-                  "name": "04h30 ngày 01/06 Brazil vs Panama [BLV THÓC] (Socolive) hdM3u8",
+                  "name": "05h00 ngày 01/06 Cienciano vs Sporting Cristal [BLV YONE] (Socolive) hdM3u8",
                   "streams": [
                     {
                       "id": "stream-34",
@@ -1857,7 +1830,7 @@
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://pull.niues.live/live/stream-606448_lhd.m3u8?auth_key=1780265516-0-0-aa716d582ef45c8c0aa78ba9cebf2823",
+                          "url": "https://pull.niues.live/live/stream-372746_lhd.m3u8?auth_key=1780271276-0-0-17b86a4688cf9b777b1ec835db8dbe9a",
                           "headers": {
                             "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
                           }
@@ -1872,7 +1845,7 @@
         },
         {
           "id": "channel-35",
-          "name": "02h30 ngày 01/06 USA vs Senegal [BLV ROBBEN] (Socolive) flv",
+          "name": "05h00 ngày 01/06 Cienciano vs Sporting Cristal [NGƯỜI CÁ] (Socolive) flv",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1880,7 +1853,7 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://sta.vnres.co/file/common/20260529/42072bb1227837f3d9aac18c894e996c.png",
+            "url": "https://sta.vnres.co/file/common/20260529/26e05de5716df234820437200d877b93.png",
             "width": 1600,
             "height": 1200
           },
@@ -1899,7 +1872,7 @@
               "contents": [
                 {
                   "id": "content-35",
-                  "name": "02h30 ngày 01/06 USA vs Senegal [BLV ROBBEN] (Socolive) flv",
+                  "name": "05h00 ngày 01/06 Cienciano vs Sporting Cristal [NGƯỜI CÁ] (Socolive) flv",
                   "streams": [
                     {
                       "id": "stream-35",
@@ -1910,7 +1883,7 @@
                           "name": "Link 1",
                           "type": "flv",
                           "default": true,
-                          "url": "https://pull06.scstream.net/live/stream-527383_lsd.flv?auth_key=1780265516-0-0-baf9c48eff5ec863052d7ff595f66d50",
+                          "url": "https://pull06.scstream.net/live/stream-595335_lsd.flv?auth_key=1780271276-0-0-deddc3608a99706c36252790b1507244",
                           "headers": {
                             "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
                           }
@@ -1925,7 +1898,7 @@
         },
         {
           "id": "channel-36",
-          "name": "02h30 ngày 01/06 USA vs Senegal [BLV ROBBEN] (Socolive) hdFlv",
+          "name": "05h00 ngày 01/06 Cienciano vs Sporting Cristal [NGƯỜI CÁ] (Socolive) hdFlv",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1933,7 +1906,7 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://sta.vnres.co/file/common/20260529/42072bb1227837f3d9aac18c894e996c.png",
+            "url": "https://sta.vnres.co/file/common/20260529/26e05de5716df234820437200d877b93.png",
             "width": 1600,
             "height": 1200
           },
@@ -1952,7 +1925,7 @@
               "contents": [
                 {
                   "id": "content-36",
-                  "name": "02h30 ngày 01/06 USA vs Senegal [BLV ROBBEN] (Socolive) hdFlv",
+                  "name": "05h00 ngày 01/06 Cienciano vs Sporting Cristal [NGƯỜI CÁ] (Socolive) hdFlv",
                   "streams": [
                     {
                       "id": "stream-36",
@@ -1963,7 +1936,7 @@
                           "name": "Link 1",
                           "type": "flv",
                           "default": true,
-                          "url": "https://pull06.scstream.net/live/stream-527383_lhd.flv?auth_key=1780265516-0-0-78e6bb129e11da837bf88d0aaa2950a0",
+                          "url": "https://pull06.scstream.net/live/stream-595335_lhd.flv?auth_key=1780271276-0-0-79c3b3479f7d9d44157d0a34c86cc196",
                           "headers": {
                             "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
                           }
@@ -1978,7 +1951,7 @@
         },
         {
           "id": "channel-37",
-          "name": "02h30 ngày 01/06 USA vs Senegal [BLV ROBBEN] (Socolive) m3u8",
+          "name": "05h00 ngày 01/06 Cienciano vs Sporting Cristal [NGƯỜI CÁ] (Socolive) m3u8",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1986,7 +1959,7 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://sta.vnres.co/file/common/20260529/42072bb1227837f3d9aac18c894e996c.png",
+            "url": "https://sta.vnres.co/file/common/20260529/26e05de5716df234820437200d877b93.png",
             "width": 1600,
             "height": 1200
           },
@@ -2005,7 +1978,7 @@
               "contents": [
                 {
                   "id": "content-37",
-                  "name": "02h30 ngày 01/06 USA vs Senegal [BLV ROBBEN] (Socolive) m3u8",
+                  "name": "05h00 ngày 01/06 Cienciano vs Sporting Cristal [NGƯỜI CÁ] (Socolive) m3u8",
                   "streams": [
                     {
                       "id": "stream-37",
@@ -2016,7 +1989,7 @@
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://pull.niues.live/live/stream-527383_lsd.m3u8?auth_key=1780265516-0-0-b74c7623d65da887cc42438d74d18a64",
+                          "url": "https://pull.niues.live/live/stream-595335_lsd.m3u8?auth_key=1780271276-0-0-851eeeecc46db9df1669d999bd1455f3",
                           "headers": {
                             "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
                           }
@@ -2031,7 +2004,7 @@
         },
         {
           "id": "channel-38",
-          "name": "02h30 ngày 01/06 USA vs Senegal [BLV ROBBEN] (Socolive) hdM3u8",
+          "name": "05h00 ngày 01/06 Cienciano vs Sporting Cristal [NGƯỜI CÁ] (Socolive) hdM3u8",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -2039,7 +2012,7 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://sta.vnres.co/file/common/20260529/42072bb1227837f3d9aac18c894e996c.png",
+            "url": "https://sta.vnres.co/file/common/20260529/26e05de5716df234820437200d877b93.png",
             "width": 1600,
             "height": 1200
           },
@@ -2058,7 +2031,7 @@
               "contents": [
                 {
                   "id": "content-38",
-                  "name": "02h30 ngày 01/06 USA vs Senegal [BLV ROBBEN] (Socolive) hdM3u8",
+                  "name": "05h00 ngày 01/06 Cienciano vs Sporting Cristal [NGƯỜI CÁ] (Socolive) hdM3u8",
                   "streams": [
                     {
                       "id": "stream-38",
@@ -2069,7 +2042,7 @@
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://pull.niues.live/live/stream-527383_lhd.m3u8?auth_key=1780265516-0-0-ba42398072965a0e0d3bd0757b011241",
+                          "url": "https://pull.niues.live/live/stream-595335_lhd.m3u8?auth_key=1780271276-0-0-d8b8b5ff78dadc5c40b30d47c561b68b",
                           "headers": {
                             "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
                           }
@@ -2084,7 +2057,7 @@
         },
         {
           "id": "channel-39",
-          "name": "04h30 ngày 01/06 Brazil vs Panama [BLV KEM] (Socolive) flv",
+          "name": "04h30 ngày 01/06 Brazil vs Panama [LÃO LÂM] (Socolive) flv",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -2111,7 +2084,7 @@
               "contents": [
                 {
                   "id": "content-39",
-                  "name": "04h30 ngày 01/06 Brazil vs Panama [BLV KEM] (Socolive) flv",
+                  "name": "04h30 ngày 01/06 Brazil vs Panama [LÃO LÂM] (Socolive) flv",
                   "streams": [
                     {
                       "id": "stream-39",
@@ -2122,7 +2095,7 @@
                           "name": "Link 1",
                           "type": "flv",
                           "default": true,
-                          "url": "https://pull06.scstream.net/live/stream-513394_lsd.flv?auth_key=1780265876-0-0-dff0c2212c18117342e06b9e4dbfa661",
+                          "url": "https://pull06.scstream.net/live/stream-527384_lsd.flv?auth_key=1780271636-0-0-87014898de528d78d658661b46160ebb",
                           "headers": {
                             "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
                           }
@@ -2137,7 +2110,7 @@
         },
         {
           "id": "channel-40",
-          "name": "04h30 ngày 01/06 Brazil vs Panama [BLV KEM] (Socolive) hdFlv",
+          "name": "04h30 ngày 01/06 Brazil vs Panama [LÃO LÂM] (Socolive) hdFlv",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -2164,7 +2137,7 @@
               "contents": [
                 {
                   "id": "content-40",
-                  "name": "04h30 ngày 01/06 Brazil vs Panama [BLV KEM] (Socolive) hdFlv",
+                  "name": "04h30 ngày 01/06 Brazil vs Panama [LÃO LÂM] (Socolive) hdFlv",
                   "streams": [
                     {
                       "id": "stream-40",
@@ -2175,7 +2148,7 @@
                           "name": "Link 1",
                           "type": "flv",
                           "default": true,
-                          "url": "https://pull06.scstream.net/live/stream-513394_lhd.flv?auth_key=1780265876-0-0-40ef606d38c3e44ce586ea0a173a575e",
+                          "url": "https://pull06.scstream.net/live/stream-527384_lhd.flv?auth_key=1780271636-0-0-f613b7c359056baa5e92a6c952ca4e82",
                           "headers": {
                             "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
                           }
@@ -2190,7 +2163,7 @@
         },
         {
           "id": "channel-41",
-          "name": "04h30 ngày 01/06 Brazil vs Panama [BLV KEM] (Socolive) m3u8",
+          "name": "04h30 ngày 01/06 Brazil vs Panama [LÃO LÂM] (Socolive) m3u8",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -2217,7 +2190,7 @@
               "contents": [
                 {
                   "id": "content-41",
-                  "name": "04h30 ngày 01/06 Brazil vs Panama [BLV KEM] (Socolive) m3u8",
+                  "name": "04h30 ngày 01/06 Brazil vs Panama [LÃO LÂM] (Socolive) m3u8",
                   "streams": [
                     {
                       "id": "stream-41",
@@ -2228,7 +2201,7 @@
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://pull.niues.live/live/stream-513394_lsd.m3u8?auth_key=1780265876-0-0-b2c6f431f579f6fa39d301767071d655",
+                          "url": "https://pull.niues.live/live/stream-527384_lsd.m3u8?auth_key=1780271636-0-0-103ecedc90151dc216965db1e6d9d21a",
                           "headers": {
                             "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
                           }
@@ -2243,7 +2216,7 @@
         },
         {
           "id": "channel-42",
-          "name": "04h30 ngày 01/06 Brazil vs Panama [BLV KEM] (Socolive) hdM3u8",
+          "name": "04h30 ngày 01/06 Brazil vs Panama [LÃO LÂM] (Socolive) hdM3u8",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -2270,7 +2243,7 @@
               "contents": [
                 {
                   "id": "content-42",
-                  "name": "04h30 ngày 01/06 Brazil vs Panama [BLV KEM] (Socolive) hdM3u8",
+                  "name": "04h30 ngày 01/06 Brazil vs Panama [LÃO LÂM] (Socolive) hdM3u8",
                   "streams": [
                     {
                       "id": "stream-42",
@@ -2281,7 +2254,7 @@
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://pull.niues.live/live/stream-513394_lhd.m3u8?auth_key=1780265876-0-0-658cb9f3507610d5af6000fef4a9645f",
+                          "url": "https://pull.niues.live/live/stream-527384_lhd.m3u8?auth_key=1780271636-0-0-4833984ab4b41f85ff0b4ea5cecc95ab",
                           "headers": {
                             "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
                           }
@@ -2296,7 +2269,7 @@
         },
         {
           "id": "channel-43",
-          "name": "05h00 ngày 01/06 Cienciano vs Sporting Cristal [NGƯỜI CÁ] (Socolive) flv",
+          "name": "05h00 ngày 01/06 Cienciano vs Sporting Cristal [BLV ALEX] (Socolive) flv",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -2323,7 +2296,7 @@
               "contents": [
                 {
                   "id": "content-43",
-                  "name": "05h00 ngày 01/06 Cienciano vs Sporting Cristal [NGƯỜI CÁ] (Socolive) flv",
+                  "name": "05h00 ngày 01/06 Cienciano vs Sporting Cristal [BLV ALEX] (Socolive) flv",
                   "streams": [
                     {
                       "id": "stream-43",
@@ -2334,7 +2307,7 @@
                           "name": "Link 1",
                           "type": "flv",
                           "default": true,
-                          "url": "https://pull06.scstream.net/live/stream-595335_lsd.flv?auth_key=1780265876-0-0-cad0b5bd892ae86bd871f0d5c420a9fe",
+                          "url": "https://pull06.scstream.net/live/stream-532081_lsd.flv?auth_key=1780271636-0-0-c0fdfe80f3379f99852c271b0b677f3a",
                           "headers": {
                             "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
                           }
@@ -2349,7 +2322,7 @@
         },
         {
           "id": "channel-44",
-          "name": "05h00 ngày 01/06 Cienciano vs Sporting Cristal [NGƯỜI CÁ] (Socolive) hdFlv",
+          "name": "05h00 ngày 01/06 Cienciano vs Sporting Cristal [BLV ALEX] (Socolive) hdFlv",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -2376,7 +2349,7 @@
               "contents": [
                 {
                   "id": "content-44",
-                  "name": "05h00 ngày 01/06 Cienciano vs Sporting Cristal [NGƯỜI CÁ] (Socolive) hdFlv",
+                  "name": "05h00 ngày 01/06 Cienciano vs Sporting Cristal [BLV ALEX] (Socolive) hdFlv",
                   "streams": [
                     {
                       "id": "stream-44",
@@ -2387,7 +2360,7 @@
                           "name": "Link 1",
                           "type": "flv",
                           "default": true,
-                          "url": "https://pull06.scstream.net/live/stream-595335_lhd.flv?auth_key=1780265876-0-0-acbb04bd198e67b7b8e2d64c55335b36",
+                          "url": "https://pull06.scstream.net/live/stream-532081_lhd.flv?auth_key=1780271636-0-0-e216c14e6abdb04fc96755752bcc005c",
                           "headers": {
                             "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
                           }
@@ -2402,7 +2375,7 @@
         },
         {
           "id": "channel-45",
-          "name": "05h00 ngày 01/06 Cienciano vs Sporting Cristal [NGƯỜI CÁ] (Socolive) m3u8",
+          "name": "05h00 ngày 01/06 Cienciano vs Sporting Cristal [BLV ALEX] (Socolive) m3u8",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -2429,7 +2402,7 @@
               "contents": [
                 {
                   "id": "content-45",
-                  "name": "05h00 ngày 01/06 Cienciano vs Sporting Cristal [NGƯỜI CÁ] (Socolive) m3u8",
+                  "name": "05h00 ngày 01/06 Cienciano vs Sporting Cristal [BLV ALEX] (Socolive) m3u8",
                   "streams": [
                     {
                       "id": "stream-45",
@@ -2440,7 +2413,7 @@
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://pull.niues.live/live/stream-595335_lsd.m3u8?auth_key=1780265876-0-0-e44b319eeb80a0b14e564954afe542ab",
+                          "url": "https://pull.niues.live/live/stream-532081_lsd.m3u8?auth_key=1780271636-0-0-dc69073bb6edbcc7ef3282d234beba9d",
                           "headers": {
                             "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
                           }
@@ -2455,7 +2428,7 @@
         },
         {
           "id": "channel-46",
-          "name": "05h00 ngày 01/06 Cienciano vs Sporting Cristal [NGƯỜI CÁ] (Socolive) hdM3u8",
+          "name": "05h00 ngày 01/06 Cienciano vs Sporting Cristal [BLV ALEX] (Socolive) hdM3u8",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -2482,7 +2455,7 @@
               "contents": [
                 {
                   "id": "content-46",
-                  "name": "05h00 ngày 01/06 Cienciano vs Sporting Cristal [NGƯỜI CÁ] (Socolive) hdM3u8",
+                  "name": "05h00 ngày 01/06 Cienciano vs Sporting Cristal [BLV ALEX] (Socolive) hdM3u8",
                   "streams": [
                     {
                       "id": "stream-46",
@@ -2493,7 +2466,7 @@
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://pull.niues.live/live/stream-595335_lhd.m3u8?auth_key=1780265876-0-0-61b72adf56abd612dd68c28827780f73",
+                          "url": "https://pull.niues.live/live/stream-532081_lhd.m3u8?auth_key=1780271636-0-0-35e7468f764665230a1edd946bb4a68e",
                           "headers": {
                             "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
                           }
@@ -2508,7 +2481,7 @@
         },
         {
           "id": "channel-47",
-          "name": "04h30 ngày 01/06 O.Higgins vs Everton CD [XUÂN SON] (Socolive) flv",
+          "name": "05h00 ngày 01/06 Cienciano vs Sporting Cristal [BLV GÔN] (Socolive) flv",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -2516,7 +2489,7 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://sta.vnres.co/file/common/20260529/9b14860e5b59adf4c608ef0916863921.png",
+            "url": "https://sta.vnres.co/file/common/20260529/26e05de5716df234820437200d877b93.png",
             "width": 1600,
             "height": 1200
           },
@@ -2535,7 +2508,7 @@
               "contents": [
                 {
                   "id": "content-47",
-                  "name": "04h30 ngày 01/06 O.Higgins vs Everton CD [XUÂN SON] (Socolive) flv",
+                  "name": "05h00 ngày 01/06 Cienciano vs Sporting Cristal [BLV GÔN] (Socolive) flv",
                   "streams": [
                     {
                       "id": "stream-47",
@@ -2546,7 +2519,7 @@
                           "name": "Link 1",
                           "type": "flv",
                           "default": true,
-                          "url": "https://pull.niur.live/live/stream-501412_lsd.flv?txSecret=dd651cfe2750dd704d50dcb8cda57d9f&txTime=6a1cf9e4",
+                          "url": "https://pull.niur.live/live/stream-445260_lsd.flv?txSecret=1c0e53e1c61c6030bab89322272d5b96&txTime=6a1d1064",
                           "headers": {
                             "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
                           }
@@ -2561,7 +2534,7 @@
         },
         {
           "id": "channel-48",
-          "name": "04h30 ngày 01/06 O.Higgins vs Everton CD [XUÂN SON] (Socolive) hdFlv",
+          "name": "05h00 ngày 01/06 Cienciano vs Sporting Cristal [BLV GÔN] (Socolive) hdFlv",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -2569,7 +2542,7 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://sta.vnres.co/file/common/20260529/9b14860e5b59adf4c608ef0916863921.png",
+            "url": "https://sta.vnres.co/file/common/20260529/26e05de5716df234820437200d877b93.png",
             "width": 1600,
             "height": 1200
           },
@@ -2588,7 +2561,7 @@
               "contents": [
                 {
                   "id": "content-48",
-                  "name": "04h30 ngày 01/06 O.Higgins vs Everton CD [XUÂN SON] (Socolive) hdFlv",
+                  "name": "05h00 ngày 01/06 Cienciano vs Sporting Cristal [BLV GÔN] (Socolive) hdFlv",
                   "streams": [
                     {
                       "id": "stream-48",
@@ -2599,7 +2572,7 @@
                           "name": "Link 1",
                           "type": "flv",
                           "default": true,
-                          "url": "https://pull.niur.live/live/stream-501412_lhd.flv?txSecret=47cbcc6b647b915fcd4070db404b7a2a&txTime=6a1cf9e4",
+                          "url": "https://pull.niur.live/live/stream-445260_lhd.flv?txSecret=60b5dfc6f256436382f2cc77f68ecbd6&txTime=6a1d1064",
                           "headers": {
                             "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
                           }
@@ -2614,7 +2587,7 @@
         },
         {
           "id": "channel-49",
-          "name": "04h30 ngày 01/06 O.Higgins vs Everton CD [XUÂN SON] (Socolive) m3u8",
+          "name": "05h00 ngày 01/06 Cienciano vs Sporting Cristal [BLV GÔN] (Socolive) m3u8",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -2622,7 +2595,7 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://sta.vnres.co/file/common/20260529/9b14860e5b59adf4c608ef0916863921.png",
+            "url": "https://sta.vnres.co/file/common/20260529/26e05de5716df234820437200d877b93.png",
             "width": 1600,
             "height": 1200
           },
@@ -2641,7 +2614,7 @@
               "contents": [
                 {
                   "id": "content-49",
-                  "name": "04h30 ngày 01/06 O.Higgins vs Everton CD [XUÂN SON] (Socolive) m3u8",
+                  "name": "05h00 ngày 01/06 Cienciano vs Sporting Cristal [BLV GÔN] (Socolive) m3u8",
                   "streams": [
                     {
                       "id": "stream-49",
@@ -2652,7 +2625,7 @@
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://pull.niur.live/live/stream-501412_lsd.m3u8?txSecret=dd651cfe2750dd704d50dcb8cda57d9f&txTime=6a1cf9e4",
+                          "url": "https://pull.niur.live/live/stream-445260_lsd.m3u8?txSecret=1c0e53e1c61c6030bab89322272d5b96&txTime=6a1d1064",
                           "headers": {
                             "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
                           }
@@ -2667,7 +2640,7 @@
         },
         {
           "id": "channel-50",
-          "name": "04h30 ngày 01/06 O.Higgins vs Everton CD [XUÂN SON] (Socolive) hdM3u8",
+          "name": "05h00 ngày 01/06 Cienciano vs Sporting Cristal [BLV GÔN] (Socolive) hdM3u8",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -2675,7 +2648,7 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://sta.vnres.co/file/common/20260529/9b14860e5b59adf4c608ef0916863921.png",
+            "url": "https://sta.vnres.co/file/common/20260529/26e05de5716df234820437200d877b93.png",
             "width": 1600,
             "height": 1200
           },
@@ -2694,7 +2667,7 @@
               "contents": [
                 {
                   "id": "content-50",
-                  "name": "04h30 ngày 01/06 O.Higgins vs Everton CD [XUÂN SON] (Socolive) hdM3u8",
+                  "name": "05h00 ngày 01/06 Cienciano vs Sporting Cristal [BLV GÔN] (Socolive) hdM3u8",
                   "streams": [
                     {
                       "id": "stream-50",
@@ -2705,7 +2678,7 @@
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://pull.niur.live/live/stream-501412_lhd.m3u8?txSecret=47cbcc6b647b915fcd4070db404b7a2a&txTime=6a1cf9e4",
+                          "url": "https://pull.niur.live/live/stream-445260_lhd.m3u8?txSecret=60b5dfc6f256436382f2cc77f68ecbd6&txTime=6a1d1064",
                           "headers": {
                             "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
                           }
@@ -2720,7 +2693,7 @@
         },
         {
           "id": "channel-51",
-          "name": "04h30 ngày 01/06 Brazil vs Panama [BLV LUCAS] (Socolive) flv",
+          "name": "04h30 ngày 01/06 Brazil vs Panama [HÀ DUY KIÊN] (Socolive) flv",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -2747,7 +2720,7 @@
               "contents": [
                 {
                   "id": "content-51",
-                  "name": "04h30 ngày 01/06 Brazil vs Panama [BLV LUCAS] (Socolive) flv",
+                  "name": "04h30 ngày 01/06 Brazil vs Panama [HÀ DUY KIÊN] (Socolive) flv",
                   "streams": [
                     {
                       "id": "stream-51",
@@ -2758,7 +2731,7 @@
                           "name": "Link 1",
                           "type": "flv",
                           "default": true,
-                          "url": "https://pull06.scstream.net/live/stream-304148_lsd.flv?auth_key=1780265876-0-0-2b7ff3a63d2824a8ee3b03a040cf501c",
+                          "url": "https://pull06.scstream.net/live/stream-607400_lsd.flv?auth_key=1780271636-0-0-7a6647408268aed5576d8a203d57dfff",
                           "headers": {
                             "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
                           }
@@ -2773,7 +2746,7 @@
         },
         {
           "id": "channel-52",
-          "name": "04h30 ngày 01/06 Brazil vs Panama [BLV LUCAS] (Socolive) hdFlv",
+          "name": "04h30 ngày 01/06 Brazil vs Panama [HÀ DUY KIÊN] (Socolive) hdFlv",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -2800,7 +2773,7 @@
               "contents": [
                 {
                   "id": "content-52",
-                  "name": "04h30 ngày 01/06 Brazil vs Panama [BLV LUCAS] (Socolive) hdFlv",
+                  "name": "04h30 ngày 01/06 Brazil vs Panama [HÀ DUY KIÊN] (Socolive) hdFlv",
                   "streams": [
                     {
                       "id": "stream-52",
@@ -2811,7 +2784,7 @@
                           "name": "Link 1",
                           "type": "flv",
                           "default": true,
-                          "url": "https://pull06.scstream.net/live/stream-304148_lhd.flv?auth_key=1780265876-0-0-1223b4ecb3ebd39f714f4669fbe4dff4",
+                          "url": "https://pull06.scstream.net/live/stream-607400_lhd.flv?auth_key=1780271636-0-0-f7b5306b87bdcb3ab9eafad3a8b6cba9",
                           "headers": {
                             "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
                           }
@@ -2826,7 +2799,7 @@
         },
         {
           "id": "channel-53",
-          "name": "04h30 ngày 01/06 Brazil vs Panama [BLV LUCAS] (Socolive) m3u8",
+          "name": "04h30 ngày 01/06 Brazil vs Panama [HÀ DUY KIÊN] (Socolive) m3u8",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -2853,7 +2826,7 @@
               "contents": [
                 {
                   "id": "content-53",
-                  "name": "04h30 ngày 01/06 Brazil vs Panama [BLV LUCAS] (Socolive) m3u8",
+                  "name": "04h30 ngày 01/06 Brazil vs Panama [HÀ DUY KIÊN] (Socolive) m3u8",
                   "streams": [
                     {
                       "id": "stream-53",
@@ -2864,7 +2837,7 @@
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://pull.niues.live/live/stream-304148_lsd.m3u8?auth_key=1780265876-0-0-9caad9fba2792b2cac71bceff3690771",
+                          "url": "https://pull.niues.live/live/stream-607400_lsd.m3u8?auth_key=1780271636-0-0-7896bf6158289855f55fe099715d7037",
                           "headers": {
                             "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
                           }
@@ -2879,7 +2852,7 @@
         },
         {
           "id": "channel-54",
-          "name": "04h30 ngày 01/06 Brazil vs Panama [BLV LUCAS] (Socolive) hdM3u8",
+          "name": "04h30 ngày 01/06 Brazil vs Panama [HÀ DUY KIÊN] (Socolive) hdM3u8",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -2906,7 +2879,7 @@
               "contents": [
                 {
                   "id": "content-54",
-                  "name": "04h30 ngày 01/06 Brazil vs Panama [BLV LUCAS] (Socolive) hdM3u8",
+                  "name": "04h30 ngày 01/06 Brazil vs Panama [HÀ DUY KIÊN] (Socolive) hdM3u8",
                   "streams": [
                     {
                       "id": "stream-54",
@@ -2917,7 +2890,7 @@
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://pull.niues.live/live/stream-304148_lhd.m3u8?auth_key=1780265876-0-0-a82375f4d7a9bfad1d7d5882b88aa293",
+                          "url": "https://pull.niues.live/live/stream-607400_lhd.m3u8?auth_key=1780271636-0-0-07e031ad8f5413666f7e56e6c820d79b",
                           "headers": {
                             "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
                           }
@@ -2932,1066 +2905,6 @@
         },
         {
           "id": "channel-55",
-          "name": "04h30 ngày 01/06 O.Higgins vs Everton CD [BLV NẤM] (Socolive) flv",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://sta.vnres.co/file/common/20260529/9b14860e5b59adf4c608ef0916863921.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-55",
-              "name": "Tổng Hợp",
-              "contents": [
-                {
-                  "id": "content-55",
-                  "name": "04h30 ngày 01/06 O.Higgins vs Everton CD [BLV NẤM] (Socolive) flv",
-                  "streams": [
-                    {
-                      "id": "stream-55",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-55-1",
-                          "name": "Link 1",
-                          "type": "flv",
-                          "default": true,
-                          "url": "https://pull06.scstream.net/live/stream-608899_lsd.flv?auth_key=1780265876-0-0-03baddeb863f9857b20dfb47a83fa756",
-                          "headers": {
-                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "channel-56",
-          "name": "04h30 ngày 01/06 O.Higgins vs Everton CD [BLV NẤM] (Socolive) hdFlv",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://sta.vnres.co/file/common/20260529/9b14860e5b59adf4c608ef0916863921.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-56",
-              "name": "Tổng Hợp",
-              "contents": [
-                {
-                  "id": "content-56",
-                  "name": "04h30 ngày 01/06 O.Higgins vs Everton CD [BLV NẤM] (Socolive) hdFlv",
-                  "streams": [
-                    {
-                      "id": "stream-56",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-56-1",
-                          "name": "Link 1",
-                          "type": "flv",
-                          "default": true,
-                          "url": "https://pull06.scstream.net/live/stream-608899_lhd.flv?auth_key=1780265876-0-0-8b08e3ca480ca115a69aa4aace8cbf22",
-                          "headers": {
-                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "channel-57",
-          "name": "04h30 ngày 01/06 O.Higgins vs Everton CD [BLV NẤM] (Socolive) m3u8",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://sta.vnres.co/file/common/20260529/9b14860e5b59adf4c608ef0916863921.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-57",
-              "name": "Tổng Hợp",
-              "contents": [
-                {
-                  "id": "content-57",
-                  "name": "04h30 ngày 01/06 O.Higgins vs Everton CD [BLV NẤM] (Socolive) m3u8",
-                  "streams": [
-                    {
-                      "id": "stream-57",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-57-1",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pull.niues.live/live/stream-608899_lsd.m3u8?auth_key=1780265876-0-0-6ff00129263e3c8733fcd9a635a9ff7f",
-                          "headers": {
-                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "channel-58",
-          "name": "04h30 ngày 01/06 O.Higgins vs Everton CD [BLV NẤM] (Socolive) hdM3u8",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://sta.vnres.co/file/common/20260529/9b14860e5b59adf4c608ef0916863921.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-58",
-              "name": "Tổng Hợp",
-              "contents": [
-                {
-                  "id": "content-58",
-                  "name": "04h30 ngày 01/06 O.Higgins vs Everton CD [BLV NẤM] (Socolive) hdM3u8",
-                  "streams": [
-                    {
-                      "id": "stream-58",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-58-1",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pull.niues.live/live/stream-608899_lhd.m3u8?auth_key=1780265876-0-0-caa5e28684a2ff5380f8bf75051cca5b",
-                          "headers": {
-                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "channel-59",
-          "name": "02h30 ngày 01/06 USA vs Senegal [ĐỖ TÚ TÀI] (Socolive) flv",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://sta.vnres.co/file/common/20260529/42072bb1227837f3d9aac18c894e996c.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-59",
-              "name": "Tổng Hợp",
-              "contents": [
-                {
-                  "id": "content-59",
-                  "name": "02h30 ngày 01/06 USA vs Senegal [ĐỖ TÚ TÀI] (Socolive) flv",
-                  "streams": [
-                    {
-                      "id": "stream-59",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-59-1",
-                          "name": "Link 1",
-                          "type": "flv",
-                          "default": true,
-                          "url": "https://pull06.scstream.net/live/stream-607552_lsd.flv?auth_key=1780266236-0-0-248d9d097d61936b9e1a18ffb67215bf",
-                          "headers": {
-                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "channel-60",
-          "name": "02h30 ngày 01/06 USA vs Senegal [ĐỖ TÚ TÀI] (Socolive) hdFlv",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://sta.vnres.co/file/common/20260529/42072bb1227837f3d9aac18c894e996c.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-60",
-              "name": "Tổng Hợp",
-              "contents": [
-                {
-                  "id": "content-60",
-                  "name": "02h30 ngày 01/06 USA vs Senegal [ĐỖ TÚ TÀI] (Socolive) hdFlv",
-                  "streams": [
-                    {
-                      "id": "stream-60",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-60-1",
-                          "name": "Link 1",
-                          "type": "flv",
-                          "default": true,
-                          "url": "https://pull06.scstream.net/live/stream-607552_lhd.flv?auth_key=1780266236-0-0-d17b4f377ced41059aa1c1daeec7447b",
-                          "headers": {
-                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "channel-61",
-          "name": "02h30 ngày 01/06 USA vs Senegal [ĐỖ TÚ TÀI] (Socolive) m3u8",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://sta.vnres.co/file/common/20260529/42072bb1227837f3d9aac18c894e996c.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-61",
-              "name": "Tổng Hợp",
-              "contents": [
-                {
-                  "id": "content-61",
-                  "name": "02h30 ngày 01/06 USA vs Senegal [ĐỖ TÚ TÀI] (Socolive) m3u8",
-                  "streams": [
-                    {
-                      "id": "stream-61",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-61-1",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pull.niues.live/live/stream-607552_lsd.m3u8?auth_key=1780266236-0-0-37e6e5bd1161f41d73c78bea462de745",
-                          "headers": {
-                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "channel-62",
-          "name": "02h30 ngày 01/06 USA vs Senegal [ĐỖ TÚ TÀI] (Socolive) hdM3u8",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://sta.vnres.co/file/common/20260529/42072bb1227837f3d9aac18c894e996c.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-62",
-              "name": "Tổng Hợp",
-              "contents": [
-                {
-                  "id": "content-62",
-                  "name": "02h30 ngày 01/06 USA vs Senegal [ĐỖ TÚ TÀI] (Socolive) hdM3u8",
-                  "streams": [
-                    {
-                      "id": "stream-62",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-62-1",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pull.niues.live/live/stream-607552_lhd.m3u8?auth_key=1780266236-0-0-663bec467db85c0408c2762e1a2f54c3",
-                          "headers": {
-                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "channel-63",
-          "name": "05h00 ngày 01/06 Cienciano vs Sporting Cristal [BLV ALEX] (Socolive) flv",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://sta.vnres.co/file/common/20260529/26e05de5716df234820437200d877b93.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-63",
-              "name": "Tổng Hợp",
-              "contents": [
-                {
-                  "id": "content-63",
-                  "name": "05h00 ngày 01/06 Cienciano vs Sporting Cristal [BLV ALEX] (Socolive) flv",
-                  "streams": [
-                    {
-                      "id": "stream-63",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-63-1",
-                          "name": "Link 1",
-                          "type": "flv",
-                          "default": true,
-                          "url": "https://pull06.scstream.net/live/stream-532081_lsd.flv?auth_key=1780266236-0-0-61e0052601a18aa03603ede85d91c8ca",
-                          "headers": {
-                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "channel-64",
-          "name": "05h00 ngày 01/06 Cienciano vs Sporting Cristal [BLV ALEX] (Socolive) hdFlv",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://sta.vnres.co/file/common/20260529/26e05de5716df234820437200d877b93.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-64",
-              "name": "Tổng Hợp",
-              "contents": [
-                {
-                  "id": "content-64",
-                  "name": "05h00 ngày 01/06 Cienciano vs Sporting Cristal [BLV ALEX] (Socolive) hdFlv",
-                  "streams": [
-                    {
-                      "id": "stream-64",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-64-1",
-                          "name": "Link 1",
-                          "type": "flv",
-                          "default": true,
-                          "url": "https://pull06.scstream.net/live/stream-532081_lhd.flv?auth_key=1780266236-0-0-6698cbb44e3a8b28b75fc56d9fce6338",
-                          "headers": {
-                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "channel-65",
-          "name": "05h00 ngày 01/06 Cienciano vs Sporting Cristal [BLV ALEX] (Socolive) m3u8",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://sta.vnres.co/file/common/20260529/26e05de5716df234820437200d877b93.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-65",
-              "name": "Tổng Hợp",
-              "contents": [
-                {
-                  "id": "content-65",
-                  "name": "05h00 ngày 01/06 Cienciano vs Sporting Cristal [BLV ALEX] (Socolive) m3u8",
-                  "streams": [
-                    {
-                      "id": "stream-65",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-65-1",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pull.niues.live/live/stream-532081_lsd.m3u8?auth_key=1780266236-0-0-d901b8a96f9da4751c0f4eb16ff72bc6",
-                          "headers": {
-                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "channel-66",
-          "name": "05h00 ngày 01/06 Cienciano vs Sporting Cristal [BLV ALEX] (Socolive) hdM3u8",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://sta.vnres.co/file/common/20260529/26e05de5716df234820437200d877b93.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-66",
-              "name": "Tổng Hợp",
-              "contents": [
-                {
-                  "id": "content-66",
-                  "name": "05h00 ngày 01/06 Cienciano vs Sporting Cristal [BLV ALEX] (Socolive) hdM3u8",
-                  "streams": [
-                    {
-                      "id": "stream-66",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-66-1",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pull.niues.live/live/stream-532081_lhd.m3u8?auth_key=1780266236-0-0-6244c40c10f588304ba58874a8863ae3",
-                          "headers": {
-                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "channel-67",
-          "name": "04h30 ngày 01/06 Brazil vs Panama [HÀ DUY KIÊN] (Socolive) flv",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://sta.vnres.co/file/common/20260529/eb01fcd456e4ca076083877aa4b88682.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-67",
-              "name": "Tổng Hợp",
-              "contents": [
-                {
-                  "id": "content-67",
-                  "name": "04h30 ngày 01/06 Brazil vs Panama [HÀ DUY KIÊN] (Socolive) flv",
-                  "streams": [
-                    {
-                      "id": "stream-67",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-67-1",
-                          "name": "Link 1",
-                          "type": "flv",
-                          "default": true,
-                          "url": "https://pull06.scstream.net/live/stream-607400_lsd.flv?auth_key=1780266236-0-0-9f9bc6170eb82b7d5aa572d3e9b971f9",
-                          "headers": {
-                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "channel-68",
-          "name": "04h30 ngày 01/06 Brazil vs Panama [HÀ DUY KIÊN] (Socolive) hdFlv",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://sta.vnres.co/file/common/20260529/eb01fcd456e4ca076083877aa4b88682.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-68",
-              "name": "Tổng Hợp",
-              "contents": [
-                {
-                  "id": "content-68",
-                  "name": "04h30 ngày 01/06 Brazil vs Panama [HÀ DUY KIÊN] (Socolive) hdFlv",
-                  "streams": [
-                    {
-                      "id": "stream-68",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-68-1",
-                          "name": "Link 1",
-                          "type": "flv",
-                          "default": true,
-                          "url": "https://pull06.scstream.net/live/stream-607400_lhd.flv?auth_key=1780266236-0-0-f3e41e07920166d4b5ea843f03788f74",
-                          "headers": {
-                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "channel-69",
-          "name": "04h30 ngày 01/06 Brazil vs Panama [HÀ DUY KIÊN] (Socolive) m3u8",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://sta.vnres.co/file/common/20260529/eb01fcd456e4ca076083877aa4b88682.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-69",
-              "name": "Tổng Hợp",
-              "contents": [
-                {
-                  "id": "content-69",
-                  "name": "04h30 ngày 01/06 Brazil vs Panama [HÀ DUY KIÊN] (Socolive) m3u8",
-                  "streams": [
-                    {
-                      "id": "stream-69",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-69-1",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pull.niues.live/live/stream-607400_lsd.m3u8?auth_key=1780266236-0-0-7c5a4d691bae10ee898118a88b021230",
-                          "headers": {
-                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "channel-70",
-          "name": "04h30 ngày 01/06 Brazil vs Panama [HÀ DUY KIÊN] (Socolive) hdM3u8",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://sta.vnres.co/file/common/20260529/eb01fcd456e4ca076083877aa4b88682.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-70",
-              "name": "Tổng Hợp",
-              "contents": [
-                {
-                  "id": "content-70",
-                  "name": "04h30 ngày 01/06 Brazil vs Panama [HÀ DUY KIÊN] (Socolive) hdM3u8",
-                  "streams": [
-                    {
-                      "id": "stream-70",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-70-1",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pull.niues.live/live/stream-607400_lhd.m3u8?auth_key=1780266236-0-0-84afe0614d12f62642be23e46d4978ab",
-                          "headers": {
-                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "channel-71",
-          "name": "04h30 ngày 01/06 Brazil vs Panama [LÃO LÂM] (Socolive) flv",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://sta.vnres.co/file/common/20260529/eb01fcd456e4ca076083877aa4b88682.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-71",
-              "name": "Tổng Hợp",
-              "contents": [
-                {
-                  "id": "content-71",
-                  "name": "04h30 ngày 01/06 Brazil vs Panama [LÃO LÂM] (Socolive) flv",
-                  "streams": [
-                    {
-                      "id": "stream-71",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-71-1",
-                          "name": "Link 1",
-                          "type": "flv",
-                          "default": true,
-                          "url": "https://pull06.scstream.net/live/stream-527384_lsd.flv?auth_key=1780266236-0-0-b828fb94e8beb59d219604e31f851aac",
-                          "headers": {
-                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "channel-72",
-          "name": "04h30 ngày 01/06 Brazil vs Panama [LÃO LÂM] (Socolive) hdFlv",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://sta.vnres.co/file/common/20260529/eb01fcd456e4ca076083877aa4b88682.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-72",
-              "name": "Tổng Hợp",
-              "contents": [
-                {
-                  "id": "content-72",
-                  "name": "04h30 ngày 01/06 Brazil vs Panama [LÃO LÂM] (Socolive) hdFlv",
-                  "streams": [
-                    {
-                      "id": "stream-72",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-72-1",
-                          "name": "Link 1",
-                          "type": "flv",
-                          "default": true,
-                          "url": "https://pull06.scstream.net/live/stream-527384_lhd.flv?auth_key=1780266236-0-0-f1e5245a8741afc1c10e61c237ea2973",
-                          "headers": {
-                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "channel-73",
-          "name": "04h30 ngày 01/06 Brazil vs Panama [LÃO LÂM] (Socolive) m3u8",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://sta.vnres.co/file/common/20260529/eb01fcd456e4ca076083877aa4b88682.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-73",
-              "name": "Tổng Hợp",
-              "contents": [
-                {
-                  "id": "content-73",
-                  "name": "04h30 ngày 01/06 Brazil vs Panama [LÃO LÂM] (Socolive) m3u8",
-                  "streams": [
-                    {
-                      "id": "stream-73",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-73-1",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pull.niues.live/live/stream-527384_lsd.m3u8?auth_key=1780266236-0-0-18942043a641f44e36933757107f4985",
-                          "headers": {
-                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "channel-74",
-          "name": "04h30 ngày 01/06 Brazil vs Panama [LÃO LÂM] (Socolive) hdM3u8",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://sta.vnres.co/file/common/20260529/eb01fcd456e4ca076083877aa4b88682.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-74",
-              "name": "Tổng Hợp",
-              "contents": [
-                {
-                  "id": "content-74",
-                  "name": "04h30 ngày 01/06 Brazil vs Panama [LÃO LÂM] (Socolive) hdM3u8",
-                  "streams": [
-                    {
-                      "id": "stream-74",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-74-1",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pull.niues.live/live/stream-527384_lhd.m3u8?auth_key=1780266236-0-0-264a18059abf235563d0ad12682add27",
-                          "headers": {
-                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "channel-75",
           "name": "BIT.LY/SOCOLIVE [SOCOLIVE] (Socolive) flv",
           "type": "single",
           "display": "thumbnail-only",
@@ -4014,23 +2927,23 @@
           ],
           "sources": [
             {
-              "id": "src-75",
+              "id": "src-55",
               "name": "Tổng Hợp",
               "contents": [
                 {
-                  "id": "content-75",
+                  "id": "content-55",
                   "name": "BIT.LY/SOCOLIVE [SOCOLIVE] (Socolive) flv",
                   "streams": [
                     {
-                      "id": "stream-75",
+                      "id": "stream-55",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-75-1",
+                          "id": "lnk-55-1",
                           "name": "Link 1",
                           "type": "flv",
                           "default": true,
-                          "url": "https://pull06.scstream.net/live/stream-175784_lsd.flv?auth_key=1780266236-0-0-f79bfbd869d83c9e1f0692a3c734e437",
+                          "url": "https://pull06.scstream.net/live/stream-175784_lsd.flv?auth_key=1780271636-0-0-94501cd846738bb048dd60155289beba",
                           "headers": {
                             "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
                           }
@@ -4044,7 +2957,7 @@
           ]
         },
         {
-          "id": "channel-76",
+          "id": "channel-56",
           "name": "BIT.LY/SOCOLIVE [SOCOLIVE] (Socolive) hdFlv",
           "type": "single",
           "display": "thumbnail-only",
@@ -4067,23 +2980,23 @@
           ],
           "sources": [
             {
-              "id": "src-76",
+              "id": "src-56",
               "name": "Tổng Hợp",
               "contents": [
                 {
-                  "id": "content-76",
+                  "id": "content-56",
                   "name": "BIT.LY/SOCOLIVE [SOCOLIVE] (Socolive) hdFlv",
                   "streams": [
                     {
-                      "id": "stream-76",
+                      "id": "stream-56",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-76-1",
+                          "id": "lnk-56-1",
                           "name": "Link 1",
                           "type": "flv",
                           "default": true,
-                          "url": "https://pull06.scstream.net/live/stream-175784_lhd.flv?auth_key=1780266236-0-0-8a2548ef7d5ddfef8bd3f2645d123738",
+                          "url": "https://pull06.scstream.net/live/stream-175784_lhd.flv?auth_key=1780271636-0-0-50b88dc68a43d362279fa3455458d3ef",
                           "headers": {
                             "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
                           }
@@ -4097,7 +3010,7 @@
           ]
         },
         {
-          "id": "channel-77",
+          "id": "channel-57",
           "name": "BIT.LY/SOCOLIVE [SOCOLIVE] (Socolive) m3u8",
           "type": "single",
           "display": "thumbnail-only",
@@ -4120,23 +3033,23 @@
           ],
           "sources": [
             {
-              "id": "src-77",
+              "id": "src-57",
               "name": "Tổng Hợp",
               "contents": [
                 {
-                  "id": "content-77",
+                  "id": "content-57",
                   "name": "BIT.LY/SOCOLIVE [SOCOLIVE] (Socolive) m3u8",
                   "streams": [
                     {
-                      "id": "stream-77",
+                      "id": "stream-57",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-77-1",
+                          "id": "lnk-57-1",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://pull.niues.live/live/stream-175784_lsd.m3u8?auth_key=1780266236-0-0-6fb4878d76376c1a35ec8d40e5fab8df",
+                          "url": "https://pull.niues.live/live/stream-175784_lsd.m3u8?auth_key=1780271636-0-0-4b21383aea9bd705dfe08e7165c1935e",
                           "headers": {
                             "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
                           }
@@ -4150,7 +3063,7 @@
           ]
         },
         {
-          "id": "channel-78",
+          "id": "channel-58",
           "name": "BIT.LY/SOCOLIVE [SOCOLIVE] (Socolive) hdM3u8",
           "type": "single",
           "display": "thumbnail-only",
@@ -4173,23 +3086,23 @@
           ],
           "sources": [
             {
-              "id": "src-78",
+              "id": "src-58",
               "name": "Tổng Hợp",
               "contents": [
                 {
-                  "id": "content-78",
+                  "id": "content-58",
                   "name": "BIT.LY/SOCOLIVE [SOCOLIVE] (Socolive) hdM3u8",
                   "streams": [
                     {
-                      "id": "stream-78",
+                      "id": "stream-58",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-78-1",
+                          "id": "lnk-58-1",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://pull.niues.live/live/stream-175784_lhd.m3u8?auth_key=1780266236-0-0-b687581c9410fc4348cdc98c1ab60033",
+                          "url": "https://pull.niues.live/live/stream-175784_lhd.m3u8?auth_key=1780271636-0-0-47b140c06eec3613cd1f5f9646d4bdd7",
                           "headers": {
                             "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
                           }
@@ -4203,166 +3116,7 @@
           ]
         },
         {
-          "id": "channel-79",
-          "name": "02h30 01/06 USA vs Senegal (Hội Quán) FHD",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://media.api-sports.io/football/teams/2384.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-79",
-              "name": "Tổng Hợp",
-              "contents": [
-                {
-                  "id": "content-79",
-                  "name": "02h30 01/06 USA vs Senegal (Hội Quán) FHD",
-                  "streams": [
-                    {
-                      "id": "stream-79",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-79-1",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanliem/playlist.m3u8",
-                          "headers": {
-                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "channel-80",
-          "name": "02h30 01/06 USA vs Senegal (Hội Quán) HD",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://media.api-sports.io/football/teams/2384.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-80",
-              "name": "Tổng Hợp",
-              "contents": [
-                {
-                  "id": "content-80",
-                  "name": "02h30 01/06 USA vs Senegal (Hội Quán) HD",
-                  "streams": [
-                    {
-                      "id": "stream-80",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-80-1",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://alive.yarncdn.live/hqtv_blv_phanliem/playlist.m3u8",
-                          "headers": {
-                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "channel-81",
-          "name": "02h30 01/06 USA vs Senegal (Hội Quán) SD",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://media.api-sports.io/football/teams/2384.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-81",
-              "name": "Tổng Hợp",
-              "contents": [
-                {
-                  "id": "content-81",
-                  "name": "02h30 01/06 USA vs Senegal (Hội Quán) SD",
-                  "streams": [
-                    {
-                      "id": "stream-81",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-81-1",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://alive.yarncdn.live/hqtv_blv_phanliem/tracks-v1a1/mono.m3u8",
-                          "headers": {
-                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "channel-82",
+          "id": "channel-59",
           "name": "04h30 01/06 Brazil vs Panama (Hội Quán) FHD",
           "type": "single",
           "display": "thumbnail-only",
@@ -4385,19 +3139,19 @@
           ],
           "sources": [
             {
-              "id": "src-82",
+              "id": "src-59",
               "name": "Tổng Hợp",
               "contents": [
                 {
-                  "id": "content-82",
+                  "id": "content-59",
                   "name": "04h30 01/06 Brazil vs Panama (Hội Quán) FHD",
                   "streams": [
                     {
-                      "id": "stream-82",
+                      "id": "stream-59",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-82-1",
+                          "id": "lnk-59-1",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -4415,8 +3169,8 @@
           ]
         },
         {
-          "id": "channel-83",
-          "name": "01h30 01/06 Casper Ruud vs Joao Fonseca (Hội Quán) FHD",
+          "id": "channel-60",
+          "name": "04h30 01/06 Brazil vs Panama (Hội Quán) FHD",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -4424,7 +3178,7 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHPUzabryz7df8DJGSlU-oaXS6zaWEi7A-sg&s",
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/1280px-Flag_of_Brazil.svg.png",
             "width": 1600,
             "height": 1200
           },
@@ -4438,23 +3192,23 @@
           ],
           "sources": [
             {
-              "id": "src-83",
+              "id": "src-60",
               "name": "Tổng Hợp",
               "contents": [
                 {
-                  "id": "content-83",
-                  "name": "01h30 01/06 Casper Ruud vs Joao Fonseca (Hội Quán) FHD",
+                  "id": "content-60",
+                  "name": "04h30 01/06 Brazil vs Panama (Hội Quán) FHD",
                   "streams": [
                     {
-                      "id": "stream-83",
+                      "id": "stream-60",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-83-1",
+                          "id": "lnk-60-1",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phantu/playlist.m3u8",
+                          "url": "https://hqlive.yarncdn.live/live/hqtv_blv_phanliem/playlist.m3u8",
                           "headers": {
                             "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
                           }
@@ -4468,8 +3222,8 @@
           ]
         },
         {
-          "id": "channel-84",
-          "name": "01h30 01/06 Casper Ruud vs Joao Fonseca (Hội Quán) HD",
+          "id": "channel-61",
+          "name": "04h30 01/06 Brazil vs Panama (Hội Quán) HD",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -4477,7 +3231,7 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHPUzabryz7df8DJGSlU-oaXS6zaWEi7A-sg&s",
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/1280px-Flag_of_Brazil.svg.png",
             "width": 1600,
             "height": 1200
           },
@@ -4491,23 +3245,23 @@
           ],
           "sources": [
             {
-              "id": "src-84",
+              "id": "src-61",
               "name": "Tổng Hợp",
               "contents": [
                 {
-                  "id": "content-84",
-                  "name": "01h30 01/06 Casper Ruud vs Joao Fonseca (Hội Quán) HD",
+                  "id": "content-61",
+                  "name": "04h30 01/06 Brazil vs Panama (Hội Quán) HD",
                   "streams": [
                     {
-                      "id": "stream-84",
+                      "id": "stream-61",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-84-1",
+                          "id": "lnk-61-1",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://alive.yarncdn.live/hqtv_blv_phantu/playlist.m3u8",
+                          "url": "https://alive.yarncdn.live/hqtv_blv_phanliem/playlist.m3u8",
                           "headers": {
                             "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
                           }
@@ -4521,8 +3275,8 @@
           ]
         },
         {
-          "id": "channel-85",
-          "name": "01h30 01/06 Casper Ruud vs Joao Fonseca (Hội Quán) SD",
+          "id": "channel-62",
+          "name": "04h30 01/06 Brazil vs Panama (Hội Quán) SD",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -4530,7 +3284,7 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHPUzabryz7df8DJGSlU-oaXS6zaWEi7A-sg&s",
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/1280px-Flag_of_Brazil.svg.png",
             "width": 1600,
             "height": 1200
           },
@@ -4544,23 +3298,23 @@
           ],
           "sources": [
             {
-              "id": "src-85",
+              "id": "src-62",
               "name": "Tổng Hợp",
               "contents": [
                 {
-                  "id": "content-85",
-                  "name": "01h30 01/06 Casper Ruud vs Joao Fonseca (Hội Quán) SD",
+                  "id": "content-62",
+                  "name": "04h30 01/06 Brazil vs Panama (Hội Quán) SD",
                   "streams": [
                     {
-                      "id": "stream-85",
+                      "id": "stream-62",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-85-1",
+                          "id": "lnk-62-1",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://alive.yarncdn.live/hqtv_blv_phantu/tracks-v1a1/mono.m3u8",
+                          "url": "https://alive.yarncdn.live/hqtv_blv_phanliem/tracks-v1a1/mono.m3u8",
                           "headers": {
                             "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
                           }
@@ -4574,7 +3328,7 @@
           ]
         },
         {
-          "id": "channel-86",
+          "id": "channel-63",
           "name": "04h30 01/06 Brazil vs Panama",
           "type": "single",
           "display": "thumbnail-only",
@@ -4597,191 +3351,23 @@
           ],
           "sources": [
             {
-              "id": "src-86",
+              "id": "src-63",
               "name": "Tổng Hợp",
               "contents": [
                 {
-                  "id": "content-86",
+                  "id": "content-63",
                   "name": "04h30 01/06 Brazil vs Panama",
                   "streams": [
                     {
-                      "id": "stream-86",
+                      "id": "stream-63",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-86-1",
+                          "id": "lnk-63-1",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://live05.msdht.app/live/90725470.m3u8",
-                          "headers": {
-                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "channel-87",
-          "name": "02h30 01/06 Mỹ vs Senegal",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://img.colatv88xd.cc/football/team/08e9fb9c257f63bc57837b42b31f8cef.png!w80",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-87",
-              "name": "Tổng Hợp",
-              "contents": [
-                {
-                  "id": "content-87",
-                  "name": "02h30 01/06 Mỹ vs Senegal",
-                  "streams": [
-                    {
-                      "id": "stream-87",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-87-1",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live05.msdht.app/live/33982309.m3u8",
-                          "headers": {
-                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "channel-88",
-          "name": "02h30 01/06 Golden State Valkyries vs Las Vegas Aces",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://img.colatv88xd.cc/basketball/team/380d81d4050b81debf9a5500239e96d0.png!w80",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-88",
-              "name": "Tổng Hợp",
-              "contents": [
-                {
-                  "id": "content-88",
-                  "name": "02h30 01/06 Golden State Valkyries vs Las Vegas Aces",
-                  "streams": [
-                    {
-                      "id": "stream-88",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-88-1",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live05.msdht.app/live/19919577.m3u8",
-                          "headers": {
-                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "gavangtv",
-      "name": "GAVANG TV",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
-        {
-          "id": "channel-89",
-          "name": "02:30 | USA vs Senegal",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://img.colatv88xd.cc/football/team/0ff7849c9a1643d38170da0769fcf4e0.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-89",
-              "name": "Tổng Hợp",
-              "contents": [
-                {
-                  "id": "content-89",
-                  "name": "02:30 | USA vs Senegal",
-                  "streams": [
-                    {
-                      "id": "stream-89",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-89-1",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live2.zktsva.app/live/289650.m3u8",
                           "headers": {
                             "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
                           }
@@ -4804,8 +3390,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "channel-90",
-          "name": "USA vs Senegal (2026-06-01 02:35) | BLV LEO",
+          "id": "channel-64",
+          "name": "Westchester Flames vs Staten Island ASC (2026-06-01 06:00) | BLV VÕ TÒNG",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -4813,7 +3399,7 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/690_165102965258.png",
+            "url": "https://cdn-img.cdnokvip.com/logos/24409_1h24jy2p6b19.png",
             "width": 1600,
             "height": 1200
           },
@@ -4827,23 +3413,23 @@
           ],
           "sources": [
             {
-              "id": "src-90",
+              "id": "src-64",
               "name": "Tổng Hợp",
               "contents": [
                 {
-                  "id": "content-90",
-                  "name": "USA vs Senegal (2026-06-01 02:35) | BLV LEO",
+                  "id": "content-64",
+                  "name": "Westchester Flames vs Staten Island ASC (2026-06-01 06:00) | BLV VÕ TÒNG",
                   "streams": [
                     {
-                      "id": "stream-90",
+                      "id": "stream-64",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-90-1",
+                          "id": "lnk-64-1",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LEO/index.m3u8?expire=1923642660&sign=58990a132e2f8d3f764c947b95b28af6",
+                          "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299",
                           "headers": {
                             "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
                           }
@@ -4857,8 +3443,8 @@
           ]
         },
         {
-          "id": "channel-91",
-          "name": "USA vs Senegal (2026-06-01 02:35) FLV | BLV LEO",
+          "id": "channel-65",
+          "name": "Westchester Flames vs Staten Island ASC (2026-06-01 06:00) FLV | BLV VÕ TÒNG",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -4866,7 +3452,7 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/690_165102965258.png",
+            "url": "https://cdn-img.cdnokvip.com/logos/24409_1h24jy2p6b19.png",
             "width": 1600,
             "height": 1200
           },
@@ -4880,23 +3466,129 @@
           ],
           "sources": [
             {
-              "id": "src-91",
+              "id": "src-65",
               "name": "Tổng Hợp",
               "contents": [
                 {
-                  "id": "content-91",
-                  "name": "USA vs Senegal (2026-06-01 02:35) FLV | BLV LEO",
+                  "id": "content-65",
+                  "name": "Westchester Flames vs Staten Island ASC (2026-06-01 06:00) FLV | BLV VÕ TÒNG",
                   "streams": [
                     {
-                      "id": "stream-91",
+                      "id": "stream-65",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-91-1",
+                          "id": "lnk-65-1",
                           "name": "Link 1",
                           "type": "flv",
                           "default": true,
-                          "url": "https://flv.cdnfaster-a.live/live/LEO.flv?expire=1923642660&sign=58990a132e2f8d3f764c947b95b28af6",
+                          "url": "https://flv.cdnfaster-a.live/live/VOTONG.flv?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299",
+                          "headers": {
+                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "channel-66",
+          "name": "Brazil vs Panama (2026-06-01 04:30) | BLV VƯƠNG LUÂN",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/672_165018879430.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-66",
+              "name": "Tổng Hợp",
+              "contents": [
+                {
+                  "id": "content-66",
+                  "name": "Brazil vs Panama (2026-06-01 04:30) | BLV VƯƠNG LUÂN",
+                  "streams": [
+                    {
+                      "id": "stream-66",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-66-1",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/VUONGLUAN/index.m3u8?expire=1893165900&sign=60fcb5252d4dafeac0cb5da922c56645",
+                          "headers": {
+                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "channel-67",
+          "name": "Brazil vs Panama (2026-06-01 04:30) FLV | BLV VƯƠNG LUÂN",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/672_165018879430.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-67",
+              "name": "Tổng Hợp",
+              "contents": [
+                {
+                  "id": "content-67",
+                  "name": "Brazil vs Panama (2026-06-01 04:30) FLV | BLV VƯƠNG LUÂN",
+                  "streams": [
+                    {
+                      "id": "stream-67",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-67-1",
+                          "name": "Link 1",
+                          "type": "flv",
+                          "default": true,
+                          "url": "https://flv.cdnfaster-a.live/live/VUONGLUAN.flv?expire=1893165900&sign=60fcb5252d4dafeac0cb5da922c56645",
                           "headers": {
                             "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
                           }
@@ -4912,15 +3604,15 @@
       ]
     },
     {
-      "id": "khandaia",
-      "name": "KHAN DAI A",
+      "id": "socosport",
+      "name": "SOCO SPORT",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "channel-92",
-          "name": "03:30 | Belgium W vs Poland W",
+          "id": "channel-68",
+          "name": "[21:00] Red Bull Bragantino vs Internacional - RS | BLV GÔN",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -4928,7 +3620,7 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://static.flashscore.com/res/image/data/QJWQSoYg-CUoVGnpd.png",
+            "url": "https://sta.vnres.co/file/common/20260528/23243a70d700427e7559fd31609a48fe.png",
             "width": 1600,
             "height": 1200
           },
@@ -4942,23 +3634,297 @@
           ],
           "sources": [
             {
-              "id": "src-92",
+              "id": "src-68",
               "name": "Tổng Hợp",
               "contents": [
                 {
-                  "id": "content-92",
-                  "name": "03:30 | Belgium W vs Poland W",
+                  "id": "content-68",
+                  "name": "[21:00] Red Bull Bragantino vs Internacional - RS | BLV GÔN",
                   "streams": [
                     {
-                      "id": "stream-92",
+                      "id": "stream-68",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-92-1",
+                          "id": "lnk-68-1",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://q9kh24w2ba.yarncdn.live/live/kda-blv-nui/playlist.m3u8",
+                          "url": "https://pull.niur.live/live/stream-445260_lhd.m3u8?txSecret=2f58663d014d92638a10ffc9f7021001&txTime=6a1d0dd0",
+                          "headers": {
+                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "channel-69",
+          "name": "[21:00] Czechia vs Kosovo | CR Bưởi",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://sta.vnres.co/file/common/20260528/a49122d1a62fc612fda9c92678dd4be1.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-69",
+              "name": "Tổng Hợp",
+              "contents": [
+                {
+                  "id": "content-69",
+                  "name": "[21:00] Czechia vs Kosovo | CR Bưởi",
+                  "streams": [
+                    {
+                      "id": "stream-69",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-69-1",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pull.niues.live/live/stream-387694_lhd.m3u8?auth_key=1780246697-0-0-7a70650995065591d62aa7e8a802dbc5",
+                          "headers": {
+                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "channel-70",
+          "name": "[21:00] Brighton & Hove Albion Women vs Manchester City Women | BLV A TÚ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://sta.vnres.co/file/common/20260528/4240a4c6e449349d1ab01647d3e9ef5f.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-70",
+              "name": "Tổng Hợp",
+              "contents": [
+                {
+                  "id": "content-70",
+                  "name": "[21:00] Brighton & Hove Albion Women vs Manchester City Women | BLV A TÚ",
+                  "streams": [
+                    {
+                      "id": "stream-70",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-70-1",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pull.niues.live/live/stream-557845_lhd.m3u8?auth_key=1780246852-0-0-44e63ff3d79706010471e6ab0864d4f1",
+                          "headers": {
+                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "channel-71",
+          "name": "[22:30] Poland vs Ukraine | HÀ DUY KIÊN",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://sta.vnres.co/file/common/20260528/691436c541efc7fcda1ec8052045f808.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-71",
+              "name": "Tổng Hợp",
+              "contents": [
+                {
+                  "id": "content-71",
+                  "name": "[22:30] Poland vs Ukraine | HÀ DUY KIÊN",
+                  "streams": [
+                    {
+                      "id": "stream-71",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-71-1",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pull.niues.live/live/stream-607400_lhd.m3u8?auth_key=1780270976-0-0-a5628f920b7e1a7803eeb1740dcf6d8a",
+                          "headers": {
+                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "colatv",
+      "name": "CO LA TV",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "channel-72",
+          "name": "04:30 | Brazil vs Panama",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://img.colatv88xd.cc/football/team/99bf3d153d4bf67d640051a1af322505.png!w80",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-72",
+              "name": "Tổng Hợp",
+              "contents": [
+                {
+                  "id": "content-72",
+                  "name": "04:30 | Brazil vs Panama",
+                  "streams": [
+                    {
+                      "id": "stream-72",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-72-1",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live05.msdht.app/live/90725470.m3u8",
+                          "headers": {
+                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "channel-73",
+          "name": "06:30 | Remo Belem vs Sao Paulo",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://img.colatv88xd.cc/football/team/fb9a4cf4290646122b3afe17bd914737.png!w80",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-73",
+              "name": "Tổng Hợp",
+              "contents": [
+                {
+                  "id": "content-73",
+                  "name": "06:30 | Remo Belem vs Sao Paulo",
+                  "streams": [
+                    {
+                      "id": "stream-73",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-73-1",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live05.msdht.app/live/14707124.m3u8",
                           "headers": {
                             "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
                           }
@@ -4981,60 +3947,7 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "channel-93",
-          "name": "⚽ USA vs Senegal | 02:35",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://apithethao1.vercel.app/api/match-thumb?home=USA&away=Senegal&homeLogo=https%3A%2F%2Fcdn-img.cdnokvip.com%2Flogos%2F690_165102965258.png&awayLogo=https%3A%2F%2Fcdn-img.cdnokvip.com%2Flogos%2F706_165018850327.png&time=02%3A35&league=International+Friendly&sport=B%C3%B3ng+%C4%91%C3%A1&status=%E2%97%8F+Live",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-93",
-              "name": "Tổng Hợp",
-              "contents": [
-                {
-                  "id": "content-93",
-                  "name": "⚽ USA vs Senegal | 02:35",
-                  "streams": [
-                    {
-                      "id": "stream-93",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-93-1",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LEO/index.m3u8?expire=1923642660&sign=58990a132e2f8d3f764c947b95b28af6",
-                          "headers": {
-                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "channel-94",
+          "id": "channel-74",
           "name": "⚽ Brazil vs Panama | 04:30",
           "type": "single",
           "display": "thumbnail-only",
@@ -5057,19 +3970,19 @@
           ],
           "sources": [
             {
-              "id": "src-94",
+              "id": "src-74",
               "name": "Tổng Hợp",
               "contents": [
                 {
-                  "id": "content-94",
+                  "id": "content-74",
                   "name": "⚽ Brazil vs Panama | 04:30",
                   "streams": [
                     {
-                      "id": "stream-94",
+                      "id": "stream-74",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-94-1",
+                          "id": "lnk-74-1",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -5087,7 +4000,7 @@
           ]
         },
         {
-          "id": "channel-95",
+          "id": "channel-75",
           "name": "⚽ Brazil vs Panama | 04:30",
           "type": "single",
           "display": "thumbnail-only",
@@ -5110,19 +4023,19 @@
           ],
           "sources": [
             {
-              "id": "src-95",
+              "id": "src-75",
               "name": "Tổng Hợp",
               "contents": [
                 {
-                  "id": "content-95",
+                  "id": "content-75",
                   "name": "⚽ Brazil vs Panama | 04:30",
                   "streams": [
                     {
-                      "id": "stream-95",
+                      "id": "stream-75",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-95-1",
+                          "id": "lnk-75-1",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
