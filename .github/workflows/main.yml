@@ -1,52 +1,47 @@
 name: Tự động lọc link khi xem_football có cập nhật
 
 on:
-  workflow_run:
-    workflows: ["Tín hiệu kích hoạt từ xem_football"] # Tên chính xác của file workflow bên kho xem_football
-    types:
-      - completed # Thức dậy chạy ngay khi file kích hoạt bên kia vừa chạy xong
-  workflow_dispatch: # Cho phép bạn nhấn nút "Run workflow" để chạy bằng tay trên web bất cứ lúc nào
+  workflow_dispatch: # Đón nhận lệnh kích hoạt tức thì từ lệnh curl của kho xem_football
+                     # Đồng thời giữ lại nút bấm trên giao diện web để bạn test thủ công
 
 permissions:
-  contents: write # Quyền tối cao cho phép Bot tự ghi file sạch vào chính nó mà không cần TOKEN cấu hình tay
+  contents: write # Quyền tự ghi file sạch TVlive.m3u vào chính nó (Không cần Token)
 
 jobs:
   check-and-save:
     runs-on: ubuntu-latest
-    # Chỉ chạy nếu workflow bên kho xem_football trước đó chạy thành công tốt đẹp HOẶC khi bấm chạy bằng tay
-    if: ${{ github.event.workflow_run.conclusion == 'success' || github.event_name == 'workflow_dispatch' }}
-    timeout-minutes: 5 # Giới hạn 5 phút chống kẹt luồng (thực tế chạy mất ~30 giây)
+    timeout-minutes: 5
 
     steps:
       # 1. Kéo mã nguồn của chính kho xembongda về máy chủ ảo
       - name: Checkout kho xembongda
         uses: actions/checkout@v4
 
-      # 2. KÉO THẲNG KHO xem_football VỀ Ổ CỨNG CỤC BỘ (Tốc độ đọc tức thì, bỏ qua nghẽn mạng CDN)
+      # 2. Kéo kho xem_football về ổ cứng cục bộ để Python đọc trực tiếp (Mất 0.01s)
       - name: Checkout kho xem_football để lấy file trực tiếp
         uses: actions/checkout@v4
         with:
           repository: huybuonvp/xem_football
-          path: xem_football_folder # Tải toàn bộ kho xem_football vào thư mục này để Python đọc trực tiếp từ ổ cứng
+          path: xem_football_folder
 
-      # 3. TẠO FILE MỒI: Đưa bước này lên đầu để tránh lỗi "No file matched" khi bật Cache
+      # 3. Tạo file requirements.txt mồi để làm căn cứ nạp bộ nhớ đệm
       - name: Khởi tạo file requirements.txt mồi
         run: echo "requests==2.32.3" > requirements.txt
 
-      # 4. Khởi tạo Python và BẬT TÍNH NĂNG CACHE PIP (Bây giờ hệ thống quét sẽ thấy file requirements.txt ngay)
+      # 4. Khởi tạo Python và nạp Cache thư viện cũ
       - name: Cài đặt Python và Bật Cache Pip
         uses: actions/setup-python@v5
         with:
           python-version: '3.10'
-          cache: 'pip' # Ép GitHub giữ lại bản cài thư viện cũ từ chu kỳ trước, không tốn thời gian tải lại
+          cache: 'pip'
 
-      # 5. Tiến hành cài đặt nâng cấp thư viện siêu tốc từ file mồi
+      # 5. Cài đặt thư viện nâng cao (sử dụng cache siêu tốc)
       - name: Cài đặt thư viện nâng cao
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      # 6. Chạy mã kiểm tra live (Đọc file thô trực tiếp từ ổ cứng với tốc độ 0.01s)
+      # 6. Chạy mã kiểm tra live giữ nguyên 100% thứ tự thời gian gốc (~30 giây)
       - name: Chạy mã kiểm tra live siêu tốc
         run: python check_live.py
 
@@ -56,14 +51,14 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-      # 8. Kiểm tra sự thay đổi của file sạch TVlive.m3u và tự động đẩy lên chính kho xembongda không cần Token
+      # 8. Tự động đẩy file TVlive.m3u sạch lên hệ thống
       - name: Tự cập nhật TVlive.m3u lên kho xembongda
         run: |
           git add TVlive.m3u
           if ! git diff --cached --quiet; then
             git commit -m "GitHub Actions: Đồng bộ siêu tốc TVlive.m3u [skip ci]"
             git push origin main
-            echo "[SUCCESS] Đã cập nhật và push file TVlive.m3u thành công không cần Token!"
+            echo "[SUCCESS] Đã cập nhật file TVlive.m3u thành công!"
           else
-            echo "[INFO] Nội dung danh sách kênh không thay đổi. Bỏ qua push."
+            echo "[INFO] Kênh không có sự thay đổi. Bỏ qua push."
           fi
