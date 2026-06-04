@@ -79,7 +79,7 @@ def main():
     alive_items = []
     
     # Tiến hành quét đa luồng siêu tốc
-    with ThreadPoolExecutor(max_workers=30) as executor:
+    with ThreadPoolExecutor(max_workers=50) as executor:
         futures = {executor.submit(is_working_stream, item["url"]): item for item in raw_data}
         for future in futures:
             item = futures[future]
