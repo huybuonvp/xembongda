@@ -1,16 +1,20 @@
 name: Tự động lọc link khi xem_football có cập nhật
 
 on:
-  repository_dispatch:
-    types: [pc_updated_files] # Lắng nghe tín hiệu mang tên "pc_updated_files" từ kho xem_football gửi sang
-  workflow_dispatch: # Giữ nút này để bấm chạy bằng tay khi cần test
+  workflow_run:
+    workflows: ["Tín hiệu kích hoạt từ xem_football"] # Tên chính xác của file workflow bên kho xem_football
+    types:
+      - completed # Thức dậy chạy ngay khi file kích hoạt bên kia vừa chạy xong
+  workflow_dispatch: # Nút bấm chạy bằng tay để test
 
 permissions:
-  contents: write # Quyền tự ghi file sạch vào chính nó mà không cần TOKEN cấu hình tay
+  contents: write # Quyền tự ghi file sạch vào chính nó (Không cần Token)
 
 jobs:
   check-and-save:
     runs-on: ubuntu-latest
+    # Chỉ chạy nếu workflow bên kho xem_football chạy thành công tốt đẹp
+    if: ${{ github.event.workflow_run.conclusion == 'success' || github.event_name == 'workflow_dispatch' }}
     timeout-minutes: 10
 
     steps:
@@ -39,9 +43,9 @@ jobs:
         run: |
           git add TVlive.m3u
           if ! git diff --cached --quiet; then
-            git commit -m "GitHub Actions: Nhận tín hiệu từ xem_football - Cập nhật TVlive.m3u [skip ci]"
+            git commit -m "GitHub Actions: Đồng bộ TVlive.m3u theo xem_football [skip ci]"
             git push origin main
-            echo "Đã push file TVlive.m3u thành công!"
+            echo "Đã push file TVlive.m3u thành công không cần Token!"
           else
             echo "Nội dung kênh không có sự thay đổi."
           fi
