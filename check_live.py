@@ -5,8 +5,8 @@ from requests.adapters import HTTPAdapter
 from concurrent.futures import ThreadPoolExecutor
 
 # Cấu hình tối ưu tốc độ check luồng
-STREAM_TIMEOUT = 4.5
-MAX_RETRIES = 2
+STREAM_TIMEOUT = 2
+MAX_RETRIES = 1
 USER_AGENT_TV = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
 
 # ĐƯỜNG DẪN ĐỌC FILE TRỰC TIẾP TRÊN Ổ CỨNG MÁY CHỦ GITHUB ACTIONS
