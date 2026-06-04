@@ -2,36 +2,44 @@ name: Tự động lọc link khi xem_football có cập nhật
 
 on:
   workflow_run:
-    workflows: ["Tín hiệu kích hoạt từ xem_football"] # Tên chính xác của file workflow bên kho xem_football
+    workflows: ["Tín hiệu kích hoạt từ xem_football"]
     types:
-      - completed # Thức dậy chạy ngay khi file kích hoạt bên kia vừa chạy xong
-  workflow_dispatch: # Nút bấm chạy bằng tay để test
+      - completed
+  workflow_dispatch:
 
 permissions:
-  contents: write # Quyền tự ghi file sạch vào chính nó (Không cần Token)
+  contents: write
 
 jobs:
   check-and-save:
     runs-on: ubuntu-latest
-    # Chỉ chạy nếu workflow bên kho xem_football chạy thành công tốt đẹp
     if: ${{ github.event.workflow_run.conclusion == 'success' || github.event_name == 'workflow_dispatch' }}
-    timeout-minutes: 10
+    timeout-minutes: 5
 
     steps:
-      - name: Checkout mã nguồn kho xembongda
+      # 1. Kéo mã nguồn của chính kho xembongda về
+      - name: Checkout kho xembongda
         uses: actions/checkout@v4
+
+      # 2. KÉO THẲNG KHO xem_football VỀ Ổ CỨNG (Vì là Public nên không cần Token)
+      - name: Checkout kho xem_football để lấy file trực tiếp
+        uses: actions/checkout@v4
+        with:
+          repository: huybuonvp/xem_football
+          path: xem_football_folder # Tải toàn bộ kho xem_football vào thư mục này
 
       - name: Cài đặt Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.10'
 
-      - name: Cài đặt thư viện cần thiết
+      - name: Cài đặt thư viện
         run: |
           python -m pip install --upgrade pip
           pip install requests
 
-      - name: Chạy mã kiểm tra live để sinh ra file TVlive.m3u sạch
+      # 3. Chạy mã kiểm tra live (Đọc trực tiếp từ ổ cứng)
+      - name: Chạy mã kiểm tra live
         run: python check_live.py
 
       - name: Cấu hình Git hệ thống
@@ -43,9 +51,9 @@ jobs:
         run: |
           git add TVlive.m3u
           if ! git diff --cached --quiet; then
-            git commit -m "GitHub Actions: Đồng bộ TVlive.m3u theo xem_football [skip ci]"
+            git commit -m "GitHub Actions: Đồng bộ siêu tốc TVlive.m3u [skip ci]"
             git push origin main
-            echo "Đã push file TVlive.m3u thành công không cần Token!"
+            echo "Đã push thành công!"
           else
-            echo "Nội dung kênh không có sự thay đổi."
+            echo "Nội dung kênh không thay đổi."
           fi
