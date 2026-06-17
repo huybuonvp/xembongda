@@ -5,7 +5,7 @@ from urllib3.util.retry import Retry
 from concurrent.futures import ThreadPoolExecutor
 
 # --- CẤU HÌNH TỐI ƯU ---
-STREAM_TIMEOUT = 2.0  # Tăng nhẹ lên 2s để giảm tỉ lệ "chết oan" do mạng lag
+STREAM_TIMEOUT = 3.5  # Tăng nhẹ lên 3.5s để giảm tỉ lệ "chết oan" do mạng lag
 MAX_WORKERS = 50      # 50-60 là con số an toàn cho GitHub Actions
 LOCAL_M3U_PATH = "xem_football_folder/All_CHANNEL.m3u"
 OUTPUT_M3U_PATH = "TVlive.m3u"
@@ -18,28 +18,30 @@ session.mount("http://", adapter)
 session.mount("https://", adapter)
 
 def is_working_stream(url: str) -> bool:
-    """Kiểm tra link stream với cơ chế reuse connection"""
+    """Kiểm tra link stream tối ưu riêng cho link proxy/IPTV"""
     if not url or not url.startswith(("http://", "https://")):
         return False
     
     headers = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
         "Accept": "*/*",
-        "Connection": "keep-alive"
+        "Connection": "keep-alive",
+        "Range": "bytes=0-1024" # Giới hạn data tải về để tránh nặng mạng
     }
 
     try:
-        # Ưu tiên HEAD để check nhanh
-        response = session.head(url, headers=headers, timeout=STREAM_TIMEOUT, allow_redirects=True)
-        if response.status_code in [200, 206, 301, 302]:
-            return True
+        # Dùng thẳng GET với stream=True để bypass các server chặn HEAD
+        with session.get(url, headers=headers, timeout=STREAM_TIMEOUT, stream=True, allow_redirects=True) as response:
+            # Chấp nhận các mã thành công thông thường của luồng stream
+            if response.status_code in [200, 206]:
+                return True
             
-        # Nếu bị chặn HEAD (403, 405), thử GET lấy vài byte đầu
-        if response.status_code in [403, 405]:
-            headers["Range"] = "bytes=0-1024"
-            with session.get(url, headers=headers, timeout=STREAM_TIMEOUT, stream=True) as r:
-                return r.status_code in [200, 206]
-        
+            # Một số proxy trả về 403/405 do headers Range, thử lại GET thuần không kèm Range
+            if response.status_code in [403, 405, 400]:
+                headers.pop("Range", None)
+                with session.get(url, headers=headers, timeout=STREAM_TIMEOUT, stream=True, allow_redirects=True) as r2:
+                    return r2.status_code in [200, 206]
+                    
         return False
     except Exception:
         return False
