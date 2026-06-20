@@ -46,13 +46,14 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-      # 7. Tự động đẩy file TVlive.m3u sạch lên hệ thống
+      # 7. Tự động đẩy file TVlive.m3u sạch lên hệ thống (Đã sửa lỗi kích hoạt lực lượng)
       - name: Tự cập nhật TVlive.m3u lên kho xembongda
         run: |
           git add TVlive.m3u
           if ! git diff --cached --quiet; then
             git commit -m "GitHub Actions: Đồng bộ siêu tốc TVlive.m3u [skip ci]"
-            git push origin main
+            # ĐÃ THAY ĐỔI: Thêm --force để ép ghi đè file m3u sạch lên kho lưu trữ, bỏ qua check xung đột lịch sử
+            git push origin main --force
             echo "[SUCCESS] Đã cập nhật file TVlive.m3u thành công!"
           else
             echo "[INFO] Kênh không có sự thay đổi. Bỏ qua push."
