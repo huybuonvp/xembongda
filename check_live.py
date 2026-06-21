@@ -5,15 +5,16 @@ from urllib3.util.retry import Retry
 from concurrent.futures import ThreadPoolExecutor
 
 # --- CẤU HÌNH TỐI ƯU ---
-STREAM_TIMEOUT = 3.5  # Tăng nhẹ lên 3.5s để giảm tỉ lệ "chết oan" do mạng lag
-MAX_WORKERS = 50      # 50-60 là con số an toàn cho GitHub Actions
+STREAM_TIMEOUT = 2.0  # Phản hồi quá 2 giây => Coi như chết để giải phóng luồng ngay lập tức
+MAX_WORKERS = 60      # 60 luồng là con số an toàn, ổn định cho GitHub Actions
 LOCAL_M3U_PATH = "xem_football_folder/All_CHANNEL.m3u"
 OUTPUT_M3U_PATH = "TVlive.m3u"
 
 # Tạo một Session dùng chung cho toàn bộ ứng dụng (Cực kỳ quan trọng để tăng tốc)
 session = requests.Session()
-retries = Retry(total=1, backoff_factor=0.1, status_forcelist=[500, 502, 503, 504])
-adapter = HTTPAdapter(pool_connections=MAX_WORKERS, pool_maxsize=MAX_WORKERS, max_retries=retries)
+
+# ĐÃ SỬA: Bỏ hoàn toàn tham số max_retries để tắt tính năng thử lại, tránh lỗi NameError
+adapter = HTTPAdapter(pool_connections=MAX_WORKERS, pool_maxsize=MAX_WORKERS)
 session.mount("http://", adapter)
 session.mount("https://", adapter)
 
