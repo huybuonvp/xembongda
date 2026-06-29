@@ -5,7 +5,7 @@ from concurrent.futures import ThreadPoolExecutor
 from urllib.parse import urlparse
 
 # --- CẤU HÌNH TỐI ƯU CẬP NHẬT ---
-STREAM_TIMEOUT = 5.0  # Tăng lên 5s để tránh mất link phản hồi chậm
+STREAM_TIMEOUT = 3.0  # Tăng lên 5s để tránh mất link phản hồi chậm
 MAX_WORKERS = 50      # Luồng an toàn, ổn định cho GitHub Actions
 LOCAL_M3U_PATH = "xem_football_folder/All_CHANNEL.m3u"
 OUTPUT_M3U_PATH = "TVlive.m3u"
