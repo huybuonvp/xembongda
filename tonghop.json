@@ -3224,6 +3224,280 @@
       ]
     },
     {
+      "id": "lstvsport",
+      "name": "LSTV SPORT",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "channel-60",
+          "name": "[02:00] CD Magallanes vs Palestino | BLV BLV PHI HỔ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/7789_1gtzctyqwq1b.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-60",
+              "name": "Tổng Hợp",
+              "contents": [
+                {
+                  "id": "content-60",
+                  "name": "[02:00] CD Magallanes vs Palestino | BLV BLV PHI HỔ",
+                  "streams": [
+                    {
+                      "id": "stream-60",
+                      "name": "Link Gốc",
+                      "stream_links": [
+                        {
+                          "id": "lnk-60",
+                          "name": "Link Phát",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f",
+                          "headers": {
+                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "channel-61",
+          "name": "[01:30] Defensores de Belgrano vs Deportivo Moron | BLV BLV GẤU KA",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/11032_1grcyh5d8n1x.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-61",
+              "name": "Tổng Hợp",
+              "contents": [
+                {
+                  "id": "content-61",
+                  "name": "[01:30] Defensores de Belgrano vs Deportivo Moron | BLV BLV GẤU KA",
+                  "streams": [
+                    {
+                      "id": "stream-61",
+                      "name": "Link Gốc",
+                      "stream_links": [
+                        {
+                          "id": "lnk-61",
+                          "name": "Link Phát",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/GAUKA/index.m3u8?expire=2530553700&sign=778587d85b2551e2baa61a02917ace14",
+                          "headers": {
+                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "channel-62",
+          "name": "[01:30] Temperley vs Tristan Suarez | BLV BLV HEINEKEN",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/11699_1grcyh5d8n1h.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-62",
+              "name": "Tổng Hợp",
+              "contents": [
+                {
+                  "id": "content-62",
+                  "name": "[01:30] Temperley vs Tristan Suarez | BLV BLV HEINEKEN",
+                  "streams": [
+                    {
+                      "id": "stream-62",
+                      "name": "Link Gốc",
+                      "stream_links": [
+                        {
+                          "id": "lnk-62",
+                          "name": "Link Phát",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/HEINEKEN/index.m3u8?expire=2530639860&sign=03a2e74c3447f79f8c6e80a8fa2ee0b6",
+                          "headers": {
+                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "channel-63",
+          "name": "[00:00] Canada vs Morocco | BLV BLV LEO",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/688_165018903917.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-63",
+              "name": "Tổng Hợp",
+              "contents": [
+                {
+                  "id": "content-63",
+                  "name": "[00:00] Canada vs Morocco | BLV BLV LEO",
+                  "streams": [
+                    {
+                      "id": "stream-63",
+                      "name": "Link Gốc",
+                      "stream_links": [
+                        {
+                          "id": "lnk-63",
+                          "name": "Link Phát",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LEO/index.m3u8?expire=1923642660&sign=58990a132e2f8d3f764c947b95b28af6",
+                          "headers": {
+                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "channel-64",
+          "name": "[00:00] Canada vs Morocco | BLV BLV KEVILL",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/688_165018903917.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-64",
+              "name": "Tổng Hợp",
+              "contents": [
+                {
+                  "id": "content-64",
+                  "name": "[00:00] Canada vs Morocco | BLV BLV KEVILL",
+                  "streams": [
+                    {
+                      "id": "stream-64",
+                      "name": "Link Gốc",
+                      "stream_links": [
+                        {
+                          "id": "lnk-64",
+                          "name": "Link Phát",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/KEVILL/index.m3u8?expire=1788427256&sign=189afcf7f800d4c6c8a5aa97649a110799",
+                          "headers": {
+                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "colatv",
       "name": "CO LA TV",
       "display": "vertical",
@@ -3231,7 +3505,7 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "channel-60",
+          "id": "channel-65",
           "name": "[00:00] Canada vs Ma Rốc | BLV C2",
           "type": "single",
           "display": "thumbnail-only",
@@ -3254,19 +3528,19 @@
           ],
           "sources": [
             {
-              "id": "src-60",
+              "id": "src-65",
               "name": "Tổng Hợp",
               "contents": [
                 {
-                  "id": "content-60",
+                  "id": "content-65",
                   "name": "[00:00] Canada vs Ma Rốc | BLV C2",
                   "streams": [
                     {
-                      "id": "stream-60",
+                      "id": "stream-65",
                       "name": "Link Gốc",
                       "stream_links": [
                         {
-                          "id": "lnk-60",
+                          "id": "lnk-65",
                           "name": "Link Phát",
                           "type": "hls",
                           "default": true,
@@ -3284,7 +3558,7 @@
           ]
         },
         {
-          "id": "channel-61",
+          "id": "channel-66",
           "name": "[00:00] Canada vs Ma Rốc | BLV 7UP",
           "type": "single",
           "display": "thumbnail-only",
@@ -3307,19 +3581,19 @@
           ],
           "sources": [
             {
-              "id": "src-61",
+              "id": "src-66",
               "name": "Tổng Hợp",
               "contents": [
                 {
-                  "id": "content-61",
+                  "id": "content-66",
                   "name": "[00:00] Canada vs Ma Rốc | BLV 7UP",
                   "streams": [
                     {
-                      "id": "stream-61",
+                      "id": "stream-66",
                       "name": "Link Gốc",
                       "stream_links": [
                         {
-                          "id": "lnk-61",
+                          "id": "lnk-66",
                           "name": "Link Phát",
                           "type": "hls",
                           "default": true,
@@ -3337,7 +3611,7 @@
           ]
         },
         {
-          "id": "channel-62",
+          "id": "channel-67",
           "name": "[00:00] Canada vs Ma Rốc | BLV COCA",
           "type": "single",
           "display": "thumbnail-only",
@@ -3360,19 +3634,19 @@
           ],
           "sources": [
             {
-              "id": "src-62",
+              "id": "src-67",
               "name": "Tổng Hợp",
               "contents": [
                 {
-                  "id": "content-62",
+                  "id": "content-67",
                   "name": "[00:00] Canada vs Ma Rốc | BLV COCA",
                   "streams": [
                     {
-                      "id": "stream-62",
+                      "id": "stream-67",
                       "name": "Link Gốc",
                       "stream_links": [
                         {
-                          "id": "lnk-62",
+                          "id": "lnk-67",
                           "name": "Link Phát",
                           "type": "hls",
                           "default": true,
@@ -3390,7 +3664,7 @@
           ]
         },
         {
-          "id": "channel-63",
+          "id": "channel-68",
           "name": "[00:00] Canada vs Ma Rốc | BLV GIÀ LÀNG",
           "type": "single",
           "display": "thumbnail-only",
@@ -3413,19 +3687,19 @@
           ],
           "sources": [
             {
-              "id": "src-63",
+              "id": "src-68",
               "name": "Tổng Hợp",
               "contents": [
                 {
-                  "id": "content-63",
+                  "id": "content-68",
                   "name": "[00:00] Canada vs Ma Rốc | BLV GIÀ LÀNG",
                   "streams": [
                     {
-                      "id": "stream-63",
+                      "id": "stream-68",
                       "name": "Link Gốc",
                       "stream_links": [
                         {
-                          "id": "lnk-63",
+                          "id": "lnk-68",
                           "name": "Link Phát",
                           "type": "hls",
                           "default": true,
@@ -3443,7 +3717,113 @@
           ]
         },
         {
-          "id": "channel-64",
+          "id": "channel-69",
+          "name": "[02:00] Gremio Novorizontin vs Atletico Clube Goianiense | BLV MOUNTAIN DEW",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://img.gvapi.cc/football/team/87668a20b488fbb0e1fcb9210165cfd8.png!w80",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-69",
+              "name": "Tổng Hợp",
+              "contents": [
+                {
+                  "id": "content-69",
+                  "name": "[02:00] Gremio Novorizontin vs Atletico Clube Goianiense | BLV MOUNTAIN DEW",
+                  "streams": [
+                    {
+                      "id": "stream-69",
+                      "name": "Link Gốc",
+                      "stream_links": [
+                        {
+                          "id": "lnk-69",
+                          "name": "Link Phát",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live05.koepgd.app/live/87547578.m3u8",
+                          "headers": {
+                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "channel-70",
+          "name": "[02:00] Criciuma vs CLB Sport Club Recife PE | BLV PEPSI",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://img.gvapi.cc/football/team/1105c0c62d761d64b6f4c3e34f460278.png!w80",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-70",
+              "name": "Tổng Hợp",
+              "contents": [
+                {
+                  "id": "content-70",
+                  "name": "[02:00] Criciuma vs CLB Sport Club Recife PE | BLV PEPSI",
+                  "streams": [
+                    {
+                      "id": "stream-70",
+                      "name": "Link Gốc",
+                      "stream_links": [
+                        {
+                          "id": "lnk-70",
+                          "name": "Link Phát",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live05.koepgd.app/live/59444581.m3u8",
+                          "headers": {
+                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "channel-71",
           "name": "[04:00] Paraguay vs Pháp | BLV C2",
           "type": "single",
           "display": "thumbnail-only",
@@ -3466,19 +3846,19 @@
           ],
           "sources": [
             {
-              "id": "src-64",
+              "id": "src-71",
               "name": "Tổng Hợp",
               "contents": [
                 {
-                  "id": "content-64",
+                  "id": "content-71",
                   "name": "[04:00] Paraguay vs Pháp | BLV C2",
                   "streams": [
                     {
-                      "id": "stream-64",
+                      "id": "stream-71",
                       "name": "Link Gốc",
                       "stream_links": [
                         {
-                          "id": "lnk-64",
+                          "id": "lnk-71",
                           "name": "Link Phát",
                           "type": "hls",
                           "default": true,
@@ -3496,7 +3876,7 @@
           ]
         },
         {
-          "id": "channel-65",
+          "id": "channel-72",
           "name": "[04:00] Paraguay vs Pháp | BLV 7UP",
           "type": "single",
           "display": "thumbnail-only",
@@ -3519,19 +3899,19 @@
           ],
           "sources": [
             {
-              "id": "src-65",
+              "id": "src-72",
               "name": "Tổng Hợp",
               "contents": [
                 {
-                  "id": "content-65",
+                  "id": "content-72",
                   "name": "[04:00] Paraguay vs Pháp | BLV 7UP",
                   "streams": [
                     {
-                      "id": "stream-65",
+                      "id": "stream-72",
                       "name": "Link Gốc",
                       "stream_links": [
                         {
-                          "id": "lnk-65",
+                          "id": "lnk-72",
                           "name": "Link Phát",
                           "type": "hls",
                           "default": true,
@@ -3549,7 +3929,7 @@
           ]
         },
         {
-          "id": "channel-66",
+          "id": "channel-73",
           "name": "[04:00] Paraguay vs Pháp | BLV COCA",
           "type": "single",
           "display": "thumbnail-only",
@@ -3572,19 +3952,19 @@
           ],
           "sources": [
             {
-              "id": "src-66",
+              "id": "src-73",
               "name": "Tổng Hợp",
               "contents": [
                 {
-                  "id": "content-66",
+                  "id": "content-73",
                   "name": "[04:00] Paraguay vs Pháp | BLV COCA",
                   "streams": [
                     {
-                      "id": "stream-66",
+                      "id": "stream-73",
                       "name": "Link Gốc",
                       "stream_links": [
                         {
-                          "id": "lnk-66",
+                          "id": "lnk-73",
                           "name": "Link Phát",
                           "type": "hls",
                           "default": true,
@@ -3602,7 +3982,7 @@
           ]
         },
         {
-          "id": "channel-67",
+          "id": "channel-74",
           "name": "[04:00] Paraguay vs Pháp | BLV GIÀ LÀNG",
           "type": "single",
           "display": "thumbnail-only",
@@ -3625,19 +4005,19 @@
           ],
           "sources": [
             {
-              "id": "src-67",
+              "id": "src-74",
               "name": "Tổng Hợp",
               "contents": [
                 {
-                  "id": "content-67",
+                  "id": "content-74",
                   "name": "[04:00] Paraguay vs Pháp | BLV GIÀ LÀNG",
                   "streams": [
                     {
-                      "id": "stream-67",
+                      "id": "stream-74",
                       "name": "Link Gốc",
                       "stream_links": [
                         {
-                          "id": "lnk-67",
+                          "id": "lnk-74",
                           "name": "Link Phát",
                           "type": "hls",
                           "default": true,
@@ -3655,7 +4035,7 @@
           ]
         },
         {
-          "id": "channel-68",
+          "id": "channel-75",
           "name": "[12:30] South Melbourne vs Dandenong Thunder | BLV C2",
           "type": "single",
           "display": "thumbnail-only",
@@ -3678,19 +4058,19 @@
           ],
           "sources": [
             {
-              "id": "src-68",
+              "id": "src-75",
               "name": "Tổng Hợp",
               "contents": [
                 {
-                  "id": "content-68",
+                  "id": "content-75",
                   "name": "[12:30] South Melbourne vs Dandenong Thunder | BLV C2",
                   "streams": [
                     {
-                      "id": "stream-68",
+                      "id": "stream-75",
                       "name": "Link Gốc",
                       "stream_links": [
                         {
-                          "id": "lnk-68",
+                          "id": "lnk-75",
                           "name": "Link Phát",
                           "type": "hls",
                           "default": true,
@@ -3708,7 +4088,7 @@
           ]
         },
         {
-          "id": "channel-69",
+          "id": "channel-76",
           "name": "[16:00] Hà Nội Nữ vs Phong Phú Hà Nam Nữ | BLV GIÀ LÀNG",
           "type": "single",
           "display": "thumbnail-only",
@@ -3731,19 +4111,19 @@
           ],
           "sources": [
             {
-              "id": "src-69",
+              "id": "src-76",
               "name": "Tổng Hợp",
               "contents": [
                 {
-                  "id": "content-69",
+                  "id": "content-76",
                   "name": "[16:00] Hà Nội Nữ vs Phong Phú Hà Nam Nữ | BLV GIÀ LÀNG",
                   "streams": [
                     {
-                      "id": "stream-69",
+                      "id": "stream-76",
                       "name": "Link Gốc",
                       "stream_links": [
                         {
-                          "id": "lnk-69",
+                          "id": "lnk-76",
                           "name": "Link Phát",
                           "type": "hls",
                           "default": true,
@@ -3761,7 +4141,60 @@
           ]
         },
         {
-          "id": "channel-70",
+          "id": "channel-77",
+          "name": "[17:00] TKS Việt Nam Nữ vs Hồ Chí Minh Nữ | BLV MOUNTAIN DEW",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://img.gvapi.cc/football/team/4535b4701b1056d0ddef43d6a19d8884.png!w80",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-77",
+              "name": "Tổng Hợp",
+              "contents": [
+                {
+                  "id": "content-77",
+                  "name": "[17:00] TKS Việt Nam Nữ vs Hồ Chí Minh Nữ | BLV MOUNTAIN DEW",
+                  "streams": [
+                    {
+                      "id": "stream-77",
+                      "name": "Link Gốc",
+                      "stream_links": [
+                        {
+                          "id": "lnk-77",
+                          "name": "Link Phát",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live05.koepgd.app/live/87547578.m3u8",
+                          "headers": {
+                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "channel-78",
           "name": "[17:30] Seoul vs Incheon United | BLV COCA",
           "type": "single",
           "display": "thumbnail-only",
@@ -3784,436 +4217,12 @@
           ],
           "sources": [
             {
-              "id": "src-70",
-              "name": "Tổng Hợp",
-              "contents": [
-                {
-                  "id": "content-70",
-                  "name": "[17:30] Seoul vs Incheon United | BLV COCA",
-                  "streams": [
-                    {
-                      "id": "stream-70",
-                      "name": "Link Gốc",
-                      "stream_links": [
-                        {
-                          "id": "lnk-70",
-                          "name": "Link Phát",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live05.koepgd.app/live/24561735.m3u8",
-                          "headers": {
-                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "channel-71",
-          "name": "[18:35] Shanghai Shenhua vs Zhejiang Professional | BLV 7UP",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://img.gvapi.cc/football/team/e8327d4681b4a73c83be9fe087b30721.png!w80",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-71",
-              "name": "Tổng Hợp",
-              "contents": [
-                {
-                  "id": "content-71",
-                  "name": "[18:35] Shanghai Shenhua vs Zhejiang Professional | BLV 7UP",
-                  "streams": [
-                    {
-                      "id": "stream-71",
-                      "name": "Link Gốc",
-                      "stream_links": [
-                        {
-                          "id": "lnk-71",
-                          "name": "Link Phát",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live05.koepgd.app/live/78905744.m3u8",
-                          "headers": {
-                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "channel-72",
-          "name": "[03:00] Brazil vs Na Uy | BLV C2",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://img.gvapi.cc/football/team/99bf3d153d4bf67d640051a1af322505.png!w80",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-72",
-              "name": "Tổng Hợp",
-              "contents": [
-                {
-                  "id": "content-72",
-                  "name": "[03:00] Brazil vs Na Uy | BLV C2",
-                  "streams": [
-                    {
-                      "id": "stream-72",
-                      "name": "Link Gốc",
-                      "stream_links": [
-                        {
-                          "id": "lnk-72",
-                          "name": "Link Phát",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live05.koepgd.app/live/08552895.m3u8",
-                          "headers": {
-                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "channel-73",
-          "name": "[03:00] Brazil vs Na Uy | BLV 7UP",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://img.gvapi.cc/football/team/99bf3d153d4bf67d640051a1af322505.png!w80",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-73",
-              "name": "Tổng Hợp",
-              "contents": [
-                {
-                  "id": "content-73",
-                  "name": "[03:00] Brazil vs Na Uy | BLV 7UP",
-                  "streams": [
-                    {
-                      "id": "stream-73",
-                      "name": "Link Gốc",
-                      "stream_links": [
-                        {
-                          "id": "lnk-73",
-                          "name": "Link Phát",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live05.koepgd.app/live/78905744.m3u8",
-                          "headers": {
-                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "channel-74",
-          "name": "[03:00] Brazil vs Na Uy | BLV COCA",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://img.gvapi.cc/football/team/99bf3d153d4bf67d640051a1af322505.png!w80",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-74",
-              "name": "Tổng Hợp",
-              "contents": [
-                {
-                  "id": "content-74",
-                  "name": "[03:00] Brazil vs Na Uy | BLV COCA",
-                  "streams": [
-                    {
-                      "id": "stream-74",
-                      "name": "Link Gốc",
-                      "stream_links": [
-                        {
-                          "id": "lnk-74",
-                          "name": "Link Phát",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live05.koepgd.app/live/24561735.m3u8",
-                          "headers": {
-                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "channel-75",
-          "name": "[03:00] Brazil vs Na Uy | BLV GIÀ LÀNG",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://img.gvapi.cc/football/team/99bf3d153d4bf67d640051a1af322505.png!w80",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-75",
-              "name": "Tổng Hợp",
-              "contents": [
-                {
-                  "id": "content-75",
-                  "name": "[03:00] Brazil vs Na Uy | BLV GIÀ LÀNG",
-                  "streams": [
-                    {
-                      "id": "stream-75",
-                      "name": "Link Gốc",
-                      "stream_links": [
-                        {
-                          "id": "lnk-75",
-                          "name": "Link Phát",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live05.koepgd.app/live/14830711.m3u8",
-                          "headers": {
-                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "channel-76",
-          "name": "[07:00] Mexico vs ĐTQG Anh | BLV C2",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://img.gvapi.cc/football/team/3653cce234494bfbd33e077f4a028f66.png!w80",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-76",
-              "name": "Tổng Hợp",
-              "contents": [
-                {
-                  "id": "content-76",
-                  "name": "[07:00] Mexico vs ĐTQG Anh | BLV C2",
-                  "streams": [
-                    {
-                      "id": "stream-76",
-                      "name": "Link Gốc",
-                      "stream_links": [
-                        {
-                          "id": "lnk-76",
-                          "name": "Link Phát",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live05.koepgd.app/live/08552895.m3u8",
-                          "headers": {
-                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "channel-77",
-          "name": "[07:00] Mexico vs ĐTQG Anh | BLV 7UP",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://img.gvapi.cc/football/team/3653cce234494bfbd33e077f4a028f66.png!w80",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-77",
-              "name": "Tổng Hợp",
-              "contents": [
-                {
-                  "id": "content-77",
-                  "name": "[07:00] Mexico vs ĐTQG Anh | BLV 7UP",
-                  "streams": [
-                    {
-                      "id": "stream-77",
-                      "name": "Link Gốc",
-                      "stream_links": [
-                        {
-                          "id": "lnk-77",
-                          "name": "Link Phát",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live05.koepgd.app/live/78905744.m3u8",
-                          "headers": {
-                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "channel-78",
-          "name": "[07:00] Mexico vs ĐTQG Anh | BLV COCA",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://img.gvapi.cc/football/team/3653cce234494bfbd33e077f4a028f66.png!w80",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
               "id": "src-78",
               "name": "Tổng Hợp",
               "contents": [
                 {
                   "id": "content-78",
-                  "name": "[07:00] Mexico vs ĐTQG Anh | BLV COCA",
+                  "name": "[17:30] Seoul vs Incheon United | BLV COCA",
                   "streams": [
                     {
                       "id": "stream-78",
@@ -4239,6 +4248,642 @@
         },
         {
           "id": "channel-79",
+          "name": "[18:00] Qingdao Hainiu FC vs Chengdu Rongcheng | BLV PEPSI",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://img.gvapi.cc/football/team/c1bc80f45a0bf86310ec6e56980c1757.png!w80",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-79",
+              "name": "Tổng Hợp",
+              "contents": [
+                {
+                  "id": "content-79",
+                  "name": "[18:00] Qingdao Hainiu FC vs Chengdu Rongcheng | BLV PEPSI",
+                  "streams": [
+                    {
+                      "id": "stream-79",
+                      "name": "Link Gốc",
+                      "stream_links": [
+                        {
+                          "id": "lnk-79",
+                          "name": "Link Phát",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live05.koepgd.app/live/59444581.m3u8",
+                          "headers": {
+                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "channel-80",
+          "name": "[18:35] Shanghai Shenhua vs Zhejiang Professional | BLV 7UP",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://img.gvapi.cc/football/team/e8327d4681b4a73c83be9fe087b30721.png!w80",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-80",
+              "name": "Tổng Hợp",
+              "contents": [
+                {
+                  "id": "content-80",
+                  "name": "[18:35] Shanghai Shenhua vs Zhejiang Professional | BLV 7UP",
+                  "streams": [
+                    {
+                      "id": "stream-80",
+                      "name": "Link Gốc",
+                      "stream_links": [
+                        {
+                          "id": "lnk-80",
+                          "name": "Link Phát",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live05.koepgd.app/live/78905744.m3u8",
+                          "headers": {
+                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "channel-81",
+          "name": "[19:00] Goteborg vs AIK | BLV MOUNTAIN DEW",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://img.gvapi.cc/football/team/41b828223947cae32e97c8cac45fb17f.png!w80",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-81",
+              "name": "Tổng Hợp",
+              "contents": [
+                {
+                  "id": "content-81",
+                  "name": "[19:00] Goteborg vs AIK | BLV MOUNTAIN DEW",
+                  "streams": [
+                    {
+                      "id": "stream-81",
+                      "name": "Link Gốc",
+                      "stream_links": [
+                        {
+                          "id": "lnk-81",
+                          "name": "Link Phát",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live05.koepgd.app/live/87547578.m3u8",
+                          "headers": {
+                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "channel-82",
+          "name": "[22:00] Ukraine U19 vs Ý U19 | BLV MOUNTAIN DEW",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://img.gvapi.cc/football/team/5de6f7a36339ef5bedc3dc8741a1e222.png!w80",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-82",
+              "name": "Tổng Hợp",
+              "contents": [
+                {
+                  "id": "content-82",
+                  "name": "[22:00] Ukraine U19 vs Ý U19 | BLV MOUNTAIN DEW",
+                  "streams": [
+                    {
+                      "id": "stream-82",
+                      "name": "Link Gốc",
+                      "stream_links": [
+                        {
+                          "id": "lnk-82",
+                          "name": "Link Phát",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live05.koepgd.app/live/87547578.m3u8",
+                          "headers": {
+                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "channel-83",
+          "name": "[22:30] Mikkelin vs Haka | BLV PEPSI",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://img.gvapi.cc/football/team/08b6972bad44440ed3171b4bf63451ce.png!w80",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-83",
+              "name": "Tổng Hợp",
+              "contents": [
+                {
+                  "id": "content-83",
+                  "name": "[22:30] Mikkelin vs Haka | BLV PEPSI",
+                  "streams": [
+                    {
+                      "id": "stream-83",
+                      "name": "Link Gốc",
+                      "stream_links": [
+                        {
+                          "id": "lnk-83",
+                          "name": "Link Phát",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live05.koepgd.app/live/59444581.m3u8",
+                          "headers": {
+                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "channel-84",
+          "name": "[03:00] Brazil vs Na Uy | BLV C2",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://img.gvapi.cc/football/team/99bf3d153d4bf67d640051a1af322505.png!w80",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-84",
+              "name": "Tổng Hợp",
+              "contents": [
+                {
+                  "id": "content-84",
+                  "name": "[03:00] Brazil vs Na Uy | BLV C2",
+                  "streams": [
+                    {
+                      "id": "stream-84",
+                      "name": "Link Gốc",
+                      "stream_links": [
+                        {
+                          "id": "lnk-84",
+                          "name": "Link Phát",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live05.koepgd.app/live/08552895.m3u8",
+                          "headers": {
+                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "channel-85",
+          "name": "[03:00] Brazil vs Na Uy | BLV 7UP",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://img.gvapi.cc/football/team/99bf3d153d4bf67d640051a1af322505.png!w80",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-85",
+              "name": "Tổng Hợp",
+              "contents": [
+                {
+                  "id": "content-85",
+                  "name": "[03:00] Brazil vs Na Uy | BLV 7UP",
+                  "streams": [
+                    {
+                      "id": "stream-85",
+                      "name": "Link Gốc",
+                      "stream_links": [
+                        {
+                          "id": "lnk-85",
+                          "name": "Link Phát",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live05.koepgd.app/live/78905744.m3u8",
+                          "headers": {
+                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "channel-86",
+          "name": "[03:00] Brazil vs Na Uy | BLV COCA",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://img.gvapi.cc/football/team/99bf3d153d4bf67d640051a1af322505.png!w80",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-86",
+              "name": "Tổng Hợp",
+              "contents": [
+                {
+                  "id": "content-86",
+                  "name": "[03:00] Brazil vs Na Uy | BLV COCA",
+                  "streams": [
+                    {
+                      "id": "stream-86",
+                      "name": "Link Gốc",
+                      "stream_links": [
+                        {
+                          "id": "lnk-86",
+                          "name": "Link Phát",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live05.koepgd.app/live/24561735.m3u8",
+                          "headers": {
+                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "channel-87",
+          "name": "[03:00] Brazil vs Na Uy | BLV GIÀ LÀNG",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://img.gvapi.cc/football/team/99bf3d153d4bf67d640051a1af322505.png!w80",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-87",
+              "name": "Tổng Hợp",
+              "contents": [
+                {
+                  "id": "content-87",
+                  "name": "[03:00] Brazil vs Na Uy | BLV GIÀ LÀNG",
+                  "streams": [
+                    {
+                      "id": "stream-87",
+                      "name": "Link Gốc",
+                      "stream_links": [
+                        {
+                          "id": "lnk-87",
+                          "name": "Link Phát",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live05.koepgd.app/live/14830711.m3u8",
+                          "headers": {
+                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "channel-88",
+          "name": "[07:00] Mexico vs ĐTQG Anh | BLV C2",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://img.gvapi.cc/football/team/3653cce234494bfbd33e077f4a028f66.png!w80",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-88",
+              "name": "Tổng Hợp",
+              "contents": [
+                {
+                  "id": "content-88",
+                  "name": "[07:00] Mexico vs ĐTQG Anh | BLV C2",
+                  "streams": [
+                    {
+                      "id": "stream-88",
+                      "name": "Link Gốc",
+                      "stream_links": [
+                        {
+                          "id": "lnk-88",
+                          "name": "Link Phát",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live05.koepgd.app/live/08552895.m3u8",
+                          "headers": {
+                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "channel-89",
+          "name": "[07:00] Mexico vs ĐTQG Anh | BLV 7UP",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://img.gvapi.cc/football/team/3653cce234494bfbd33e077f4a028f66.png!w80",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-89",
+              "name": "Tổng Hợp",
+              "contents": [
+                {
+                  "id": "content-89",
+                  "name": "[07:00] Mexico vs ĐTQG Anh | BLV 7UP",
+                  "streams": [
+                    {
+                      "id": "stream-89",
+                      "name": "Link Gốc",
+                      "stream_links": [
+                        {
+                          "id": "lnk-89",
+                          "name": "Link Phát",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live05.koepgd.app/live/78905744.m3u8",
+                          "headers": {
+                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "channel-90",
+          "name": "[07:00] Mexico vs ĐTQG Anh | BLV COCA",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://img.gvapi.cc/football/team/3653cce234494bfbd33e077f4a028f66.png!w80",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-90",
+              "name": "Tổng Hợp",
+              "contents": [
+                {
+                  "id": "content-90",
+                  "name": "[07:00] Mexico vs ĐTQG Anh | BLV COCA",
+                  "streams": [
+                    {
+                      "id": "stream-90",
+                      "name": "Link Gốc",
+                      "stream_links": [
+                        {
+                          "id": "lnk-90",
+                          "name": "Link Phát",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live05.koepgd.app/live/24561735.m3u8",
+                          "headers": {
+                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "channel-91",
           "name": "[07:00] Mexico vs ĐTQG Anh | BLV GIÀ LÀNG",
           "type": "single",
           "display": "thumbnail-only",
@@ -4261,19 +4906,19 @@
           ],
           "sources": [
             {
-              "id": "src-79",
+              "id": "src-91",
               "name": "Tổng Hợp",
               "contents": [
                 {
-                  "id": "content-79",
+                  "id": "content-91",
                   "name": "[07:00] Mexico vs ĐTQG Anh | BLV GIÀ LÀNG",
                   "streams": [
                     {
-                      "id": "stream-79",
+                      "id": "stream-91",
                       "name": "Link Gốc",
                       "stream_links": [
                         {
-                          "id": "lnk-79",
+                          "id": "lnk-91",
                           "name": "Link Phát",
                           "type": "hls",
                           "default": true,
@@ -4289,72 +4934,10 @@
               ]
             }
           ]
-        }
-      ]
-    },
-    {
-      "id": "lstvsport",
-      "name": "LSTV SPORT",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
-        {
-          "id": "channel-80",
-          "name": "[23:00] Bryne vs Sandnes Ulf | BLV BLV HEINEKEN",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/1099_1gxmbp25v22v.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-80",
-              "name": "Tổng Hợp",
-              "contents": [
-                {
-                  "id": "content-80",
-                  "name": "[23:00] Bryne vs Sandnes Ulf | BLV BLV HEINEKEN",
-                  "streams": [
-                    {
-                      "id": "stream-80",
-                      "name": "Link Gốc",
-                      "stream_links": [
-                        {
-                          "id": "lnk-80",
-                          "name": "Link Phát",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/HEINEKEN/index.m3u8?expire=2530639860&sign=03a2e74c3447f79f8c6e80a8fa2ee0b6",
-                          "headers": {
-                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
         },
         {
-          "id": "channel-81",
-          "name": "[00:00] Canada vs Morocco | BLV BLV TÂY MÔN KHÁNH",
+          "id": "channel-92",
+          "name": "[14:00] Khangarid Klub vs Bồ câu ở Buganut | BLV MOUNTAIN DEW",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -4362,7 +4945,7 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/688_165018903917.png",
+            "url": "https://img.gvapi.cc/football/team/124cf7822c597b8b3f19b5b77dfd1953.png!w80",
             "width": 1600,
             "height": 1200
           },
@@ -4376,129 +4959,23 @@
           ],
           "sources": [
             {
-              "id": "src-81",
+              "id": "src-92",
               "name": "Tổng Hợp",
               "contents": [
                 {
-                  "id": "content-81",
-                  "name": "[00:00] Canada vs Morocco | BLV BLV TÂY MÔN KHÁNH",
+                  "id": "content-92",
+                  "name": "[14:00] Khangarid Klub vs Bồ câu ở Buganut | BLV MOUNTAIN DEW",
                   "streams": [
                     {
-                      "id": "stream-81",
+                      "id": "stream-92",
                       "name": "Link Gốc",
                       "stream_links": [
                         {
-                          "id": "lnk-81",
+                          "id": "lnk-92",
                           "name": "Link Phát",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/TAYMONKHANH/index.m3u8?expire=1788427256&sign=b79b5be508185d24f76a0b1effca53da",
-                          "headers": {
-                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "channel-82",
-          "name": "[00:00] Canada vs Morocco | BLV BLV KEVILL",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/688_165018903917.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-82",
-              "name": "Tổng Hợp",
-              "contents": [
-                {
-                  "id": "content-82",
-                  "name": "[00:00] Canada vs Morocco | BLV BLV KEVILL",
-                  "streams": [
-                    {
-                      "id": "stream-82",
-                      "name": "Link Gốc",
-                      "stream_links": [
-                        {
-                          "id": "lnk-82",
-                          "name": "Link Phát",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/KEVILL/index.m3u8?expire=1788427256&sign=189afcf7f800d4c6c8a5aa97649a110799",
-                          "headers": {
-                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "channel-83",
-          "name": "[01:00] Colegiales vs Gimnasia yTiro | BLV BLV MAYBACH",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/11767_1gzcyzgemh2p.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-83",
-              "name": "Tổng Hợp",
-              "contents": [
-                {
-                  "id": "content-83",
-                  "name": "[01:00] Colegiales vs Gimnasia yTiro | BLV BLV MAYBACH",
-                  "streams": [
-                    {
-                      "id": "stream-83",
-                      "name": "Link Gốc",
-                      "stream_links": [
-                        {
-                          "id": "lnk-83",
-                          "name": "Link Phát",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/MAYBACH/index.m3u8?expire=1923468720&sign=862d9b5fa441bf644b6c2fbcec08487b",
+                          "url": "https://live05.koepgd.app/live/87547578.m3u8",
                           "headers": {
                             "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
                           }
