@@ -25,7 +25,7 @@
       "channels": [
         {
           "id": "channel-0",
-          "name": "BIT.LY/SOCOLIVE | BLV SOCOLIVE (Socolive) hdM3u8",
+          "name": "BIT.LY/SOCOLIVE | BLV SOCOLIVE (Socolive) m3u8",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -52,7 +52,7 @@
               "contents": [
                 {
                   "id": "content-0",
-                  "name": "BIT.LY/SOCOLIVE | BLV SOCOLIVE (Socolive) hdM3u8",
+                  "name": "BIT.LY/SOCOLIVE | BLV SOCOLIVE (Socolive) m3u8",
                   "streams": [
                     {
                       "id": "stream-0",
@@ -63,7 +63,7 @@
                           "name": "Link Phát",
                           "type": "hls",
                           "default": true,
-                          "url": "https://pull.niues.live/live/stream-175784_lhd.m3u8?auth_key=1782978083-0-0-297f60bfcf2af7eb46bc1654d5978999",
+                          "url": "https://pull.niues.live/live/stream-175784_lsd.m3u8?auth_key=1782978083-0-0-0e106df05a160eb8b298e3fc2e9d0170",
                           "headers": {
                             "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
                           }
@@ -78,7 +78,7 @@
         },
         {
           "id": "channel-1",
-          "name": "Tường thuật: WORLD CUP - England vs Democratic Republic of the Congo | BLV Sóc đau cổ vai gáy (Socolive) m3u8",
+          "name": "BIT.LY/SOCOLIVE | BLV SOCOLIVE (Socolive) hdM3u8",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -105,7 +105,7 @@
               "contents": [
                 {
                   "id": "content-1",
-                  "name": "Tường thuật: WORLD CUP - England vs Democratic Republic of the Congo | BLV Sóc đau cổ vai gáy (Socolive) m3u8",
+                  "name": "BIT.LY/SOCOLIVE | BLV SOCOLIVE (Socolive) hdM3u8",
                   "streams": [
                     {
                       "id": "stream-1",
@@ -116,7 +116,7 @@
                           "name": "Link Phát",
                           "type": "hls",
                           "default": true,
-                          "url": "https://pull.niues.live/live/stream-179093_lsd.m3u8?auth_key=1782978083-0-0-5ba81c6955e66839be3d7df0cd3b12ad",
+                          "url": "https://pull.niues.live/live/stream-175784_lhd.m3u8?auth_key=1782978083-0-0-297f60bfcf2af7eb46bc1654d5978999",
                           "headers": {
                             "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
                           }
@@ -131,7 +131,7 @@
         },
         {
           "id": "channel-2",
-          "name": "Tường thuật: WORLD CUP - England vs Democratic Republic of the Congo | BLV Sóc đau cổ vai gáy (Socolive) hdM3u8",
+          "name": "Tường thuật: WORLD CUP - England vs Democratic Republic of the Congo | BLV Sóc đau cổ vai gáy (Socolive) m3u8",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -158,7 +158,7 @@
               "contents": [
                 {
                   "id": "content-2",
-                  "name": "Tường thuật: WORLD CUP - England vs Democratic Republic of the Congo | BLV Sóc đau cổ vai gáy (Socolive) hdM3u8",
+                  "name": "Tường thuật: WORLD CUP - England vs Democratic Republic of the Congo | BLV Sóc đau cổ vai gáy (Socolive) m3u8",
                   "streams": [
                     {
                       "id": "stream-2",
@@ -169,7 +169,7 @@
                           "name": "Link Phát",
                           "type": "hls",
                           "default": true,
-                          "url": "https://pull.niues.live/live/stream-179093_lhd.m3u8?auth_key=1782978083-0-0-01031fa226e1100dfc487acdcf891071",
+                          "url": "https://pull.niues.live/live/stream-179093_lsd.m3u8?auth_key=1782978083-0-0-5ba81c6955e66839be3d7df0cd3b12ad",
                           "headers": {
                             "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
                           }
@@ -670,218 +670,6 @@
       "channels": [
         {
           "id": "channel-12",
-          "name": "[01:45] Benfica vs Villarreal | BLV BLV LỮ BỐ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/422_165095593478.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-12",
-              "name": "Tổng Hợp",
-              "contents": [
-                {
-                  "id": "content-12",
-                  "name": "[01:45] Benfica vs Villarreal | BLV BLV LỮ BỐ",
-                  "streams": [
-                    {
-                      "id": "stream-12",
-                      "name": "Link Gốc",
-                      "stream_links": [
-                        {
-                          "id": "lnk-12",
-                          "name": "Link Phát",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LUBO/index.m3u8?expire=1788427256&sign=fa2834495401eb5d1dc40ba2f3bd21c1",
-                          "headers": {
-                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "channel-13",
-          "name": "[01:15] Levski Sofia vs FC Dunav Ruse | BLV BLV LEO",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/537_1h3tkn4pvs2f.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-13",
-              "name": "Tổng Hợp",
-              "contents": [
-                {
-                  "id": "content-13",
-                  "name": "[01:15] Levski Sofia vs FC Dunav Ruse | BLV BLV LEO",
-                  "streams": [
-                    {
-                      "id": "stream-13",
-                      "name": "Link Gốc",
-                      "stream_links": [
-                        {
-                          "id": "lnk-13",
-                          "name": "Link Phát",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LEO/index.m3u8?expire=1923642660&sign=58990a132e2f8d3f764c947b95b28af6",
-                          "headers": {
-                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "channel-14",
-          "name": "[01:30] FCSB vs Arges | BLV BLV TÀO THÁO",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/540_1h5e484h4n2s.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-14",
-              "name": "Tổng Hợp",
-              "contents": [
-                {
-                  "id": "content-14",
-                  "name": "[01:30] FCSB vs Arges | BLV BLV TÀO THÁO",
-                  "streams": [
-                    {
-                      "id": "stream-14",
-                      "name": "Link Gốc",
-                      "stream_links": [
-                        {
-                          "id": "lnk-14",
-                          "name": "Link Phát",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/TAOTHAO/index.m3u8?expire=1917964380&sign=6379fc6251248341f0547089859f8ee9",
-                          "headers": {
-                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "channel-15",
-          "name": "[01:30] FCSB vs Arges | BLV BLV LÝ ỨNG",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/540_1h5e484h4n2s.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-15",
-              "name": "Tổng Hợp",
-              "contents": [
-                {
-                  "id": "content-15",
-                  "name": "[01:30] FCSB vs Arges | BLV BLV LÝ ỨNG",
-                  "streams": [
-                    {
-                      "id": "stream-15",
-                      "name": "Link Gốc",
-                      "stream_links": [
-                        {
-                          "id": "lnk-15",
-                          "name": "Link Phát",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LYUNG1/index.m3u8?expire=1788427256&sign=d5c6932fefdcb98268754f4ccd4aa45d",
-                          "headers": {
-                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "channel-16",
           "name": "[02:00] Atletico Mitre de Santiago del Estero vs Racing de Cordoba | BLV BLV VƯƠNG LUÂN",
           "type": "single",
           "display": "thumbnail-only",
@@ -904,19 +692,19 @@
           ],
           "sources": [
             {
-              "id": "src-16",
+              "id": "src-12",
               "name": "Tổng Hợp",
               "contents": [
                 {
-                  "id": "content-16",
+                  "id": "content-12",
                   "name": "[02:00] Atletico Mitre de Santiago del Estero vs Racing de Cordoba | BLV BLV VƯƠNG LUÂN",
                   "streams": [
                     {
-                      "id": "stream-16",
+                      "id": "stream-12",
                       "name": "Link Gốc",
                       "stream_links": [
                         {
-                          "id": "lnk-16",
+                          "id": "lnk-12",
                           "name": "Link Phát",
                           "type": "hls",
                           "default": true,
@@ -934,8 +722,8 @@
           ]
         },
         {
-          "id": "channel-17",
-          "name": "[01:00] Albion FC vs CA Juventud | BLV BLV HEINEKEN",
+          "id": "channel-13",
+          "name": "[04:00] Nueva Chicago vs Agropecuario de Carlos Casares | BLV BLV HEINEKEN",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -943,7 +731,7 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/34393_1hce5639dd28.png",
+            "url": "https://cdn-img.cdnokvip.com/logos/3761_20130917090504.jpg",
             "width": 1600,
             "height": 1200
           },
@@ -957,509 +745,23 @@
           ],
           "sources": [
             {
-              "id": "src-17",
+              "id": "src-13",
               "name": "Tổng Hợp",
               "contents": [
                 {
-                  "id": "content-17",
-                  "name": "[01:00] Albion FC vs CA Juventud | BLV BLV HEINEKEN",
+                  "id": "content-13",
+                  "name": "[04:00] Nueva Chicago vs Agropecuario de Carlos Casares | BLV BLV HEINEKEN",
                   "streams": [
                     {
-                      "id": "stream-17",
+                      "id": "stream-13",
                       "name": "Link Gốc",
                       "stream_links": [
                         {
-                          "id": "lnk-17",
+                          "id": "lnk-13",
                           "name": "Link Phát",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/HEINEKEN/index.m3u8?expire=2530639860&sign=03a2e74c3447f79f8c6e80a8fa2ee0b6",
-                          "headers": {
-                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "colatv",
-      "name": "CO LA TV",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
-        {
-          "id": "channel-18",
-          "name": "[01:15] Levski vs Dunav Ruse | BLV MOUNTAIN DEW",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://img.gvapi.cc/football/team/fe56623a71d6056e9e1a93a6241e033f.png!w80",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-18",
-              "name": "Tổng Hợp",
-              "contents": [
-                {
-                  "id": "content-18",
-                  "name": "[01:15] Levski vs Dunav Ruse | BLV MOUNTAIN DEW",
-                  "streams": [
-                    {
-                      "id": "stream-18",
-                      "name": "Link Gốc",
-                      "stream_links": [
-                        {
-                          "id": "lnk-18",
-                          "name": "Link Phát",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live05.miekgo.app/live/87547578.m3u8",
-                          "headers": {
-                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "channel-19",
-          "name": "[12:00] Avondale FC vs St Albans | BLV MOUNTAIN DEW",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://img.gvapi.cc/football/team/ff2e694966de559719f778b5c79ea2ad.png!w80",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-19",
-              "name": "Tổng Hợp",
-              "contents": [
-                {
-                  "id": "content-19",
-                  "name": "[12:00] Avondale FC vs St Albans | BLV MOUNTAIN DEW",
-                  "streams": [
-                    {
-                      "id": "stream-19",
-                      "name": "Link Gốc",
-                      "stream_links": [
-                        {
-                          "id": "lnk-19",
-                          "name": "Link Phát",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live05.miekgo.app/live/87547578.m3u8",
-                          "headers": {
-                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "channel-20",
-          "name": "[17:30] Gangwon vs Gimcheon Sangmu FC | BLV MOUNTAIN DEW",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://img.gvapi.cc/football/team/771a93ae7f62b1a47a71c3d62b89dca3.png!w80",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-20",
-              "name": "Tổng Hợp",
-              "contents": [
-                {
-                  "id": "content-20",
-                  "name": "[17:30] Gangwon vs Gimcheon Sangmu FC | BLV MOUNTAIN DEW",
-                  "streams": [
-                    {
-                      "id": "stream-20",
-                      "name": "Link Gốc",
-                      "stream_links": [
-                        {
-                          "id": "lnk-20",
-                          "name": "Link Phát",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live05.miekgo.app/live/87547578.m3u8",
-                          "headers": {
-                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "channel-21",
-          "name": "[18:00] Bắc Kinh Guoan U21 vs Hà Nam FC U21 | BLV MOUNTAIN DEW",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://img.gvapi.cc/football/team/443504e4fb6a340debe34144d738b863.png!w80",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-21",
-              "name": "Tổng Hợp",
-              "contents": [
-                {
-                  "id": "content-21",
-                  "name": "[18:00] Bắc Kinh Guoan U21 vs Hà Nam FC U21 | BLV MOUNTAIN DEW",
-                  "streams": [
-                    {
-                      "id": "stream-21",
-                      "name": "Link Gốc",
-                      "stream_links": [
-                        {
-                          "id": "lnk-21",
-                          "name": "Link Phát",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live05.miekgo.app/live/87547578.m3u8",
-                          "headers": {
-                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "channel-22",
-          "name": "[20:00] AIK vs GAIS | BLV MOUNTAIN DEW",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://img.gvapi.cc/football/team/0cc49f3f48c86ed0c00a31c96962ecf3.png!w80",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-22",
-              "name": "Tổng Hợp",
-              "contents": [
-                {
-                  "id": "content-22",
-                  "name": "[20:00] AIK vs GAIS | BLV MOUNTAIN DEW",
-                  "streams": [
-                    {
-                      "id": "stream-22",
-                      "name": "Link Gốc",
-                      "stream_links": [
-                        {
-                          "id": "lnk-22",
-                          "name": "Link Phát",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live05.miekgo.app/live/87547578.m3u8",
-                          "headers": {
-                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "channel-23",
-          "name": "[02:00] CA Penarol vs Boston River | BLV MOUNTAIN DEW",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://img.gvapi.cc/football/team/d95f60f58aac7368fb6659aa0f27cfbf.png!w80",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-23",
-              "name": "Tổng Hợp",
-              "contents": [
-                {
-                  "id": "content-23",
-                  "name": "[02:00] CA Penarol vs Boston River | BLV MOUNTAIN DEW",
-                  "streams": [
-                    {
-                      "id": "stream-23",
-                      "name": "Link Gốc",
-                      "stream_links": [
-                        {
-                          "id": "lnk-23",
-                          "name": "Link Phát",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live05.miekgo.app/live/87547578.m3u8",
-                          "headers": {
-                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "channel-24",
-          "name": "[06:00] Loudoun United vs Tampa Bay | BLV MOUNTAIN DEW",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://img.gvapi.cc/football/team/efb322615dcf7cb51dc6c75a79d38d32.png!w80",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-24",
-              "name": "Tổng Hợp",
-              "contents": [
-                {
-                  "id": "content-24",
-                  "name": "[06:00] Loudoun United vs Tampa Bay | BLV MOUNTAIN DEW",
-                  "streams": [
-                    {
-                      "id": "stream-24",
-                      "name": "Link Gốc",
-                      "stream_links": [
-                        {
-                          "id": "lnk-24",
-                          "name": "Link Phát",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live05.miekgo.app/live/87547578.m3u8",
-                          "headers": {
-                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "channel-25",
-          "name": "[15:45] phụ nữ Campuchia vs Lào U16 Nữ | BLV MOUNTAIN DEW",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://img.gvapi.cc/football/team/31d64389a45aaeb7a61c9b76b72be555.png!w80",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-25",
-              "name": "Tổng Hợp",
-              "contents": [
-                {
-                  "id": "content-25",
-                  "name": "[15:45] phụ nữ Campuchia vs Lào U16 Nữ | BLV MOUNTAIN DEW",
-                  "streams": [
-                    {
-                      "id": "stream-25",
-                      "name": "Link Gốc",
-                      "stream_links": [
-                        {
-                          "id": "lnk-25",
-                          "name": "Link Phát",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live05.miekgo.app/live/87547578.m3u8",
-                          "headers": {
-                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "channel-26",
-          "name": "[19:00] Jelgava vs Rigas Futbola skola | BLV MOUNTAIN DEW",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://img.gvapi.cc/football/team/277e5d1f01baffb84533c9236b05cbf8.png!w80",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-26",
-              "name": "Tổng Hợp",
-              "contents": [
-                {
-                  "id": "content-26",
-                  "name": "[19:00] Jelgava vs Rigas Futbola skola | BLV MOUNTAIN DEW",
-                  "streams": [
-                    {
-                      "id": "stream-26",
-                      "name": "Link Gốc",
-                      "stream_links": [
-                        {
-                          "id": "lnk-26",
-                          "name": "Link Phát",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live05.miekgo.app/live/87547578.m3u8",
                           "headers": {
                             "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
                           }
