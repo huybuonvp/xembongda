@@ -15,5 +15,227 @@
     "link": "https://t.me/dqstore1",
     "text": "Danh sách cập nhật tự động"
   },
-  "groups": []
+  "groups": [
+    {
+      "id": "fptsport",
+      "name": "FPT SPORT",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "channel-0",
+          "name": "14h00 ngày 02/07 Bay Hawks vs Taranaki Airs | BLV CHAN SENA (Socolive) m3u8",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://sta.vnres.co/file/common/20260630/78e838bf90f69ebccf57fa9227a6efc4.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0",
+              "name": "Tổng Hợp",
+              "contents": [
+                {
+                  "id": "content-0",
+                  "name": "14h00 ngày 02/07 Bay Hawks vs Taranaki Airs | BLV CHAN SENA (Socolive) m3u8",
+                  "streams": [
+                    {
+                      "id": "stream-0",
+                      "name": "Link Gốc",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0",
+                          "name": "Link Phát",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pull.niues.live/live/stream-9912115_lsd.m3u8?auth_key=1782977363-0-0-4b3cef5f4afd4e6ef9f51fe964ae1797",
+                          "headers": {
+                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "channel-1",
+          "name": "14h00 ngày 02/07 Bay Hawks vs Taranaki Airs | BLV CHAN SENA (Socolive) hdM3u8",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://sta.vnres.co/file/common/20260630/78e838bf90f69ebccf57fa9227a6efc4.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1",
+              "name": "Tổng Hợp",
+              "contents": [
+                {
+                  "id": "content-1",
+                  "name": "14h00 ngày 02/07 Bay Hawks vs Taranaki Airs | BLV CHAN SENA (Socolive) hdM3u8",
+                  "streams": [
+                    {
+                      "id": "stream-1",
+                      "name": "Link Gốc",
+                      "stream_links": [
+                        {
+                          "id": "lnk-1",
+                          "name": "Link Phát",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pull.niues.live/live/stream-9912115_lhd.m3u8?auth_key=1782977363-0-0-72135d13bc98bb970a734bda3e9dde55",
+                          "headers": {
+                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "channel-2",
+          "name": "14h00 ngày 02/07 Bay Hawks vs Taranaki Airs | BLV HENRY (Socolive) m3u8",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://sta.vnres.co/file/common/20260630/78e838bf90f69ebccf57fa9227a6efc4.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2",
+              "name": "Tổng Hợp",
+              "contents": [
+                {
+                  "id": "content-2",
+                  "name": "14h00 ngày 02/07 Bay Hawks vs Taranaki Airs | BLV HENRY (Socolive) m3u8",
+                  "streams": [
+                    {
+                      "id": "stream-2",
+                      "name": "Link Gốc",
+                      "stream_links": [
+                        {
+                          "id": "lnk-2",
+                          "name": "Link Phát",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pull.niues.live/live/stream-9912112_lsd.m3u8?auth_key=1782977723-0-0-0e491047cae694e22097336278cb400b",
+                          "headers": {
+                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "channel-3",
+          "name": "14h00 ngày 02/07 Bay Hawks vs Taranaki Airs | BLV HENRY (Socolive) hdM3u8",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://sta.vnres.co/file/common/20260630/78e838bf90f69ebccf57fa9227a6efc4.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3",
+              "name": "Tổng Hợp",
+              "contents": [
+                {
+                  "id": "content-3",
+                  "name": "14h00 ngày 02/07 Bay Hawks vs Taranaki Airs | BLV HENRY (Socolive) hdM3u8",
+                  "streams": [
+                    {
+                      "id": "stream-3",
+                      "name": "Link Gốc",
+                      "stream_links": [
+                        {
+                          "id": "lnk-3",
+                          "name": "Link Phát",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pull.niues.live/live/stream-9912112_lhd.m3u8?auth_key=1782977723-0-0-eaff798b79a8d564a3d3160e38c1963e",
+                          "headers": {
+                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
