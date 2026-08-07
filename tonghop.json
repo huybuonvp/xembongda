@@ -25,59 +25,6 @@
       "channels": [
         {
           "id": "channel-0",
-          "name": "[01:00] Cambuur vs Excelsior | BLV SAMURAI",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://img.gvapi.cc/football/team/d5cd028beef8bae114183a2635742176.png!w80",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-0",
-              "name": "Tổng Hợp",
-              "contents": [
-                {
-                  "id": "content-0",
-                  "name": "[01:00] Cambuur vs Excelsior | BLV SAMURAI",
-                  "streams": [
-                    {
-                      "id": "stream-0",
-                      "name": "Link Gốc",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0",
-                          "name": "Link Phát",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live05.meung.app/live/07808742.m3u8",
-                          "headers": {
-                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "channel-1",
           "name": "[01:30] VfL Bochum vs Hertha BSC | BLV PEPSI",
           "type": "single",
           "display": "thumbnail-only",
@@ -100,19 +47,19 @@
           ],
           "sources": [
             {
-              "id": "src-1",
+              "id": "src-0",
               "name": "Tổng Hợp",
               "contents": [
                 {
-                  "id": "content-1",
+                  "id": "content-0",
                   "name": "[01:30] VfL Bochum vs Hertha BSC | BLV PEPSI",
                   "streams": [
                     {
-                      "id": "stream-1",
+                      "id": "stream-0",
                       "name": "Link Gốc",
                       "stream_links": [
                         {
-                          "id": "lnk-1",
+                          "id": "lnk-0",
                           "name": "Link Phát",
                           "type": "hls",
                           "default": true,
@@ -130,7 +77,7 @@
           ]
         },
         {
-          "id": "channel-2",
+          "id": "channel-1",
           "name": "[01:45] Wolverhampton Wanderers vs Port Vale | BLV KHÔNG ĐỘ",
           "type": "single",
           "display": "thumbnail-only",
@@ -153,19 +100,19 @@
           ],
           "sources": [
             {
-              "id": "src-2",
+              "id": "src-1",
               "name": "Tổng Hợp",
               "contents": [
                 {
-                  "id": "content-2",
+                  "id": "content-1",
                   "name": "[01:45] Wolverhampton Wanderers vs Port Vale | BLV KHÔNG ĐỘ",
                   "streams": [
                     {
-                      "id": "stream-2",
+                      "id": "stream-1",
                       "name": "Link Gốc",
                       "stream_links": [
                         {
-                          "id": "lnk-2",
+                          "id": "lnk-1",
                           "name": "Link Phát",
                           "type": "hls",
                           "default": true,
@@ -183,7 +130,7 @@
           ]
         },
         {
-          "id": "channel-3",
+          "id": "channel-2",
           "name": "[01:45] Club Brugge vs Kortrijk | BLV 247",
           "type": "single",
           "display": "thumbnail-only",
@@ -206,19 +153,19 @@
           ],
           "sources": [
             {
-              "id": "src-3",
+              "id": "src-2",
               "name": "Tổng Hợp",
               "contents": [
                 {
-                  "id": "content-3",
+                  "id": "content-2",
                   "name": "[01:45] Club Brugge vs Kortrijk | BLV 247",
                   "streams": [
                     {
-                      "id": "stream-3",
+                      "id": "stream-2",
                       "name": "Link Gốc",
                       "stream_links": [
                         {
-                          "id": "lnk-3",
+                          "id": "lnk-2",
                           "name": "Link Phát",
                           "type": "hls",
                           "default": true,
@@ -236,7 +183,7 @@
           ]
         },
         {
-          "id": "channel-4",
+          "id": "channel-3",
           "name": "[02:00] Middlesbrough vs Wrexham | BLV BÍ ĐAO",
           "type": "single",
           "display": "thumbnail-only",
@@ -259,19 +206,19 @@
           ],
           "sources": [
             {
-              "id": "src-4",
+              "id": "src-3",
               "name": "Tổng Hợp",
               "contents": [
                 {
-                  "id": "content-4",
+                  "id": "content-3",
                   "name": "[02:00] Middlesbrough vs Wrexham | BLV BÍ ĐAO",
                   "streams": [
                     {
-                      "id": "stream-4",
+                      "id": "stream-3",
                       "name": "Link Gốc",
                       "stream_links": [
                         {
-                          "id": "lnk-4",
+                          "id": "lnk-3",
                           "name": "Link Phát",
                           "type": "hls",
                           "default": true,
@@ -289,7 +236,7 @@
           ]
         },
         {
-          "id": "channel-5",
+          "id": "channel-4",
           "name": "[02:15] Estoril vs Famalicao | BLV MONSTER",
           "type": "single",
           "display": "thumbnail-only",
@@ -312,19 +259,19 @@
           ],
           "sources": [
             {
-              "id": "src-5",
+              "id": "src-4",
               "name": "Tổng Hợp",
               "contents": [
                 {
-                  "id": "content-5",
+                  "id": "content-4",
                   "name": "[02:15] Estoril vs Famalicao | BLV MONSTER",
                   "streams": [
                     {
-                      "id": "stream-5",
+                      "id": "stream-4",
                       "name": "Link Gốc",
                       "stream_links": [
                         {
-                          "id": "lnk-5",
+                          "id": "lnk-4",
                           "name": "Link Phát",
                           "type": "hls",
                           "default": true,
@@ -342,60 +289,7 @@
           ]
         },
         {
-          "id": "channel-6",
-          "name": "[06:30] Columbus Crew vs Pachuca | BLV SAMURAI",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://img.gvapi.cc/football/team/b6d8f81e8454813b3e672b179e627d3a.png!w80",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-6",
-              "name": "Tổng Hợp",
-              "contents": [
-                {
-                  "id": "content-6",
-                  "name": "[06:30] Columbus Crew vs Pachuca | BLV SAMURAI",
-                  "streams": [
-                    {
-                      "id": "stream-6",
-                      "name": "Link Gốc",
-                      "stream_links": [
-                        {
-                          "id": "lnk-6",
-                          "name": "Link Phát",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live05.meung.app/live/07808742.m3u8",
-                          "headers": {
-                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "channel-7",
+          "id": "channel-5",
           "name": "[06:30] Connecticut Sun vs Phoenix Mercury | BLV 247",
           "type": "single",
           "display": "thumbnail-only",
@@ -418,12 +312,118 @@
           ],
           "sources": [
             {
+              "id": "src-5",
+              "name": "Tổng Hợp",
+              "contents": [
+                {
+                  "id": "content-5",
+                  "name": "[06:30] Connecticut Sun vs Phoenix Mercury | BLV 247",
+                  "streams": [
+                    {
+                      "id": "stream-5",
+                      "name": "Link Gốc",
+                      "stream_links": [
+                        {
+                          "id": "lnk-5",
+                          "name": "Link Phát",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live05.meung.app/live/90865415.m3u8",
+                          "headers": {
+                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "channel-6",
+          "name": "[14:00] Manly United vs Marconi Stallions | BLV 247",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://img.gvapi.cc/football/team/0c6ea7bc3792dac98ed3378cd2865c0a.png!w80",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6",
+              "name": "Tổng Hợp",
+              "contents": [
+                {
+                  "id": "content-6",
+                  "name": "[14:00] Manly United vs Marconi Stallions | BLV 247",
+                  "streams": [
+                    {
+                      "id": "stream-6",
+                      "name": "Link Gốc",
+                      "stream_links": [
+                        {
+                          "id": "lnk-6",
+                          "name": "Link Phát",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live05.meung.app/live/90865415.m3u8",
+                          "headers": {
+                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "channel-7",
+          "name": "[16:15] TNT Tropang Giga vs Titan Ultra Giant Risers | BLV 247",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://img.gvapi.cc/basketball/team/1098946691d1d0d1148043ab0e39f075.png!w80",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
               "id": "src-7",
               "name": "Tổng Hợp",
               "contents": [
                 {
                   "id": "content-7",
-                  "name": "[06:30] Connecticut Sun vs Phoenix Mercury | BLV 247",
+                  "name": "[16:15] TNT Tropang Giga vs Titan Ultra Giant Risers | BLV 247",
                   "streams": [
                     {
                       "id": "stream-7",
@@ -449,112 +449,6 @@
         },
         {
           "id": "channel-8",
-          "name": "[14:00] Manly United vs Marconi Stallions | BLV 247",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://img.gvapi.cc/football/team/0c6ea7bc3792dac98ed3378cd2865c0a.png!w80",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8",
-              "name": "Tổng Hợp",
-              "contents": [
-                {
-                  "id": "content-8",
-                  "name": "[14:00] Manly United vs Marconi Stallions | BLV 247",
-                  "streams": [
-                    {
-                      "id": "stream-8",
-                      "name": "Link Gốc",
-                      "stream_links": [
-                        {
-                          "id": "lnk-8",
-                          "name": "Link Phát",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live05.meung.app/live/90865415.m3u8",
-                          "headers": {
-                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "channel-9",
-          "name": "[16:15] TNT Tropang Giga vs Titan Ultra Giant Risers | BLV 247",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://img.gvapi.cc/basketball/team/1098946691d1d0d1148043ab0e39f075.png!w80",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9",
-              "name": "Tổng Hợp",
-              "contents": [
-                {
-                  "id": "content-9",
-                  "name": "[16:15] TNT Tropang Giga vs Titan Ultra Giant Risers | BLV 247",
-                  "streams": [
-                    {
-                      "id": "stream-9",
-                      "name": "Link Gốc",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9",
-                          "name": "Link Phát",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live05.meung.app/live/90865415.m3u8",
-                          "headers": {
-                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "channel-10",
           "name": "[16:30] Western Sydney vs Melbourne Victory | BLV PEPSI",
           "type": "single",
           "display": "thumbnail-only",
@@ -577,19 +471,19 @@
           ],
           "sources": [
             {
-              "id": "src-10",
+              "id": "src-8",
               "name": "Tổng Hợp",
               "contents": [
                 {
-                  "id": "content-10",
+                  "id": "content-8",
                   "name": "[16:30] Western Sydney vs Melbourne Victory | BLV PEPSI",
                   "streams": [
                     {
-                      "id": "stream-10",
+                      "id": "stream-8",
                       "name": "Link Gốc",
                       "stream_links": [
                         {
-                          "id": "lnk-10",
+                          "id": "lnk-8",
                           "name": "Link Phát",
                           "type": "hls",
                           "default": true,
@@ -607,60 +501,7 @@
           ]
         },
         {
-          "id": "channel-11",
-          "name": "[17:00] Kashiwa Reysol vs Mito Hollyhock | BLV SAMURAI",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://img.gvapi.cc/football/team/d272859d78eb8ca7a14753f4293fbf45.png!w80",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-11",
-              "name": "Tổng Hợp",
-              "contents": [
-                {
-                  "id": "content-11",
-                  "name": "[17:00] Kashiwa Reysol vs Mito Hollyhock | BLV SAMURAI",
-                  "streams": [
-                    {
-                      "id": "stream-11",
-                      "name": "Link Gốc",
-                      "stream_links": [
-                        {
-                          "id": "lnk-11",
-                          "name": "Link Phát",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live05.meung.app/live/07808742.m3u8",
-                          "headers": {
-                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "channel-12",
+          "id": "channel-9",
           "name": "[18:00] Gimcheon Sangmu FC vs Seoul | BLV KHÔNG ĐỘ",
           "type": "single",
           "display": "thumbnail-only",
@@ -683,19 +524,19 @@
           ],
           "sources": [
             {
-              "id": "src-12",
+              "id": "src-9",
               "name": "Tổng Hợp",
               "contents": [
                 {
-                  "id": "content-12",
+                  "id": "content-9",
                   "name": "[18:00] Gimcheon Sangmu FC vs Seoul | BLV KHÔNG ĐỘ",
                   "streams": [
                     {
-                      "id": "stream-12",
+                      "id": "stream-9",
                       "name": "Link Gốc",
                       "stream_links": [
                         {
-                          "id": "lnk-12",
+                          "id": "lnk-9",
                           "name": "Link Phát",
                           "type": "hls",
                           "default": true,
@@ -713,7 +554,7 @@
           ]
         },
         {
-          "id": "channel-13",
+          "id": "channel-10",
           "name": "[18:00] Jeonbuk Hyundai Motors vs Jeju Utd | BLV BÍ ĐAO",
           "type": "single",
           "display": "thumbnail-only",
@@ -736,19 +577,19 @@
           ],
           "sources": [
             {
-              "id": "src-13",
+              "id": "src-10",
               "name": "Tổng Hợp",
               "contents": [
                 {
-                  "id": "content-13",
+                  "id": "content-10",
                   "name": "[18:00] Jeonbuk Hyundai Motors vs Jeju Utd | BLV BÍ ĐAO",
                   "streams": [
                     {
-                      "id": "stream-13",
+                      "id": "stream-10",
                       "name": "Link Gốc",
                       "stream_links": [
                         {
-                          "id": "lnk-13",
+                          "id": "lnk-10",
                           "name": "Link Phát",
                           "type": "hls",
                           "default": true,
@@ -766,7 +607,7 @@
           ]
         },
         {
-          "id": "channel-14",
+          "id": "channel-11",
           "name": "[18:35] Dalian Yingbo vs Liaoning Tieren | BLV PEPSI",
           "type": "single",
           "display": "thumbnail-only",
@@ -789,19 +630,19 @@
           ],
           "sources": [
             {
-              "id": "src-14",
+              "id": "src-11",
               "name": "Tổng Hợp",
               "contents": [
                 {
-                  "id": "content-14",
+                  "id": "content-11",
                   "name": "[18:35] Dalian Yingbo vs Liaoning Tieren | BLV PEPSI",
                   "streams": [
                     {
-                      "id": "stream-14",
+                      "id": "stream-11",
                       "name": "Link Gốc",
                       "stream_links": [
                         {
-                          "id": "lnk-14",
+                          "id": "lnk-11",
                           "name": "Link Phát",
                           "type": "hls",
                           "default": true,
@@ -819,7 +660,7 @@
           ]
         },
         {
-          "id": "channel-15",
+          "id": "channel-12",
           "name": "[19:00] Cambridge United vs Barnet | BLV MONSTER",
           "type": "single",
           "display": "thumbnail-only",
@@ -842,19 +683,19 @@
           ],
           "sources": [
             {
-              "id": "src-15",
+              "id": "src-12",
               "name": "Tổng Hợp",
               "contents": [
                 {
-                  "id": "content-15",
+                  "id": "content-12",
                   "name": "[19:00] Cambridge United vs Barnet | BLV MONSTER",
                   "streams": [
                     {
-                      "id": "stream-15",
+                      "id": "stream-12",
                       "name": "Link Gốc",
                       "stream_links": [
                         {
-                          "id": "lnk-15",
+                          "id": "lnk-12",
                           "name": "Link Phát",
                           "type": "hls",
                           "default": true,
@@ -872,60 +713,7 @@
           ]
         },
         {
-          "id": "channel-16",
-          "name": "[19:00] Yunnan Yukun vs Chengdu Rongcheng | BLV SAMURAI",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://img.gvapi.cc/football/team/8c10b05df079cbf3efabd78675e6983f.png!w80",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-16",
-              "name": "Tổng Hợp",
-              "contents": [
-                {
-                  "id": "content-16",
-                  "name": "[19:00] Yunnan Yukun vs Chengdu Rongcheng | BLV SAMURAI",
-                  "streams": [
-                    {
-                      "id": "stream-16",
-                      "name": "Link Gốc",
-                      "stream_links": [
-                        {
-                          "id": "lnk-16",
-                          "name": "Link Phát",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live05.meung.app/live/07808742.m3u8",
-                          "headers": {
-                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "channel-17",
+          "id": "channel-13",
           "name": "[19:00] Valerenga vs Bodo Glimt | BLV MONSTER",
           "type": "single",
           "display": "thumbnail-only",
@@ -948,19 +736,19 @@
           ],
           "sources": [
             {
-              "id": "src-17",
+              "id": "src-13",
               "name": "Tổng Hợp",
               "contents": [
                 {
-                  "id": "content-17",
+                  "id": "content-13",
                   "name": "[19:00] Valerenga vs Bodo Glimt | BLV MONSTER",
                   "streams": [
                     {
-                      "id": "stream-17",
+                      "id": "stream-13",
                       "name": "Link Gốc",
                       "stream_links": [
                         {
-                          "id": "lnk-17",
+                          "id": "lnk-13",
                           "name": "Link Phát",
                           "type": "hls",
                           "default": true,
@@ -978,7 +766,7 @@
           ]
         },
         {
-          "id": "channel-18",
+          "id": "channel-14",
           "name": "[19:00] Chelsea vs AC Milan | BLV 247",
           "type": "single",
           "display": "thumbnail-only",
@@ -1001,19 +789,19 @@
           ],
           "sources": [
             {
-              "id": "src-18",
+              "id": "src-14",
               "name": "Tổng Hợp",
               "contents": [
                 {
-                  "id": "content-18",
+                  "id": "content-14",
                   "name": "[19:00] Chelsea vs AC Milan | BLV 247",
                   "streams": [
                     {
-                      "id": "stream-18",
+                      "id": "stream-14",
                       "name": "Link Gốc",
                       "stream_links": [
                         {
-                          "id": "lnk-18",
+                          "id": "lnk-14",
                           "name": "Link Phát",
                           "type": "hls",
                           "default": true,
@@ -1031,7 +819,7 @@
           ]
         },
         {
-          "id": "channel-19",
+          "id": "channel-15",
           "name": "[20:00] Queens Park Rangers vs Millwall | BLV BÍ ĐAO",
           "type": "single",
           "display": "thumbnail-only",
@@ -1054,19 +842,19 @@
           ],
           "sources": [
             {
-              "id": "src-19",
+              "id": "src-15",
               "name": "Tổng Hợp",
               "contents": [
                 {
-                  "id": "content-19",
+                  "id": "content-15",
                   "name": "[20:00] Queens Park Rangers vs Millwall | BLV BÍ ĐAO",
                   "streams": [
                     {
-                      "id": "stream-19",
+                      "id": "stream-15",
                       "name": "Link Gốc",
                       "stream_links": [
                         {
-                          "id": "lnk-19",
+                          "id": "lnk-15",
                           "name": "Link Phát",
                           "type": "hls",
                           "default": true,
@@ -1084,7 +872,7 @@
           ]
         },
         {
-          "id": "channel-20",
+          "id": "channel-16",
           "name": "[22:00] Manchester United vs Paris Saint-Germain | BLV 247",
           "type": "single",
           "display": "thumbnail-only",
@@ -1107,12 +895,224 @@
           ],
           "sources": [
             {
+              "id": "src-16",
+              "name": "Tổng Hợp",
+              "contents": [
+                {
+                  "id": "content-16",
+                  "name": "[22:00] Manchester United vs Paris Saint-Germain | BLV 247",
+                  "streams": [
+                    {
+                      "id": "stream-16",
+                      "name": "Link Gốc",
+                      "stream_links": [
+                        {
+                          "id": "lnk-16",
+                          "name": "Link Phát",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live05.meung.app/live/90865415.m3u8",
+                          "headers": {
+                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "channel-17",
+          "name": "[22:30] F. Constanta vs FK Csikszereda Miercurea Ciuc | BLV PEPSI",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://img.gvapi.cc/football/team/3091777d4e5cf166b1039ac3fffe05ae.png!w80",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-17",
+              "name": "Tổng Hợp",
+              "contents": [
+                {
+                  "id": "content-17",
+                  "name": "[22:30] F. Constanta vs FK Csikszereda Miercurea Ciuc | BLV PEPSI",
+                  "streams": [
+                    {
+                      "id": "stream-17",
+                      "name": "Link Gốc",
+                      "stream_links": [
+                        {
+                          "id": "lnk-17",
+                          "name": "Link Phát",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live05.meung.app/live/59444581.m3u8",
+                          "headers": {
+                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "channel-18",
+          "name": "[23:00] Jaro vs Vaasa VPS | BLV BÍ ĐAO",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://img.gvapi.cc/football/team/3cb5e2d3b6f734ff2f10e4b47e50d380.png!w80",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-18",
+              "name": "Tổng Hợp",
+              "contents": [
+                {
+                  "id": "content-18",
+                  "name": "[23:00] Jaro vs Vaasa VPS | BLV BÍ ĐAO",
+                  "streams": [
+                    {
+                      "id": "stream-18",
+                      "name": "Link Gốc",
+                      "stream_links": [
+                        {
+                          "id": "lnk-18",
+                          "name": "Link Phát",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live05.meung.app/live/99121525.m3u8",
+                          "headers": {
+                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "channel-19",
+          "name": "[23:15] Standard Liege vs Cercle Brugge KSV | BLV MONSTER",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://img.gvapi.cc/football/team/dcfd6a2671c5c5e09dd83daeb85feff9.png!w80",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-19",
+              "name": "Tổng Hợp",
+              "contents": [
+                {
+                  "id": "content-19",
+                  "name": "[23:15] Standard Liege vs Cercle Brugge KSV | BLV MONSTER",
+                  "streams": [
+                    {
+                      "id": "stream-19",
+                      "name": "Link Gốc",
+                      "stream_links": [
+                        {
+                          "id": "lnk-19",
+                          "name": "Link Phát",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live05.meung.app/live/75915087.m3u8",
+                          "headers": {
+                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "channel-20",
+          "name": "[01:00] PSV Eindhoven vs Fortuna Sittard | BLV 247",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://img.gvapi.cc/football/team/cad5af4d1ff0e6f3119af3d273d95d31.png!w80",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
               "id": "src-20",
               "name": "Tổng Hợp",
               "contents": [
                 {
                   "id": "content-20",
-                  "name": "[22:00] Manchester United vs Paris Saint-Germain | BLV 247",
+                  "name": "[01:00] PSV Eindhoven vs Fortuna Sittard | BLV 247",
                   "streams": [
                     {
                       "id": "stream-20",
@@ -1138,7 +1138,7 @@
         },
         {
           "id": "channel-21",
-          "name": "[22:30] F. Constanta vs FK Csikszereda Miercurea Ciuc | BLV PEPSI",
+          "name": "[01:30] Din. Bucuresti vs CS Voluntari | BLV PEPSI",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1146,7 +1146,7 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://img.gvapi.cc/football/team/3091777d4e5cf166b1039ac3fffe05ae.png!w80",
+            "url": "https://img.gvapi.cc/football/team/8be4b7b964d005a23a361cd716a8b03f.png!w80",
             "width": 1600,
             "height": 1200
           },
@@ -1165,7 +1165,7 @@
               "contents": [
                 {
                   "id": "content-21",
-                  "name": "[22:30] F. Constanta vs FK Csikszereda Miercurea Ciuc | BLV PEPSI",
+                  "name": "[01:30] Din. Bucuresti vs CS Voluntari | BLV PEPSI",
                   "streams": [
                     {
                       "id": "stream-21",
@@ -1191,324 +1191,6 @@
         },
         {
           "id": "channel-22",
-          "name": "[23:00] Jaro vs Vaasa VPS | BLV BÍ ĐAO",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://img.gvapi.cc/football/team/3cb5e2d3b6f734ff2f10e4b47e50d380.png!w80",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-22",
-              "name": "Tổng Hợp",
-              "contents": [
-                {
-                  "id": "content-22",
-                  "name": "[23:00] Jaro vs Vaasa VPS | BLV BÍ ĐAO",
-                  "streams": [
-                    {
-                      "id": "stream-22",
-                      "name": "Link Gốc",
-                      "stream_links": [
-                        {
-                          "id": "lnk-22",
-                          "name": "Link Phát",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live05.meung.app/live/99121525.m3u8",
-                          "headers": {
-                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "channel-23",
-          "name": "[23:15] Standard Liege vs Cercle Brugge KSV | BLV MONSTER",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://img.gvapi.cc/football/team/dcfd6a2671c5c5e09dd83daeb85feff9.png!w80",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-23",
-              "name": "Tổng Hợp",
-              "contents": [
-                {
-                  "id": "content-23",
-                  "name": "[23:15] Standard Liege vs Cercle Brugge KSV | BLV MONSTER",
-                  "streams": [
-                    {
-                      "id": "stream-23",
-                      "name": "Link Gốc",
-                      "stream_links": [
-                        {
-                          "id": "lnk-23",
-                          "name": "Link Phát",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live05.meung.app/live/75915087.m3u8",
-                          "headers": {
-                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "channel-24",
-          "name": "[00:30] TSV Hartberg vs Sturm Graz | BLV SAMURAI",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://img.gvapi.cc/football/team/a261990c8ba568a176fbac7ad0f01c12.png!w80",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-24",
-              "name": "Tổng Hợp",
-              "contents": [
-                {
-                  "id": "content-24",
-                  "name": "[00:30] TSV Hartberg vs Sturm Graz | BLV SAMURAI",
-                  "streams": [
-                    {
-                      "id": "stream-24",
-                      "name": "Link Gốc",
-                      "stream_links": [
-                        {
-                          "id": "lnk-24",
-                          "name": "Link Phát",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live05.meung.app/live/07808742.m3u8",
-                          "headers": {
-                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "channel-25",
-          "name": "[00:30] CSKA Moscow vs Rostov | BLV SAMURAI",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://img.gvapi.cc/football/team/1eae81e51945df5660e24dc6f0ea353c.png!w80",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-25",
-              "name": "Tổng Hợp",
-              "contents": [
-                {
-                  "id": "content-25",
-                  "name": "[00:30] CSKA Moscow vs Rostov | BLV SAMURAI",
-                  "streams": [
-                    {
-                      "id": "stream-25",
-                      "name": "Link Gốc",
-                      "stream_links": [
-                        {
-                          "id": "lnk-25",
-                          "name": "Link Phát",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live05.meung.app/live/07808742.m3u8",
-                          "headers": {
-                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "channel-26",
-          "name": "[01:00] PSV Eindhoven vs Fortuna Sittard | BLV 247",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://img.gvapi.cc/football/team/cad5af4d1ff0e6f3119af3d273d95d31.png!w80",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-26",
-              "name": "Tổng Hợp",
-              "contents": [
-                {
-                  "id": "content-26",
-                  "name": "[01:00] PSV Eindhoven vs Fortuna Sittard | BLV 247",
-                  "streams": [
-                    {
-                      "id": "stream-26",
-                      "name": "Link Gốc",
-                      "stream_links": [
-                        {
-                          "id": "lnk-26",
-                          "name": "Link Phát",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live05.meung.app/live/90865415.m3u8",
-                          "headers": {
-                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "channel-27",
-          "name": "[01:30] Din. Bucuresti vs CS Voluntari | BLV PEPSI",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://img.gvapi.cc/football/team/8be4b7b964d005a23a361cd716a8b03f.png!w80",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-27",
-              "name": "Tổng Hợp",
-              "contents": [
-                {
-                  "id": "content-27",
-                  "name": "[01:30] Din. Bucuresti vs CS Voluntari | BLV PEPSI",
-                  "streams": [
-                    {
-                      "id": "stream-27",
-                      "name": "Link Gốc",
-                      "stream_links": [
-                        {
-                          "id": "lnk-27",
-                          "name": "Link Phát",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live05.meung.app/live/59444581.m3u8",
-                          "headers": {
-                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "channel-28",
           "name": "[01:45] Sint Truidense vs Lommel SK | BLV MONSTER",
           "type": "single",
           "display": "thumbnail-only",
@@ -1531,19 +1213,19 @@
           ],
           "sources": [
             {
-              "id": "src-28",
+              "id": "src-22",
               "name": "Tổng Hợp",
               "contents": [
                 {
-                  "id": "content-28",
+                  "id": "content-22",
                   "name": "[01:45] Sint Truidense vs Lommel SK | BLV MONSTER",
                   "streams": [
                     {
-                      "id": "stream-28",
+                      "id": "stream-22",
                       "name": "Link Gốc",
                       "stream_links": [
                         {
-                          "id": "lnk-28",
+                          "id": "lnk-22",
                           "name": "Link Phát",
                           "type": "hls",
                           "default": true,
@@ -1561,7 +1243,7 @@
           ]
         },
         {
-          "id": "channel-29",
+          "id": "channel-23",
           "name": "[02:00] Gremio vs Sao Paulo | BLV BÍ ĐAO",
           "type": "single",
           "display": "thumbnail-only",
@@ -1584,19 +1266,19 @@
           ],
           "sources": [
             {
-              "id": "src-29",
+              "id": "src-23",
               "name": "Tổng Hợp",
               "contents": [
                 {
-                  "id": "content-29",
+                  "id": "content-23",
                   "name": "[02:00] Gremio vs Sao Paulo | BLV BÍ ĐAO",
                   "streams": [
                     {
-                      "id": "stream-29",
+                      "id": "stream-23",
                       "name": "Link Gốc",
                       "stream_links": [
                         {
-                          "id": "lnk-29",
+                          "id": "lnk-23",
                           "name": "Link Phát",
                           "type": "hls",
                           "default": true,
@@ -1614,7 +1296,7 @@
           ]
         },
         {
-          "id": "channel-30",
+          "id": "channel-24",
           "name": "[02:30] Estrela vs Sporting | BLV BÍ ĐAO",
           "type": "single",
           "display": "thumbnail-only",
@@ -1637,12 +1319,330 @@
           ],
           "sources": [
             {
+              "id": "src-24",
+              "name": "Tổng Hợp",
+              "contents": [
+                {
+                  "id": "content-24",
+                  "name": "[02:30] Estrela vs Sporting | BLV BÍ ĐAO",
+                  "streams": [
+                    {
+                      "id": "stream-24",
+                      "name": "Link Gốc",
+                      "stream_links": [
+                        {
+                          "id": "lnk-24",
+                          "name": "Link Phát",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live05.meung.app/live/99121525.m3u8",
+                          "headers": {
+                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "channel-25",
+          "name": "[08:00] Chivas Guadalajara vs Dallas | BLV KHÔNG ĐỘ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://img.gvapi.cc/football/team/872867a492989e6a9a0785cfd0a40680.png!w80",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-25",
+              "name": "Tổng Hợp",
+              "contents": [
+                {
+                  "id": "content-25",
+                  "name": "[08:00] Chivas Guadalajara vs Dallas | BLV KHÔNG ĐỘ",
+                  "streams": [
+                    {
+                      "id": "stream-25",
+                      "name": "Link Gốc",
+                      "stream_links": [
+                        {
+                          "id": "lnk-25",
+                          "name": "Link Phát",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live05.meung.app/live/41943555.m3u8",
+                          "headers": {
+                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "channel-26",
+          "name": "[12:00] Wollongong Wolves vs Sydney Utd | BLV KHÔNG ĐỘ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://img.gvapi.cc/football/team/efae44ec97227dca2a2b38a19823a2f2.png!w80",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-26",
+              "name": "Tổng Hợp",
+              "contents": [
+                {
+                  "id": "content-26",
+                  "name": "[12:00] Wollongong Wolves vs Sydney Utd | BLV KHÔNG ĐỘ",
+                  "streams": [
+                    {
+                      "id": "stream-26",
+                      "name": "Link Gốc",
+                      "stream_links": [
+                        {
+                          "id": "lnk-26",
+                          "name": "Link Phát",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live05.meung.app/live/41943555.m3u8",
+                          "headers": {
+                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "channel-27",
+          "name": "[14:00] Brisbane Roar vs Sydney FC | BLV 247",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://img.gvapi.cc/football/team/a6bdb997f37f85a411b14348fb35c2ee.png!w80",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-27",
+              "name": "Tổng Hợp",
+              "contents": [
+                {
+                  "id": "content-27",
+                  "name": "[14:00] Brisbane Roar vs Sydney FC | BLV 247",
+                  "streams": [
+                    {
+                      "id": "stream-27",
+                      "name": "Link Gốc",
+                      "stream_links": [
+                        {
+                          "id": "lnk-27",
+                          "name": "Link Phát",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live05.meung.app/live/90865415.m3u8",
+                          "headers": {
+                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "channel-28",
+          "name": "[16:40] South Melbourne vs Fremantle City | BLV PEPSI",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://img.gvapi.cc/football/team/3728683390847f335552d077cf0b8752.png!w80",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-28",
+              "name": "Tổng Hợp",
+              "contents": [
+                {
+                  "id": "content-28",
+                  "name": "[16:40] South Melbourne vs Fremantle City | BLV PEPSI",
+                  "streams": [
+                    {
+                      "id": "stream-28",
+                      "name": "Link Gốc",
+                      "stream_links": [
+                        {
+                          "id": "lnk-28",
+                          "name": "Link Phát",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live05.meung.app/live/59444581.m3u8",
+                          "headers": {
+                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "channel-29",
+          "name": "[17:15] Sparta Rotterdam vs Feyenoord | BLV MONSTER",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://img.gvapi.cc/football/team/73a60eae399442123eeb6f90b70cee8e.png!w80",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-29",
+              "name": "Tổng Hợp",
+              "contents": [
+                {
+                  "id": "content-29",
+                  "name": "[17:15] Sparta Rotterdam vs Feyenoord | BLV MONSTER",
+                  "streams": [
+                    {
+                      "id": "stream-29",
+                      "name": "Link Gốc",
+                      "stream_links": [
+                        {
+                          "id": "lnk-29",
+                          "name": "Link Phát",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live05.meung.app/live/75915087.m3u8",
+                          "headers": {
+                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "channel-30",
+          "name": "[18:00] Manchester City vs Atlético Madrid | BLV BÍ ĐAO",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://img.gvapi.cc/football/team/c4a6528a2ee147b99c9885ef24385a4e.png!w80",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
               "id": "src-30",
               "name": "Tổng Hợp",
               "contents": [
                 {
                   "id": "content-30",
-                  "name": "[02:30] Estrela vs Sporting | BLV BÍ ĐAO",
+                  "name": "[18:00] Manchester City vs Atlético Madrid | BLV BÍ ĐAO",
                   "streams": [
                     {
                       "id": "stream-30",
@@ -1668,7 +1668,7 @@
         },
         {
           "id": "channel-31",
-          "name": "[08:00] Chivas Guadalajara vs Dallas | BLV KHÔNG ĐỘ",
+          "name": "[18:30] Nurnberg vs SG Dynamo Dresden | BLV KHÔNG ĐỘ",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1676,7 +1676,7 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://img.gvapi.cc/football/team/872867a492989e6a9a0785cfd0a40680.png!w80",
+            "url": "https://img.gvapi.cc/football/team/895a263ae5237d0edbaf850a907a59b0.png!w80",
             "width": 1600,
             "height": 1200
           },
@@ -1695,7 +1695,7 @@
               "contents": [
                 {
                   "id": "content-31",
-                  "name": "[08:00] Chivas Guadalajara vs Dallas | BLV KHÔNG ĐỘ",
+                  "name": "[18:30] Nurnberg vs SG Dynamo Dresden | BLV KHÔNG ĐỘ",
                   "streams": [
                     {
                       "id": "stream-31",
@@ -1721,7 +1721,7 @@
         },
         {
           "id": "channel-32",
-          "name": "[09:00] Real Salt Lake vs Atlante | BLV SAMURAI",
+          "name": "[19:30] PEC Zwolle vs AFC Ajax | BLV MONSTER",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1729,7 +1729,7 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://img.gvapi.cc/football/team/98a89cba4bbd10c0ceb437d8f795d43b.png!w80",
+            "url": "https://img.gvapi.cc/football/team/4e806cd5495e72600ef1123c1c138aa0.png!w80",
             "width": 1600,
             "height": 1200
           },
@@ -1748,7 +1748,7 @@
               "contents": [
                 {
                   "id": "content-32",
-                  "name": "[09:00] Real Salt Lake vs Atlante | BLV SAMURAI",
+                  "name": "[19:30] PEC Zwolle vs AFC Ajax | BLV MONSTER",
                   "streams": [
                     {
                       "id": "stream-32",
@@ -1759,7 +1759,7 @@
                           "name": "Link Phát",
                           "type": "hls",
                           "default": true,
-                          "url": "https://live05.meung.app/live/07808742.m3u8",
+                          "url": "https://live05.meung.app/live/75915087.m3u8",
                           "headers": {
                             "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
                           }
@@ -1774,7 +1774,7 @@
         },
         {
           "id": "channel-33",
-          "name": "[12:00] Wollongong Wolves vs Sydney Utd | BLV KHÔNG ĐỘ",
+          "name": "[20:30] Liverpool vs AS Monaco | BLV 247",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1782,7 +1782,7 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://img.gvapi.cc/football/team/efae44ec97227dca2a2b38a19823a2f2.png!w80",
+            "url": "https://img.gvapi.cc/football/team/1cb3d08adac0e2dc1c4f10429d055bfe.png!w80",
             "width": 1600,
             "height": 1200
           },
@@ -1801,7 +1801,7 @@
               "contents": [
                 {
                   "id": "content-33",
-                  "name": "[12:00] Wollongong Wolves vs Sydney Utd | BLV KHÔNG ĐỘ",
+                  "name": "[20:30] Liverpool vs AS Monaco | BLV 247",
                   "streams": [
                     {
                       "id": "stream-33",
@@ -1812,7 +1812,7 @@
                           "name": "Link Phát",
                           "type": "hls",
                           "default": true,
-                          "url": "https://live05.meung.app/live/41943555.m3u8",
+                          "url": "https://live05.meung.app/live/90865415.m3u8",
                           "headers": {
                             "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
                           }
@@ -1827,7 +1827,7 @@
         },
         {
           "id": "channel-34",
-          "name": "[14:00] Brisbane Roar vs Sydney FC | BLV 247",
+          "name": "[21:00] Charleroi vs Oud Heverlee | BLV BÍ ĐAO",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1835,7 +1835,7 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://img.gvapi.cc/football/team/a6bdb997f37f85a411b14348fb35c2ee.png!w80",
+            "url": "https://img.gvapi.cc/football/team/6ba531d9c12ad7e627c516dfdcee6c10.png!w80",
             "width": 1600,
             "height": 1200
           },
@@ -1854,7 +1854,7 @@
               "contents": [
                 {
                   "id": "content-34",
-                  "name": "[14:00] Brisbane Roar vs Sydney FC | BLV 247",
+                  "name": "[21:00] Charleroi vs Oud Heverlee | BLV BÍ ĐAO",
                   "streams": [
                     {
                       "id": "stream-34",
@@ -1865,7 +1865,7 @@
                           "name": "Link Phát",
                           "type": "hls",
                           "default": true,
-                          "url": "https://live05.meung.app/live/90865415.m3u8",
+                          "url": "https://live05.meung.app/live/99121525.m3u8",
                           "headers": {
                             "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
                           }
@@ -1880,7 +1880,7 @@
         },
         {
           "id": "channel-35",
-          "name": "[16:40] South Melbourne vs Fremantle City | BLV PEPSI",
+          "name": "[21:30] Goteborg vs Kalmar | BLV PEPSI",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1888,7 +1888,7 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://img.gvapi.cc/football/team/3728683390847f335552d077cf0b8752.png!w80",
+            "url": "https://img.gvapi.cc/football/team/41b828223947cae32e97c8cac45fb17f.png!w80",
             "width": 1600,
             "height": 1200
           },
@@ -1907,7 +1907,7 @@
               "contents": [
                 {
                   "id": "content-35",
-                  "name": "[16:40] South Melbourne vs Fremantle City | BLV PEPSI",
+                  "name": "[21:30] Goteborg vs Kalmar | BLV PEPSI",
                   "streams": [
                     {
                       "id": "stream-35",
@@ -1933,430 +1933,6 @@
         },
         {
           "id": "channel-36",
-          "name": "[17:15] Sparta Rotterdam vs Feyenoord | BLV MONSTER",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://img.gvapi.cc/football/team/73a60eae399442123eeb6f90b70cee8e.png!w80",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-36",
-              "name": "Tổng Hợp",
-              "contents": [
-                {
-                  "id": "content-36",
-                  "name": "[17:15] Sparta Rotterdam vs Feyenoord | BLV MONSTER",
-                  "streams": [
-                    {
-                      "id": "stream-36",
-                      "name": "Link Gốc",
-                      "stream_links": [
-                        {
-                          "id": "lnk-36",
-                          "name": "Link Phát",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live05.meung.app/live/75915087.m3u8",
-                          "headers": {
-                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "channel-37",
-          "name": "[18:00] Manchester City vs Atlético Madrid | BLV BÍ ĐAO",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://img.gvapi.cc/football/team/c4a6528a2ee147b99c9885ef24385a4e.png!w80",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-37",
-              "name": "Tổng Hợp",
-              "contents": [
-                {
-                  "id": "content-37",
-                  "name": "[18:00] Manchester City vs Atlético Madrid | BLV BÍ ĐAO",
-                  "streams": [
-                    {
-                      "id": "stream-37",
-                      "name": "Link Gốc",
-                      "stream_links": [
-                        {
-                          "id": "lnk-37",
-                          "name": "Link Phát",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live05.meung.app/live/99121525.m3u8",
-                          "headers": {
-                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "channel-38",
-          "name": "[18:30] Nurnberg vs SG Dynamo Dresden | BLV KHÔNG ĐỘ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://img.gvapi.cc/football/team/895a263ae5237d0edbaf850a907a59b0.png!w80",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-38",
-              "name": "Tổng Hợp",
-              "contents": [
-                {
-                  "id": "content-38",
-                  "name": "[18:30] Nurnberg vs SG Dynamo Dresden | BLV KHÔNG ĐỘ",
-                  "streams": [
-                    {
-                      "id": "stream-38",
-                      "name": "Link Gốc",
-                      "stream_links": [
-                        {
-                          "id": "lnk-38",
-                          "name": "Link Phát",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live05.meung.app/live/41943555.m3u8",
-                          "headers": {
-                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "channel-39",
-          "name": "[19:00] KuPs vs TPS | BLV SAMURAI",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://img.gvapi.cc/football/team/1fced0158de1169e9bc3209f4ab98e84.png!w80",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-39",
-              "name": "Tổng Hợp",
-              "contents": [
-                {
-                  "id": "content-39",
-                  "name": "[19:00] KuPs vs TPS | BLV SAMURAI",
-                  "streams": [
-                    {
-                      "id": "stream-39",
-                      "name": "Link Gốc",
-                      "stream_links": [
-                        {
-                          "id": "lnk-39",
-                          "name": "Link Phát",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live05.meung.app/live/07808742.m3u8",
-                          "headers": {
-                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "channel-40",
-          "name": "[19:30] PEC Zwolle vs AFC Ajax | BLV MONSTER",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://img.gvapi.cc/football/team/4e806cd5495e72600ef1123c1c138aa0.png!w80",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-40",
-              "name": "Tổng Hợp",
-              "contents": [
-                {
-                  "id": "content-40",
-                  "name": "[19:30] PEC Zwolle vs AFC Ajax | BLV MONSTER",
-                  "streams": [
-                    {
-                      "id": "stream-40",
-                      "name": "Link Gốc",
-                      "stream_links": [
-                        {
-                          "id": "lnk-40",
-                          "name": "Link Phát",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live05.meung.app/live/75915087.m3u8",
-                          "headers": {
-                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "channel-41",
-          "name": "[20:30] Liverpool vs AS Monaco | BLV 247",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://img.gvapi.cc/football/team/1cb3d08adac0e2dc1c4f10429d055bfe.png!w80",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-41",
-              "name": "Tổng Hợp",
-              "contents": [
-                {
-                  "id": "content-41",
-                  "name": "[20:30] Liverpool vs AS Monaco | BLV 247",
-                  "streams": [
-                    {
-                      "id": "stream-41",
-                      "name": "Link Gốc",
-                      "stream_links": [
-                        {
-                          "id": "lnk-41",
-                          "name": "Link Phát",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live05.meung.app/live/90865415.m3u8",
-                          "headers": {
-                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "channel-42",
-          "name": "[21:00] Charleroi vs Oud Heverlee | BLV BÍ ĐAO",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://img.gvapi.cc/football/team/6ba531d9c12ad7e627c516dfdcee6c10.png!w80",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-42",
-              "name": "Tổng Hợp",
-              "contents": [
-                {
-                  "id": "content-42",
-                  "name": "[21:00] Charleroi vs Oud Heverlee | BLV BÍ ĐAO",
-                  "streams": [
-                    {
-                      "id": "stream-42",
-                      "name": "Link Gốc",
-                      "stream_links": [
-                        {
-                          "id": "lnk-42",
-                          "name": "Link Phát",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live05.meung.app/live/99121525.m3u8",
-                          "headers": {
-                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "channel-43",
-          "name": "[21:30] Goteborg vs Kalmar | BLV PEPSI",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://img.gvapi.cc/football/team/41b828223947cae32e97c8cac45fb17f.png!w80",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-43",
-              "name": "Tổng Hợp",
-              "contents": [
-                {
-                  "id": "content-43",
-                  "name": "[21:30] Goteborg vs Kalmar | BLV PEPSI",
-                  "streams": [
-                    {
-                      "id": "stream-43",
-                      "name": "Link Gốc",
-                      "stream_links": [
-                        {
-                          "id": "lnk-43",
-                          "name": "Link Phát",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live05.meung.app/live/59444581.m3u8",
-                          "headers": {
-                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "channel-44",
           "name": "[21:30] Goteborg vs Kalmar | BLV KHÔNG ĐỘ",
           "type": "single",
           "display": "thumbnail-only",
@@ -2379,19 +1955,19 @@
           ],
           "sources": [
             {
-              "id": "src-44",
+              "id": "src-36",
               "name": "Tổng Hợp",
               "contents": [
                 {
-                  "id": "content-44",
+                  "id": "content-36",
                   "name": "[21:30] Goteborg vs Kalmar | BLV KHÔNG ĐỘ",
                   "streams": [
                     {
-                      "id": "stream-44",
+                      "id": "stream-36",
                       "name": "Link Gốc",
                       "stream_links": [
                         {
-                          "id": "lnk-44",
+                          "id": "lnk-36",
                           "name": "Link Phát",
                           "type": "hls",
                           "default": true,
@@ -2409,8 +1985,8 @@
           ]
         },
         {
-          "id": "channel-45",
-          "name": "[21:45] SC Heerenveen vs Twente | BLV SAMURAI",
+          "id": "channel-37",
+          "name": "[23:00] AC Oulu vs HJK | BLV PEPSI",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -2418,7 +1994,7 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://img.gvapi.cc/football/team/c2cd1a6cdd056ae31e0712d5f4f97c9b.png!w80",
+            "url": "https://img.gvapi.cc/football/team/348fa7d49029584354427690fe88f874.png!w80",
             "width": 1600,
             "height": 1200
           },
@@ -2432,23 +2008,23 @@
           ],
           "sources": [
             {
-              "id": "src-45",
+              "id": "src-37",
               "name": "Tổng Hợp",
               "contents": [
                 {
-                  "id": "content-45",
-                  "name": "[21:45] SC Heerenveen vs Twente | BLV SAMURAI",
+                  "id": "content-37",
+                  "name": "[23:00] AC Oulu vs HJK | BLV PEPSI",
                   "streams": [
                     {
-                      "id": "stream-45",
+                      "id": "stream-37",
                       "name": "Link Gốc",
                       "stream_links": [
                         {
-                          "id": "lnk-45",
+                          "id": "lnk-37",
                           "name": "Link Phát",
                           "type": "hls",
                           "default": true,
-                          "url": "https://live05.meung.app/live/07808742.m3u8",
+                          "url": "https://live05.meung.app/live/59444581.m3u8",
                           "headers": {
                             "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
                           }
