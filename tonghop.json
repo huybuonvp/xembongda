@@ -131,6 +131,112 @@
         },
         {
           "id": "channel-2",
+          "name": "[22:30] CSKA Moscow vs Akron Togliatti | BLV MONSTER",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://img.gvapi.cc/football/team/1eae81e51945df5660e24dc6f0ea353c.png!w80",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2",
+              "name": "Tổng Hợp",
+              "contents": [
+                {
+                  "id": "content-2",
+                  "name": "[22:30] CSKA Moscow vs Akron Togliatti | BLV MONSTER",
+                  "streams": [
+                    {
+                      "id": "stream-2",
+                      "name": "Link Gốc",
+                      "stream_links": [
+                        {
+                          "id": "lnk-2",
+                          "name": "Link Phát",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live05.meung.app/live/75915087.m3u8",
+                          "headers": {
+                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "channel-3",
+          "name": "[22:30] CLB Rodina Moskva vs Gazovik Orenburg | BLV Cozy",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://img.gvapi.cc/football/team/f5ff010dcc2e753de549a98ba989e356.png!w80",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3",
+              "name": "Tổng Hợp",
+              "contents": [
+                {
+                  "id": "content-3",
+                  "name": "[22:30] CLB Rodina Moskva vs Gazovik Orenburg | BLV Cozy",
+                  "streams": [
+                    {
+                      "id": "stream-3",
+                      "name": "Link Gốc",
+                      "stream_links": [
+                        {
+                          "id": "lnk-3",
+                          "name": "Link Phát",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live05.meung.app/live/87379114.m3u8",
+                          "headers": {
+                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "channel-4",
           "name": "[23:00] Atromitos vs Pyrgos AFC | BLV MOUNTAIN DEW",
           "type": "single",
           "display": "thumbnail-only",
@@ -153,118 +259,12 @@
           ],
           "sources": [
             {
-              "id": "src-2",
-              "name": "Tổng Hợp",
-              "contents": [
-                {
-                  "id": "content-2",
-                  "name": "[23:00] Atromitos vs Pyrgos AFC | BLV MOUNTAIN DEW",
-                  "streams": [
-                    {
-                      "id": "stream-2",
-                      "name": "Link Gốc",
-                      "stream_links": [
-                        {
-                          "id": "lnk-2",
-                          "name": "Link Phát",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live05.meung.app/live/87547578.m3u8",
-                          "headers": {
-                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "channel-3",
-          "name": "[00:45] Rostov vs Lokomotiv | BLV SAMURAI",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://img.gvapi.cc/football/team/1279b7ad21c72f2ab7bda8b972c2858e.png!w80",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-3",
-              "name": "Tổng Hợp",
-              "contents": [
-                {
-                  "id": "content-3",
-                  "name": "[00:45] Rostov vs Lokomotiv | BLV SAMURAI",
-                  "streams": [
-                    {
-                      "id": "stream-3",
-                      "name": "Link Gốc",
-                      "stream_links": [
-                        {
-                          "id": "lnk-3",
-                          "name": "Link Phát",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live05.meung.app/live/07808742.m3u8",
-                          "headers": {
-                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "channel-4",
-          "name": "[05:00] Deportivo Recoleta vs Boca Juniors | BLV MOUNTAIN DEW",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://img.gvapi.cc/football/team/f7e33bab2469f4e5b80d4d47cd92b381.png!w80",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
               "id": "src-4",
               "name": "Tổng Hợp",
               "contents": [
                 {
                   "id": "content-4",
-                  "name": "[05:00] Deportivo Recoleta vs Boca Juniors | BLV MOUNTAIN DEW",
+                  "name": "[23:00] Atromitos vs Pyrgos AFC | BLV MOUNTAIN DEW",
                   "streams": [
                     {
                       "id": "stream-4",
@@ -290,6 +290,377 @@
         },
         {
           "id": "channel-5",
+          "name": "[00:45] Akhmat Grozny vs F. Voronezh | BLV MONSTER",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://img.gvapi.cc/football/team/dfb637acd761b88a27e200393e29319f.png!w80",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5",
+              "name": "Tổng Hợp",
+              "contents": [
+                {
+                  "id": "content-5",
+                  "name": "[00:45] Akhmat Grozny vs F. Voronezh | BLV MONSTER",
+                  "streams": [
+                    {
+                      "id": "stream-5",
+                      "name": "Link Gốc",
+                      "stream_links": [
+                        {
+                          "id": "lnk-5",
+                          "name": "Link Phát",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live05.meung.app/live/75915087.m3u8",
+                          "headers": {
+                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "channel-6",
+          "name": "[00:45] Rostov vs Lokomotiv | BLV SAMURAI",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://img.gvapi.cc/football/team/1279b7ad21c72f2ab7bda8b972c2858e.png!w80",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6",
+              "name": "Tổng Hợp",
+              "contents": [
+                {
+                  "id": "content-6",
+                  "name": "[00:45] Rostov vs Lokomotiv | BLV SAMURAI",
+                  "streams": [
+                    {
+                      "id": "stream-6",
+                      "name": "Link Gốc",
+                      "stream_links": [
+                        {
+                          "id": "lnk-6",
+                          "name": "Link Phát",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live05.meung.app/live/07808742.m3u8",
+                          "headers": {
+                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "channel-7",
+          "name": "[05:00] Deportivo Recoleta vs Boca Juniors | BLV MOUNTAIN DEW",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://img.gvapi.cc/football/team/f7e33bab2469f4e5b80d4d47cd92b381.png!w80",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7",
+              "name": "Tổng Hợp",
+              "contents": [
+                {
+                  "id": "content-7",
+                  "name": "[05:00] Deportivo Recoleta vs Boca Juniors | BLV MOUNTAIN DEW",
+                  "streams": [
+                    {
+                      "id": "stream-7",
+                      "name": "Link Gốc",
+                      "stream_links": [
+                        {
+                          "id": "lnk-7",
+                          "name": "Link Phát",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live05.meung.app/live/87547578.m3u8",
+                          "headers": {
+                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "channel-8",
+          "name": "[08:00] Las Vegas Aces vs Atlanta Dream | BLV Cozy",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://img.gvapi.cc/basketball/team/ce8ab1125fdb3fdbd8c09dba8c437c49.png!w80",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8",
+              "name": "Tổng Hợp",
+              "contents": [
+                {
+                  "id": "content-8",
+                  "name": "[08:00] Las Vegas Aces vs Atlanta Dream | BLV Cozy",
+                  "streams": [
+                    {
+                      "id": "stream-8",
+                      "name": "Link Gốc",
+                      "stream_links": [
+                        {
+                          "id": "lnk-8",
+                          "name": "Link Phát",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live05.meung.app/live/87379114.m3u8",
+                          "headers": {
+                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "channel-9",
+          "name": "[17:00] Ehime FC vs International Pacific Univesity | BLV Cozy",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://img.gvapi.cc/football/team/ada2fba6258d87de3a01849042b87a2c.png!w80",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9",
+              "name": "Tổng Hợp",
+              "contents": [
+                {
+                  "id": "content-9",
+                  "name": "[17:00] Ehime FC vs International Pacific Univesity | BLV Cozy",
+                  "streams": [
+                    {
+                      "id": "stream-9",
+                      "name": "Link Gốc",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9",
+                          "name": "Link Phát",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live05.meung.app/live/87379114.m3u8",
+                          "headers": {
+                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "channel-10",
+          "name": "[17:30] FC Anyang vs Jeju Utd | BLV MONSTER",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://img.gvapi.cc/football/team/cda2e60a4e984dc6f4ed091ec44fc5bb.png!w80",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-10",
+              "name": "Tổng Hợp",
+              "contents": [
+                {
+                  "id": "content-10",
+                  "name": "[17:30] FC Anyang vs Jeju Utd | BLV MONSTER",
+                  "streams": [
+                    {
+                      "id": "stream-10",
+                      "name": "Link Gốc",
+                      "stream_links": [
+                        {
+                          "id": "lnk-10",
+                          "name": "Link Phát",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live05.meung.app/live/75915087.m3u8",
+                          "headers": {
+                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "channel-11",
+          "name": "[00:45] Dynamo Moscow vs Krasnodar | BLV MONSTER",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://img.gvapi.cc/football/team/4f2e51a4694f68360a19648b651b30ca.png!w80",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-11",
+              "name": "Tổng Hợp",
+              "contents": [
+                {
+                  "id": "content-11",
+                  "name": "[00:45] Dynamo Moscow vs Krasnodar | BLV MONSTER",
+                  "streams": [
+                    {
+                      "id": "stream-11",
+                      "name": "Link Gốc",
+                      "stream_links": [
+                        {
+                          "id": "lnk-11",
+                          "name": "Link Phát",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live05.meung.app/live/75915087.m3u8",
+                          "headers": {
+                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "channel-12",
           "name": "[02:00] CLB Slovan Bratislava vs Celje | BLV SAMURAI",
           "type": "single",
           "display": "thumbnail-only",
@@ -312,19 +683,19 @@
           ],
           "sources": [
             {
-              "id": "src-5",
+              "id": "src-12",
               "name": "Tổng Hợp",
               "contents": [
                 {
-                  "id": "content-5",
+                  "id": "content-12",
                   "name": "[02:00] CLB Slovan Bratislava vs Celje | BLV SAMURAI",
                   "streams": [
                     {
-                      "id": "stream-5",
+                      "id": "stream-12",
                       "name": "Link Gốc",
                       "stream_links": [
                         {
-                          "id": "lnk-5",
+                          "id": "lnk-12",
                           "name": "Link Phát",
                           "type": "hls",
                           "default": true,
@@ -342,7 +713,7 @@
           ]
         },
         {
-          "id": "channel-6",
+          "id": "channel-13",
           "name": "[05:00] Coquimbo Unido vs Platense | BLV MOUNTAIN DEW",
           "type": "single",
           "display": "thumbnail-only",
@@ -365,19 +736,19 @@
           ],
           "sources": [
             {
-              "id": "src-6",
+              "id": "src-13",
               "name": "Tổng Hợp",
               "contents": [
                 {
-                  "id": "content-6",
+                  "id": "content-13",
                   "name": "[05:00] Coquimbo Unido vs Platense | BLV MOUNTAIN DEW",
                   "streams": [
                     {
-                      "id": "stream-6",
+                      "id": "stream-13",
                       "name": "Link Gốc",
                       "stream_links": [
                         {
-                          "id": "lnk-6",
+                          "id": "lnk-13",
                           "name": "Link Phát",
                           "type": "hls",
                           "default": true,
@@ -395,7 +766,113 @@
           ]
         },
         {
-          "id": "channel-7",
+          "id": "channel-14",
+          "name": "[06:30] New York Red Bulls vs CLB Nashville | BLV MONSTER",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://img.gvapi.cc/football/team/8b8fe90668461b90ddc20516b0e6796d.png!w80",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-14",
+              "name": "Tổng Hợp",
+              "contents": [
+                {
+                  "id": "content-14",
+                  "name": "[06:30] New York Red Bulls vs CLB Nashville | BLV MONSTER",
+                  "streams": [
+                    {
+                      "id": "stream-14",
+                      "name": "Link Gốc",
+                      "stream_links": [
+                        {
+                          "id": "lnk-14",
+                          "name": "Link Phát",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live05.meung.app/live/75915087.m3u8",
+                          "headers": {
+                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "channel-15",
+          "name": "[06:30] Philippines Nữ vs Canada Nữ | BLV Cozy",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://img.gvapi.cc/basketball/team/c909efdeb2e44ec1b578be2be896f63f.png!w80",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-15",
+              "name": "Tổng Hợp",
+              "contents": [
+                {
+                  "id": "content-15",
+                  "name": "[06:30] Philippines Nữ vs Canada Nữ | BLV Cozy",
+                  "streams": [
+                    {
+                      "id": "stream-15",
+                      "name": "Link Gốc",
+                      "stream_links": [
+                        {
+                          "id": "lnk-15",
+                          "name": "Link Phát",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live05.meung.app/live/87379114.m3u8",
+                          "headers": {
+                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "channel-16",
           "name": "[07:30] CLB Flamengo vs CLB Cruzeiro | BLV SAMURAI",
           "type": "single",
           "display": "thumbnail-only",
@@ -418,19 +895,19 @@
           ],
           "sources": [
             {
-              "id": "src-7",
+              "id": "src-16",
               "name": "Tổng Hợp",
               "contents": [
                 {
-                  "id": "content-7",
+                  "id": "content-16",
                   "name": "[07:30] CLB Flamengo vs CLB Cruzeiro | BLV SAMURAI",
                   "streams": [
                     {
-                      "id": "stream-7",
+                      "id": "stream-16",
                       "name": "Link Gốc",
                       "stream_links": [
                         {
-                          "id": "lnk-7",
+                          "id": "lnk-16",
                           "name": "Link Phát",
                           "type": "hls",
                           "default": true,
@@ -448,7 +925,7 @@
           ]
         },
         {
-          "id": "channel-8",
+          "id": "channel-17",
           "name": "[16:30] No Limits (W) vs Ayeyawady Utd (W) | BLV MOUNTAIN DEW",
           "type": "single",
           "display": "thumbnail-only",
@@ -471,19 +948,19 @@
           ],
           "sources": [
             {
-              "id": "src-8",
+              "id": "src-17",
               "name": "Tổng Hợp",
               "contents": [
                 {
-                  "id": "content-8",
+                  "id": "content-17",
                   "name": "[16:30] No Limits (W) vs Ayeyawady Utd (W) | BLV MOUNTAIN DEW",
                   "streams": [
                     {
-                      "id": "stream-8",
+                      "id": "stream-17",
                       "name": "Link Gốc",
                       "stream_links": [
                         {
-                          "id": "lnk-8",
+                          "id": "lnk-17",
                           "name": "Link Phát",
                           "type": "hls",
                           "default": true,
@@ -501,7 +978,60 @@
           ]
         },
         {
-          "id": "channel-9",
+          "id": "channel-18",
+          "name": "[17:00] Phnom Penh Crown (W) vs Kaya Fc Women | BLV MONSTER",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://img.gvapi.cc/football/team/184f5fc8445583f16ac2663d7e3c3e35.png!w80",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-18",
+              "name": "Tổng Hợp",
+              "contents": [
+                {
+                  "id": "content-18",
+                  "name": "[17:00] Phnom Penh Crown (W) vs Kaya Fc Women | BLV MONSTER",
+                  "streams": [
+                    {
+                      "id": "stream-18",
+                      "name": "Link Gốc",
+                      "stream_links": [
+                        {
+                          "id": "lnk-18",
+                          "name": "Link Phát",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live05.meung.app/live/75915087.m3u8",
+                          "headers": {
+                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "channel-19",
           "name": "[19:00] Akademiya Ontustik vs Ekibastuz | BLV SAMURAI",
           "type": "single",
           "display": "thumbnail-only",
@@ -524,19 +1054,19 @@
           ],
           "sources": [
             {
-              "id": "src-9",
+              "id": "src-19",
               "name": "Tổng Hợp",
               "contents": [
                 {
-                  "id": "content-9",
+                  "id": "content-19",
                   "name": "[19:00] Akademiya Ontustik vs Ekibastuz | BLV SAMURAI",
                   "streams": [
                     {
-                      "id": "stream-9",
+                      "id": "stream-19",
                       "name": "Link Gốc",
                       "stream_links": [
                         {
-                          "id": "lnk-9",
+                          "id": "lnk-19",
                           "name": "Link Phát",
                           "type": "hls",
                           "default": true,
@@ -554,7 +1084,60 @@
           ]
         },
         {
-          "id": "channel-10",
+          "id": "channel-20",
+          "name": "[19:30] Nha Trang Dolphins vs Da Nang Dragons | BLV Cozy",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://img.gvapi.cc/basketball/team/290bb5a5d16c3896908433bad65712dc.png!w80",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-20",
+              "name": "Tổng Hợp",
+              "contents": [
+                {
+                  "id": "content-20",
+                  "name": "[19:30] Nha Trang Dolphins vs Da Nang Dragons | BLV Cozy",
+                  "streams": [
+                    {
+                      "id": "stream-20",
+                      "name": "Link Gốc",
+                      "stream_links": [
+                        {
+                          "id": "lnk-20",
+                          "name": "Link Phát",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live05.meung.app/live/87379114.m3u8",
+                          "headers": {
+                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "channel-21",
           "name": "[22:00] Neftekhimik vs FK Sochi | BLV MOUNTAIN DEW",
           "type": "single",
           "display": "thumbnail-only",
@@ -577,19 +1160,19 @@
           ],
           "sources": [
             {
-              "id": "src-10",
+              "id": "src-21",
               "name": "Tổng Hợp",
               "contents": [
                 {
-                  "id": "content-10",
+                  "id": "content-21",
                   "name": "[22:00] Neftekhimik vs FK Sochi | BLV MOUNTAIN DEW",
                   "streams": [
                     {
-                      "id": "stream-10",
+                      "id": "stream-21",
                       "name": "Link Gốc",
                       "stream_links": [
                         {
-                          "id": "lnk-10",
+                          "id": "lnk-21",
                           "name": "Link Phát",
                           "type": "hls",
                           "default": true,
