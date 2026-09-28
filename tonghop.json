@@ -25,7 +25,7 @@
       "channels": [
         {
           "id": "channel-0",
-          "name": "[10:10] Necaxa vs Club America | BLV GIÀ LÀNG",
+          "name": "[23:00] Georgia vs Ukraine | BLV STING",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -33,7 +33,7 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://img.gvapi.cc/football/team/05321a8272ff8e7ff2eb7eae2e0b72a6.png!w80",
+            "url": "https://img.gvapi.cc/football/team/c5b86fa907b96e38e377ddfe82802cc6.png!w80",
             "width": 1600,
             "height": 1200
           },
@@ -52,7 +52,7 @@
               "contents": [
                 {
                   "id": "content-0",
-                  "name": "[10:10] Necaxa vs Club America | BLV GIÀ LÀNG",
+                  "name": "[23:00] Georgia vs Ukraine | BLV STING",
                   "streams": [
                     {
                       "id": "stream-0",
@@ -63,7 +63,7 @@
                           "name": "Link Phát",
                           "type": "hls",
                           "default": true,
-                          "url": "https://live05.meung.app/live/14830711_tsc.m3u8",
+                          "url": "https://live05.meung.app/live/14707124_tsc.m3u8",
                           "headers": {
                             "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
                           }
@@ -78,7 +78,7 @@
         },
         {
           "id": "channel-1",
-          "name": "[16:00] Singapore vs Đội tuyển quốc gia Bangladesh | BLV GIÀ LÀNG",
+          "name": "[23:00] CLB Armenia vs Montenegro | BLV AQUA",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -86,7 +86,7 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://img.gvapi.cc/football/team/bfa20d86a59044ef90a4609dde03985c.png!w80",
+            "url": "https://img.gvapi.cc/football/team/13d8532225dea4fca8e0ebdfb27b83e4.png!w80",
             "width": 1600,
             "height": 1200
           },
@@ -105,7 +105,7 @@
               "contents": [
                 {
                   "id": "content-1",
-                  "name": "[16:00] Singapore vs Đội tuyển quốc gia Bangladesh | BLV GIÀ LÀNG",
+                  "name": "[23:00] CLB Armenia vs Montenegro | BLV AQUA",
                   "streams": [
                     {
                       "id": "stream-1",
@@ -116,7 +116,7 @@
                           "name": "Link Phát",
                           "type": "hls",
                           "default": true,
-                          "url": "https://live05.meung.app/live/14830711_tsc.m3u8",
+                          "url": "https://live05.meung.app/live/18812304_tsc.m3u8",
                           "headers": {
                             "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
                           }
@@ -131,60 +131,7 @@
         },
         {
           "id": "channel-2",
-          "name": "[19:30] Malaysia vs Indonesia | BLV GIÀ LÀNG",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://img.gvapi.cc/football/team/9e5b39abe0157cedd650c0d0c5cbd767.png!w80",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-2",
-              "name": "Tổng Hợp",
-              "contents": [
-                {
-                  "id": "content-2",
-                  "name": "[19:30] Malaysia vs Indonesia | BLV GIÀ LÀNG",
-                  "streams": [
-                    {
-                      "id": "stream-2",
-                      "name": "Link Gốc",
-                      "stream_links": [
-                        {
-                          "id": "lnk-2",
-                          "name": "Link Phát",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live05.meung.app/live/14830711_tsc.m3u8",
-                          "headers": {
-                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "channel-3",
-          "name": "[01:45] Bỉ vs Pháp | BLV GIÀ LÀNG",
+          "name": "[01:45] Bỉ vs Pháp | BLV C2",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -206,12 +153,65 @@
           ],
           "sources": [
             {
+              "id": "src-2",
+              "name": "Tổng Hợp",
+              "contents": [
+                {
+                  "id": "content-2",
+                  "name": "[01:45] Bỉ vs Pháp | BLV C2",
+                  "streams": [
+                    {
+                      "id": "stream-2",
+                      "name": "Link Gốc",
+                      "stream_links": [
+                        {
+                          "id": "lnk-2",
+                          "name": "Link Phát",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live05.meung.app/live/08552895_tsc.m3u8",
+                          "headers": {
+                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "channel-3",
+          "name": "[01:45] Thụy Điển vs ĐTQG Ba Lan | BLV AQUA",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://img.gvapi.cc/football/team/ab52d4dc33c41d54daf420eb25b404cf.png!w80",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
               "id": "src-3",
               "name": "Tổng Hợp",
               "contents": [
                 {
                   "id": "content-3",
-                  "name": "[01:45] Bỉ vs Pháp | BLV GIÀ LÀNG",
+                  "name": "[01:45] Thụy Điển vs ĐTQG Ba Lan | BLV AQUA",
                   "streams": [
                     {
                       "id": "stream-3",
@@ -222,7 +222,7 @@
                           "name": "Link Phát",
                           "type": "hls",
                           "default": true,
-                          "url": "https://live05.meung.app/live/14830711_tsc.m3u8",
+                          "url": "https://live05.meung.app/live/18812304_tsc.m3u8",
                           "headers": {
                             "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
                           }
@@ -237,7 +237,219 @@
         },
         {
           "id": "channel-4",
-          "name": "[19:30] Thái Lan vs ĐTQG Việt Nam | BLV GIÀ LÀNG",
+          "name": "[01:45] CLB Romania vs ĐTQG Bosnia Herzegovina | BLV 7UP",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://img.gvapi.cc/football/team/1f8d87e1161af68b81bace188a1ec624.png!w80",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4",
+              "name": "Tổng Hợp",
+              "contents": [
+                {
+                  "id": "content-4",
+                  "name": "[01:45] CLB Romania vs ĐTQG Bosnia Herzegovina | BLV 7UP",
+                  "streams": [
+                    {
+                      "id": "stream-4",
+                      "name": "Link Gốc",
+                      "stream_links": [
+                        {
+                          "id": "lnk-4",
+                          "name": "Link Phát",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live05.meung.app/live/78905744_tsc.m3u8",
+                          "headers": {
+                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "channel-5",
+          "name": "[09:00] Guatemala vs El Salvador | BLV STING",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://img.gvapi.cc/football/team/a1d4643376bf11b37c51f5c76fcaff79.png!w80",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5",
+              "name": "Tổng Hợp",
+              "contents": [
+                {
+                  "id": "content-5",
+                  "name": "[09:00] Guatemala vs El Salvador | BLV STING",
+                  "streams": [
+                    {
+                      "id": "stream-5",
+                      "name": "Link Gốc",
+                      "stream_links": [
+                        {
+                          "id": "lnk-5",
+                          "name": "Link Phát",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live05.meung.app/live/14707124_tsc.m3u8",
+                          "headers": {
+                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "channel-6",
+          "name": "[16:00] Philippines vs Pakistan | BLV STING",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://img.gvapi.cc/football/team/0c620bcfc2a979fe9f22acbe0019f276.png!w80",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6",
+              "name": "Tổng Hợp",
+              "contents": [
+                {
+                  "id": "content-6",
+                  "name": "[16:00] Philippines vs Pakistan | BLV STING",
+                  "streams": [
+                    {
+                      "id": "stream-6",
+                      "name": "Link Gốc",
+                      "stream_links": [
+                        {
+                          "id": "lnk-6",
+                          "name": "Link Phát",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live05.meung.app/live/14707124_tsc.m3u8",
+                          "headers": {
+                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "channel-7",
+          "name": "[17:00] ĐTQG Úc vs Brazil | BLV 7UP",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://img.gvapi.cc/football/team/2d8fe42de2f833581faa077f788329fa.png!w80",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7",
+              "name": "Tổng Hợp",
+              "contents": [
+                {
+                  "id": "content-7",
+                  "name": "[17:00] ĐTQG Úc vs Brazil | BLV 7UP",
+                  "streams": [
+                    {
+                      "id": "stream-7",
+                      "name": "Link Gốc",
+                      "stream_links": [
+                        {
+                          "id": "lnk-7",
+                          "name": "Link Phát",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live05.meung.app/live/78905744_tsc.m3u8",
+                          "headers": {
+                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "channel-8",
+          "name": "[19:30] Thái Lan vs ĐTQG Việt Nam | BLV C2",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -259,23 +471,500 @@
           ],
           "sources": [
             {
-              "id": "src-4",
+              "id": "src-8",
               "name": "Tổng Hợp",
               "contents": [
                 {
-                  "id": "content-4",
-                  "name": "[19:30] Thái Lan vs ĐTQG Việt Nam | BLV GIÀ LÀNG",
+                  "id": "content-8",
+                  "name": "[19:30] Thái Lan vs ĐTQG Việt Nam | BLV C2",
                   "streams": [
                     {
-                      "id": "stream-4",
+                      "id": "stream-8",
                       "name": "Link Gốc",
                       "stream_links": [
                         {
-                          "id": "lnk-4",
+                          "id": "lnk-8",
                           "name": "Link Phát",
                           "type": "hls",
                           "default": true,
-                          "url": "https://live05.meung.app/live/14830711_tsc.m3u8",
+                          "url": "https://live05.meung.app/live/08552895_tsc.m3u8",
+                          "headers": {
+                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "channel-9",
+          "name": "[20:00] Ethiopia vs Senegal | BLV AQUA",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://img.gvapi.cc/football/team/fac20ee3c5bc1659bc8e6ba2771c5b31.png!w80",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9",
+              "name": "Tổng Hợp",
+              "contents": [
+                {
+                  "id": "content-9",
+                  "name": "[20:00] Ethiopia vs Senegal | BLV AQUA",
+                  "streams": [
+                    {
+                      "id": "stream-9",
+                      "name": "Link Gốc",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9",
+                          "name": "Link Phát",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live05.meung.app/live/18812304_tsc.m3u8",
+                          "headers": {
+                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "channel-10",
+          "name": "[23:00] ĐTQG Phần Lan vs Belarus | BLV STING",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://img.gvapi.cc/football/team/3c0b84f6c8ee0d929021de10cbb8cc69.png!w80",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-10",
+              "name": "Tổng Hợp",
+              "contents": [
+                {
+                  "id": "content-10",
+                  "name": "[23:00] ĐTQG Phần Lan vs Belarus | BLV STING",
+                  "streams": [
+                    {
+                      "id": "stream-10",
+                      "name": "Link Gốc",
+                      "stream_links": [
+                        {
+                          "id": "lnk-10",
+                          "name": "Link Phát",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live05.meung.app/live/14707124_tsc.m3u8",
+                          "headers": {
+                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "channel-11",
+          "name": "[00:30] Ả Rập Saudi vs Iraq | BLV AQUA",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://img.gvapi.cc/football/team/cf372cbe6eae54c6a6dfb3ebbcdc3404.png!w80",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-11",
+              "name": "Tổng Hợp",
+              "contents": [
+                {
+                  "id": "content-11",
+                  "name": "[00:30] Ả Rập Saudi vs Iraq | BLV AQUA",
+                  "streams": [
+                    {
+                      "id": "stream-11",
+                      "name": "Link Gốc",
+                      "stream_links": [
+                        {
+                          "id": "lnk-11",
+                          "name": "Link Phát",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live05.meung.app/live/18812304_tsc.m3u8",
+                          "headers": {
+                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "channel-12",
+          "name": "[01:45] Tây Ban Nha vs Croatia | BLV C2",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://img.gvapi.cc/football/team/e5858bd2ddb51631a85b1af22f5a1a6a.png!w80",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-12",
+              "name": "Tổng Hợp",
+              "contents": [
+                {
+                  "id": "content-12",
+                  "name": "[01:45] Tây Ban Nha vs Croatia | BLV C2",
+                  "streams": [
+                    {
+                      "id": "stream-12",
+                      "name": "Link Gốc",
+                      "stream_links": [
+                        {
+                          "id": "lnk-12",
+                          "name": "Link Phát",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live05.meung.app/live/08552895_tsc.m3u8",
+                          "headers": {
+                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "channel-13",
+          "name": "[01:45] CLB San Marino vs Đội tuyển QG Albania | BLV STING",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://img.gvapi.cc/football/team/9bdc3efe2bdc1946dbb253b2d101b484.png!w80",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-13",
+              "name": "Tổng Hợp",
+              "contents": [
+                {
+                  "id": "content-13",
+                  "name": "[01:45] CLB San Marino vs Đội tuyển QG Albania | BLV STING",
+                  "streams": [
+                    {
+                      "id": "stream-13",
+                      "name": "Link Gốc",
+                      "stream_links": [
+                        {
+                          "id": "lnk-13",
+                          "name": "Link Phát",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live05.meung.app/live/14707124_tsc.m3u8",
+                          "headers": {
+                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "channel-14",
+          "name": "[01:45] Luxembourg vs ĐTQG Iceland | BLV 7UP",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://img.gvapi.cc/football/team/a878dbebc902328b41dbf02aa87abb58.png!w80",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-14",
+              "name": "Tổng Hợp",
+              "contents": [
+                {
+                  "id": "content-14",
+                  "name": "[01:45] Luxembourg vs ĐTQG Iceland | BLV 7UP",
+                  "streams": [
+                    {
+                      "id": "stream-14",
+                      "name": "Link Gốc",
+                      "stream_links": [
+                        {
+                          "id": "lnk-14",
+                          "name": "Link Phát",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live05.meung.app/live/78905744_tsc.m3u8",
+                          "headers": {
+                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "channel-15",
+          "name": "[19:00] Hồng Kông vs Brunei | BLV C2",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://img.gvapi.cc/football/team/df321578b4f5f132345d2e6b39743126.png!w80",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-15",
+              "name": "Tổng Hợp",
+              "contents": [
+                {
+                  "id": "content-15",
+                  "name": "[19:00] Hồng Kông vs Brunei | BLV C2",
+                  "streams": [
+                    {
+                      "id": "stream-15",
+                      "name": "Link Gốc",
+                      "stream_links": [
+                        {
+                          "id": "lnk-15",
+                          "name": "Link Phát",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live05.meung.app/live/08552895_tsc.m3u8",
+                          "headers": {
+                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "channel-16",
+          "name": "[23:00] ĐTQG Lithuania vs Andorra | BLV STING",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://img.gvapi.cc/football/team/f2b6806d6ed60d2d87b0dd5ae62e6f20.png!w80",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-16",
+              "name": "Tổng Hợp",
+              "contents": [
+                {
+                  "id": "content-16",
+                  "name": "[23:00] ĐTQG Lithuania vs Andorra | BLV STING",
+                  "streams": [
+                    {
+                      "id": "stream-16",
+                      "name": "Link Gốc",
+                      "stream_links": [
+                        {
+                          "id": "lnk-16",
+                          "name": "Link Phát",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live05.meung.app/live/14707124_tsc.m3u8",
+                          "headers": {
+                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "channel-17",
+          "name": "[23:00] Eritrea vs Nam Phi | BLV 7UP",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://img.gvapi.cc/football/team/c8c1fad8f7b657fa96c4e5da96ada7c2.png!w80",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-17",
+              "name": "Tổng Hợp",
+              "contents": [
+                {
+                  "id": "content-17",
+                  "name": "[23:00] Eritrea vs Nam Phi | BLV 7UP",
+                  "streams": [
+                    {
+                      "id": "stream-17",
+                      "name": "Link Gốc",
+                      "stream_links": [
+                        {
+                          "id": "lnk-17",
+                          "name": "Link Phát",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live05.meung.app/live/78905744_tsc.m3u8",
                           "headers": {
                             "User-Agent": "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 Chrome/120 Safari/537.36"
                           }
